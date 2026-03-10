@@ -1,0 +1,13 @@
+/Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Shared/obj/Debug/net8.0/AutoVeo.Shared.csproj.AssemblyReference.cache
+/Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Shared/obj/Debug/net8.0/AutoVeo.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Shared/obj/Debug/net8.0/AutoVeo.Shared.AssemblyInfoInputs.cache
+/Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Shared/obj/Debug/net8.0/AutoVeo.Shared.AssemblyInfo.cs
+/Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Shared/obj/Debug/net8.0/AutoVeo.Shared.csproj.CoreCompileInputs.cache
+/Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Shared/obj/Debug/net8.0/AutoVeo.Shared.sourcelink.json
+/Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Shared/bin/Debug/net8.0/AutoVeo.Shared.deps.json
+/Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Shared/bin/Debug/net8.0/AutoVeo.Shared.dll
+/Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Shared/bin/Debug/net8.0/AutoVeo.Shared.pdb
+/Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Shared/obj/Debug/net8.0/AutoVeo.Shared.dll
+/Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Shared/obj/Debug/net8.0/refint/AutoVeo.Shared.dll
+/Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Shared/obj/Debug/net8.0/AutoVeo.Shared.pdb
+/Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Shared/obj/Debug/net8.0/ref/AutoVeo.Shared.dll

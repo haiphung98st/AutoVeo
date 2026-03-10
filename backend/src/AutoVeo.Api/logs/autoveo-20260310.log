@@ -1,0 +1,224 @@
+2026-03-10 14:22:51.734 +07:00 [INF] TrendCrawlerWorker started
+2026-03-10 14:22:51.760 +07:00 [INF] RenderPollerWorker started
+2026-03-10 14:23:01.832 +07:00 [INF] Crawling YouTube trends for region Global
+2026-03-10 14:23:02.379 +07:00 [ERR] Failed to collect YouTube trends for region Global
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.YouTubeTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 40
+2026-03-10 14:23:02.390 +07:00 [INF] Saved 0 trends from YouTube (Global)
+2026-03-10 14:23:02.395 +07:00 [INF] Crawling YouTube trends for region VN
+2026-03-10 14:23:02.504 +07:00 [ERR] Failed to collect YouTube trends for region VN
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.YouTubeTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 40
+2026-03-10 14:23:02.505 +07:00 [INF] Saved 0 trends from YouTube (VN)
+2026-03-10 14:23:02.505 +07:00 [INF] Crawling YouTube trends for region US
+2026-03-10 14:23:02.610 +07:00 [ERR] Failed to collect YouTube trends for region US
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.YouTubeTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 40
+2026-03-10 14:23:02.610 +07:00 [INF] Saved 0 trends from YouTube (US)
+2026-03-10 14:23:02.613 +07:00 [INF] Crawling TikTok trends for region Global
+2026-03-10 14:23:04.346 +07:00 [ERR] Failed to collect TikTok trends for region Global
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.TikTokTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 118
+2026-03-10 14:23:04.347 +07:00 [INF] Saved 0 trends from TikTok (Global)
+2026-03-10 14:23:04.347 +07:00 [INF] Crawling TikTok trends for region VN
+2026-03-10 14:23:05.270 +07:00 [ERR] Failed to collect TikTok trends for region VN
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.TikTokTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 118
+2026-03-10 14:23:05.272 +07:00 [INF] Saved 0 trends from TikTok (VN)
+2026-03-10 14:23:05.272 +07:00 [INF] Crawling TikTok trends for region US
+2026-03-10 14:23:07.670 +07:00 [ERR] Failed to collect TikTok trends for region US
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.TikTokTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 118
+2026-03-10 14:23:07.671 +07:00 [INF] Saved 0 trends from TikTok (US)
+2026-03-10 14:23:07.672 +07:00 [INF] Crawling Google Trends trends for region Global
+2026-03-10 14:23:09.250 +07:00 [ERR] Failed to collect Google Trends for region Global
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at AutoVeo.Infrastructure.External.GoogleTrendsCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 175
+2026-03-10 14:23:09.253 +07:00 [INF] Saved 0 trends from Google Trends (Global)
+2026-03-10 14:23:09.254 +07:00 [INF] Crawling Google Trends trends for region VN
+2026-03-10 14:23:09.865 +07:00 [ERR] Failed to collect Google Trends for region VN
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at AutoVeo.Infrastructure.External.GoogleTrendsCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 175
+2026-03-10 14:23:09.867 +07:00 [INF] Saved 0 trends from Google Trends (VN)
+2026-03-10 14:23:09.867 +07:00 [INF] Crawling Google Trends trends for region US
+2026-03-10 14:23:10.474 +07:00 [ERR] Failed to collect Google Trends for region US
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at AutoVeo.Infrastructure.External.GoogleTrendsCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 175
+2026-03-10 14:23:10.474 +07:00 [INF] Saved 0 trends from Google Trends (US)
+2026-03-10 14:27:58.333 +07:00 [INF] AutoVeo API started on 
+2026-03-10 14:27:58.411 +07:00 [INF] TrendCrawlerWorker started
+2026-03-10 14:27:58.413 +07:00 [INF] RenderPollerWorker started
+2026-03-10 14:28:00.768 +07:00 [INF] HTTP OPTIONS /api/auth/register responded 204 in 13.2853 ms
+2026-03-10 14:28:08.502 +07:00 [INF] Crawling YouTube trends for region Global
+2026-03-10 14:28:08.503 +07:00 [WRN] YouTube API key not configured, skipping collection
+2026-03-10 14:28:08.509 +07:00 [INF] Saved 0 trends from YouTube (Global)
+2026-03-10 14:28:08.509 +07:00 [INF] Crawling YouTube trends for region VN
+2026-03-10 14:28:08.509 +07:00 [WRN] YouTube API key not configured, skipping collection
+2026-03-10 14:28:08.509 +07:00 [INF] Saved 0 trends from YouTube (VN)
+2026-03-10 14:28:08.509 +07:00 [INF] Crawling YouTube trends for region US
+2026-03-10 14:28:08.509 +07:00 [WRN] YouTube API key not configured, skipping collection
+2026-03-10 14:28:08.509 +07:00 [INF] Saved 0 trends from YouTube (US)
+2026-03-10 14:28:08.510 +07:00 [INF] Crawling TikTok trends for region Global
+2026-03-10 14:28:08.512 +07:00 [WRN] TikTok access token not configured, skipping collection
+2026-03-10 14:28:08.512 +07:00 [INF] Saved 0 trends from TikTok (Global)
+2026-03-10 14:28:08.512 +07:00 [INF] Crawling TikTok trends for region VN
+2026-03-10 14:28:08.512 +07:00 [WRN] TikTok access token not configured, skipping collection
+2026-03-10 14:28:08.512 +07:00 [INF] Saved 0 trends from TikTok (VN)
+2026-03-10 14:28:08.512 +07:00 [INF] Crawling TikTok trends for region US
+2026-03-10 14:28:08.512 +07:00 [WRN] TikTok access token not configured, skipping collection
+2026-03-10 14:28:08.512 +07:00 [INF] Saved 0 trends from TikTok (US)
+2026-03-10 14:28:08.512 +07:00 [INF] Crawling Google Trends trends for region Global
+2026-03-10 14:28:09.522 +07:00 [ERR] Failed to collect Google Trends for region Global
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at AutoVeo.Infrastructure.External.GoogleTrendsCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 175
+2026-03-10 14:28:09.530 +07:00 [INF] Saved 0 trends from Google Trends (Global)
+2026-03-10 14:28:09.530 +07:00 [INF] Crawling Google Trends trends for region VN
+2026-03-10 14:28:10.021 +07:00 [ERR] Failed to collect Google Trends for region VN
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at AutoVeo.Infrastructure.External.GoogleTrendsCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 175
+2026-03-10 14:28:10.022 +07:00 [INF] Saved 0 trends from Google Trends (VN)
+2026-03-10 14:28:10.022 +07:00 [INF] Crawling Google Trends trends for region US
+2026-03-10 14:28:10.470 +07:00 [ERR] Failed to collect Google Trends for region US
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at AutoVeo.Infrastructure.External.GoogleTrendsCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 175
+2026-03-10 14:28:10.471 +07:00 [INF] Saved 0 trends from Google Trends (US)
+2026-03-10 14:28:10.958 +07:00 [INF] HTTP GET /swagger/index.html responded 200 in 32.3105 ms
+2026-03-10 14:28:20.121 +07:00 [INF] HTTP OPTIONS /api/dashboard responded 204 in 1.7351 ms
+2026-03-10 14:28:20.121 +07:00 [INF] HTTP OPTIONS /api/dashboard responded 204 in 1.7342 ms
+2026-03-10 14:28:54.140 +07:00 [INF] HTTP GET /swagger responded 301 in 1.5310 ms
+2026-03-10 14:28:54.147 +07:00 [INF] HTTP GET /swagger/index.html responded 200 in 1.9880 ms
+2026-03-10 14:28:54.177 +07:00 [INF] HTTP GET /swagger/index.js responded 200 in 3.3595 ms
+2026-03-10 14:28:54.193 +07:00 [INF] HTTP GET /swagger/index.css responded 200 in 21.1328 ms
+2026-03-10 14:28:54.224 +07:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 56.3323 ms
+2026-03-10 14:28:54.225 +07:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 51.3199 ms
+2026-03-10 14:28:54.247 +07:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 72.9678 ms
+2026-03-10 14:28:54.553 +07:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 0.5599 ms
+2026-03-10 14:28:54.653 +07:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 160.6270 ms
+2026-03-10 14:29:10.100 +07:00 [INF] HTTP GET /api/prompts responded 401 in 43.9274 ms
+2026-03-10 14:29:41.392 +07:00 [INF] AutoVeo API started on 
+2026-03-10 14:29:41.472 +07:00 [INF] TrendCrawlerWorker started
+2026-03-10 14:29:41.473 +07:00 [INF] RenderPollerWorker started
+2026-03-10 14:29:51.565 +07:00 [INF] Crawling YouTube trends for region Global
+2026-03-10 14:29:51.567 +07:00 [WRN] YouTube API key not configured, skipping collection
+2026-03-10 14:29:51.574 +07:00 [INF] Saved 0 trends from YouTube (Global)
+2026-03-10 14:29:51.575 +07:00 [INF] Crawling YouTube trends for region VN
+2026-03-10 14:29:51.575 +07:00 [WRN] YouTube API key not configured, skipping collection
+2026-03-10 14:29:51.575 +07:00 [INF] Saved 0 trends from YouTube (VN)
+2026-03-10 14:29:51.575 +07:00 [INF] Crawling YouTube trends for region US
+2026-03-10 14:29:51.575 +07:00 [WRN] YouTube API key not configured, skipping collection
+2026-03-10 14:29:51.575 +07:00 [INF] Saved 0 trends from YouTube (US)
+2026-03-10 14:29:51.576 +07:00 [INF] Crawling TikTok trends for region Global
+2026-03-10 14:29:51.578 +07:00 [WRN] TikTok access token not configured, skipping collection
+2026-03-10 14:29:51.578 +07:00 [INF] Saved 0 trends from TikTok (Global)
+2026-03-10 14:29:51.578 +07:00 [INF] Crawling TikTok trends for region VN
+2026-03-10 14:29:51.578 +07:00 [WRN] TikTok access token not configured, skipping collection
+2026-03-10 14:29:51.578 +07:00 [INF] Saved 0 trends from TikTok (VN)
+2026-03-10 14:29:51.578 +07:00 [INF] Crawling TikTok trends for region US
+2026-03-10 14:29:51.578 +07:00 [WRN] TikTok access token not configured, skipping collection
+2026-03-10 14:29:51.578 +07:00 [INF] Saved 0 trends from TikTok (US)
+2026-03-10 14:29:51.578 +07:00 [INF] Crawling Google Trends trends for region Global
+2026-03-10 14:29:52.406 +07:00 [ERR] Failed to collect Google Trends for region Global
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at AutoVeo.Infrastructure.External.GoogleTrendsCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 175
+2026-03-10 14:29:52.414 +07:00 [INF] Saved 0 trends from Google Trends (Global)
+2026-03-10 14:29:52.414 +07:00 [INF] Crawling Google Trends trends for region VN
+2026-03-10 14:29:52.909 +07:00 [ERR] Failed to collect Google Trends for region VN
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at AutoVeo.Infrastructure.External.GoogleTrendsCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 175
+2026-03-10 14:29:52.909 +07:00 [INF] Saved 0 trends from Google Trends (VN)
+2026-03-10 14:29:52.909 +07:00 [INF] Crawling Google Trends trends for region US
+2026-03-10 14:29:53.484 +07:00 [ERR] Failed to collect Google Trends for region US
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at AutoVeo.Infrastructure.External.GoogleTrendsCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 175
+2026-03-10 14:29:53.485 +07:00 [INF] Saved 0 trends from Google Trends (US)
+2026-03-10 14:30:06.437 +07:00 [INF] HTTP OPTIONS /api/dashboard responded 204 in 16.7021 ms
+2026-03-10 14:30:06.437 +07:00 [INF] HTTP OPTIONS /api/dashboard responded 204 in 16.7004 ms
+2026-03-10 14:30:06.474 +07:00 [INF] HTTP GET /api/dashboard responded 401 in 31.1073 ms
+2026-03-10 14:30:07.017 +07:00 [INF] HTTP GET /api/dashboard responded 401 in 2.8025 ms
+2026-03-10 14:31:10.712 +07:00 [INF] HTTP POST /api/auth/register responded 201 in 382.9552 ms
+2026-03-10 14:31:56.968 +07:00 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.6658 ms
+2026-03-10 14:31:57.190 +07:00 [ERR] HTTP POST /api/auth/login responded 500 in 215.6399 ms
+AutoVeo.Shared.Exceptions.UnauthorizedException: Invalid email or password.
+   at AutoVeo.Infrastructure.Services.AuthService.LoginAsync(LoginRequest request, String ipAddress) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/Services/AuthService.cs:line 47
+   at AutoVeo.Api.Controllers.AuthController.Login(LoginRequest request) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Api/Controllers/AuthController.cs:line 28
+   at lambda_method322(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-03-10 14:31:57.198 +07:00 [WRN] Application error: Invalid email or password.
+AutoVeo.Shared.Exceptions.UnauthorizedException: Invalid email or password.
+   at AutoVeo.Infrastructure.Services.AuthService.LoginAsync(LoginRequest request, String ipAddress) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/Services/AuthService.cs:line 47
+   at AutoVeo.Api.Controllers.AuthController.Login(LoginRequest request) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Api/Controllers/AuthController.cs:line 28
+   at lambda_method322(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at AutoVeo.Shared.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Shared/Middleware/ErrorHandlingMiddleware.cs:line 25
+2026-03-10 14:32:36.804 +07:00 [INF] HTTP GET /swagger/index.html responded 200 in 56.3293 ms
+2026-03-10 14:32:36.823 +07:00 [INF] HTTP GET /swagger/index.js responded 200 in 1.4490 ms
+2026-03-10 14:32:37.169 +07:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 107.1607 ms
+2026-03-10 14:35:17.377 +07:00 [INF] HTTP POST /api/auth/login responded 200 in 199.7233 ms
+2026-03-10 14:35:35.158 +07:00 [INF] HTTP OPTIONS /api/auth/login responded 204 in 2.6480 ms
+2026-03-10 14:35:35.366 +07:00 [INF] HTTP POST /api/auth/login responded 200 in 205.6594 ms
+2026-03-10 14:35:35.829 +07:00 [INF] HTTP OPTIONS /api/dashboard responded 204 in 0.8128 ms
+2026-03-10 14:35:35.829 +07:00 [INF] HTTP OPTIONS /api/dashboard responded 204 in 0.0754 ms
+2026-03-10 14:35:35.948 +07:00 [INF] HTTP GET /api/dashboard responded 200 in 113.0225 ms
+2026-03-10 14:35:36.412 +07:00 [INF] HTTP GET /api/dashboard responded 200 in 4.8345 ms
+2026-03-10 14:36:20.056 +07:00 [INF] HTTP OPTIONS /api/dashboard responded 204 in 3.0304 ms
+2026-03-10 14:36:20.056 +07:00 [INF] HTTP OPTIONS /api/dashboard responded 204 in 2.9918 ms
+2026-03-10 14:36:20.080 +07:00 [INF] HTTP GET /api/dashboard responded 200 in 15.3121 ms
+2026-03-10 14:36:20.637 +07:00 [INF] HTTP GET /api/dashboard responded 200 in 2.6813 ms
+2026-03-10 14:36:32.137 +07:00 [INF] HTTP OPTIONS /api/dashboard responded 204 in 0.6238 ms
+2026-03-10 14:36:32.157 +07:00 [INF] HTTP OPTIONS /api/dashboard responded 204 in 0.1326 ms
+2026-03-10 14:36:32.193 +07:00 [INF] HTTP GET /api/dashboard responded 200 in 20.7952 ms
+2026-03-10 14:36:32.759 +07:00 [INF] HTTP GET /api/dashboard responded 200 in 5.9392 ms

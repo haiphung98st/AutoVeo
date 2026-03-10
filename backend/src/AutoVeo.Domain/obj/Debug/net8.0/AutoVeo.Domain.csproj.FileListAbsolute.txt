@@ -1,0 +1,12 @@
+/Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Domain/bin/Debug/net8.0/AutoVeo.Domain.deps.json
+/Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Domain/bin/Debug/net8.0/AutoVeo.Domain.dll
+/Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Domain/bin/Debug/net8.0/AutoVeo.Domain.pdb
+/Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Domain/obj/Debug/net8.0/AutoVeo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Domain/obj/Debug/net8.0/AutoVeo.Domain.AssemblyInfoInputs.cache
+/Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Domain/obj/Debug/net8.0/AutoVeo.Domain.AssemblyInfo.cs
+/Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Domain/obj/Debug/net8.0/AutoVeo.Domain.csproj.CoreCompileInputs.cache
+/Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Domain/obj/Debug/net8.0/AutoVeo.Domain.sourcelink.json
+/Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Domain/obj/Debug/net8.0/AutoVeo.Domain.dll
+/Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Domain/obj/Debug/net8.0/refint/AutoVeo.Domain.dll
+/Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Domain/obj/Debug/net8.0/AutoVeo.Domain.pdb
+/Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Domain/obj/Debug/net8.0/ref/AutoVeo.Domain.dll

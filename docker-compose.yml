@@ -1,0 +1,42 @@
+version: "3.8"
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: autoveo-db
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=AutoVeo_Dev_2024!
+      - MSSQL_PID=Developer
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+    healthcheck:
+      test: /opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P "AutoVeo_Dev_2024!" -Q "SELECT 1" -C -b
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: autoveo-api
+    ports:
+      - "5000:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=AutoVeo;User Id=sa;Password=AutoVeo_Dev_2024!;TrustServerCertificate=True;MultipleActiveResultSets=true
+      - Jwt__Key=AutoVeo-Docker-Dev-Key-Change-In-Production-Min32!!
+      - Jwt__Issuer=AutoVeo
+      - Jwt__Audience=AutoVeo
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+    volumes:
+      - api_logs:/app/logs
+
+volumes:
+  sqlserver_data:
+  api_logs:
