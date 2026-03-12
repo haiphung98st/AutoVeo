@@ -126,92 +126,165 @@ public class TrendCrawlerWorker : BackgroundService
 }
 
 /// <summary>
-/// Background worker that polls pending Veo3 render jobs for completion.
+/// Background worker that executes the local Node.js Playwright script to generate videos via Veo3.
+/// Processes one pending render request at a time to prevent Chrome from crashing.
 /// </summary>
-public class RenderPollerWorker : BackgroundService
+public class Veo3GenerationWorker : BackgroundService
 {
     private readonly IServiceScopeFactory _scopeFactory;
-    private readonly ILogger<RenderPollerWorker> _logger;
+    private readonly ILogger<Veo3GenerationWorker> _logger;
     private readonly IConfiguration _config;
+    private readonly Microsoft.AspNetCore.Hosting.IWebHostEnvironment _env;
 
-    public RenderPollerWorker(IServiceScopeFactory scopeFactory, ILogger<RenderPollerWorker> logger, IConfiguration config)
+    public Veo3GenerationWorker(IServiceScopeFactory scopeFactory, ILogger<Veo3GenerationWorker> logger, IConfiguration config, Microsoft.AspNetCore.Hosting.IWebHostEnvironment env)
     {
         _scopeFactory = scopeFactory;
         _logger = logger;
         _config = config;
+        _env = env;
     }
 
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
-        _logger.LogInformation("RenderPollerWorker started");
+        _logger.LogInformation("Veo3GenerationWorker started");
 
         while (!stoppingToken.IsCancellationRequested)
         {
             try
             {
-                await PollPendingRendersAsync(stoppingToken);
+                await ProcessNextPendingRenderAsync(stoppingToken);
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "RenderPollerWorker encountered an error");
+                _logger.LogError(ex, "Veo3GenerationWorker encountered an error");
             }
 
-            var intervalSeconds = int.Parse(_config["Veo3:PollIntervalSeconds"] ?? "10");
-            await Task.Delay(TimeSpan.FromSeconds(intervalSeconds), stoppingToken);
+            // Check every 10 seconds for new jobs
+            await Task.Delay(TimeSpan.FromSeconds(10), stoppingToken);
         }
     }
 
-    private async Task PollPendingRendersAsync(CancellationToken ct)
+    private async Task ProcessNextPendingRenderAsync(CancellationToken ct)
     {
         using var scope = _scopeFactory.CreateScope();
         var db = scope.ServiceProvider.GetRequiredService<AutoVeoDbContext>();
-        var veo3 = scope.ServiceProvider.GetRequiredService<IVeo3Connector>();
 
-        var pendingRenders = await db.RenderRequests
-            .Include(r => r.Result)
-            .Where(r => r.Status == RenderStatus.Processing && r.ExternalJobId != null)
-            .ToListAsync(ct);
+        // We only process one request at a time to save memory/Chrome instances
+        var render = await db.RenderRequests
+            .Include(r => r.Prompt)
+            .FirstOrDefaultAsync(r => r.Status == RenderStatus.Pending, ct);
 
-        foreach (var render in pendingRenders)
+        if (render == null) return;
+
+        // Set to processing immediately to lock it
+        render.Status = RenderStatus.Processing;
+        await db.SaveChangesAsync(ct);
+
+        _logger.LogInformation("Starting generation for render {Id}. Prompt: {Prompt}", render.Id, render.Prompt?.PromptText);
+
+        string promptText = render.Prompt?.PromptText ?? "A cinematic video";
+        string outputFormat = render.AspectRatio == "16:9" ? "Ngang" : "Dọc"; 
+        
+        try
         {
-            try
-            {
-                var status = await veo3.GetJobStatusAsync(render.ExternalJobId!);
+            // Prepare paths
+            // From src/AutoVeo.Api to AutoVeo root: ../../../
+            string scriptDir = Path.GetFullPath(Path.Combine(_env.ContentRootPath, "..", "..", "..", "automation"));
+            string scriptPath = Path.Combine(scriptDir, "generate.js");
+            string outputDir = Path.Combine(scriptDir, "output");
 
-                if (status.Status == "completed" && status.VideoUrl != null)
+            if (!Directory.Exists(outputDir))
+                Directory.CreateDirectory(outputDir);
+
+            // Setup process
+            var startInfo = new System.Diagnostics.ProcessStartInfo
+            {
+                FileName = "node",
+                Arguments = $"\"{scriptPath}\" \"{promptText}\" \"{outputDir}\"",
+                WorkingDirectory = scriptDir,
+                RedirectStandardOutput = true,
+                RedirectStandardError = true,
+                UseShellExecute = false,
+                CreateNoWindow = true
+            };
+
+            using var process = System.Diagnostics.Process.Start(startInfo);
+            if (process == null) throw new Exception("Failed to start node process");
+
+            string stdOut = await process.StandardOutput.ReadToEndAsync();
+            string stdErr = await process.StandardError.ReadToEndAsync();
+
+            await process.WaitForExitAsync(ct);
+
+            _logger.LogInformation("Node script completed. Exit code: {Code}\nStdout: {Stdout}", process.ExitCode, stdOut);
+            if (!string.IsNullOrEmpty(stdErr))
+                _logger.LogWarning("Node script stderr: {Stderr}", stdErr);
+
+            if (process.ExitCode == 0)
+            {
+                // Parse the [RESULT] path
+                string? resultPath = null;
+                var lines = stdOut.Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
+                foreach (var line in lines)
                 {
+                    if (line.Contains("[RESULT]"))
+                    {
+                        resultPath = line.Split("[RESULT]", StringSplitOptions.TrimEntries).LastOrDefault();
+                        break;
+                    }
+                }
+
+                if (!string.IsNullOrEmpty(resultPath) && File.Exists(resultPath))
+                {
+                    // Copy to wwwroot so the frontend can display it
+                    string wwwroot = _env.WebRootPath ?? Path.Combine(_env.ContentRootPath, "wwwroot");
+                    string videosDir = Path.Combine(wwwroot, "videos");
+                    if (!Directory.Exists(videosDir)) Directory.CreateDirectory(videosDir);
+
+                    string fileName = $"{render.Id}.mp4";
+                    string destinationPath = Path.Combine(videosDir, fileName);
+
+                    File.Copy(resultPath, destinationPath, true);
+
+                    // Update DB with success
                     render.Status = RenderStatus.Completed;
                     render.CompletedAt = DateTime.UtcNow;
 
-                    var result = render.Result ?? new RenderResult { RenderRequestId = render.Id };
-                    result.VideoUrl = status.VideoUrl;
-                    result.ThumbnailUrl = status.ThumbnailUrl;
-                    result.DurationSeconds = status.DurationSeconds ?? 0;
-                    result.CompletedAt = DateTime.UtcNow;
+                    var result = new RenderResult 
+                    { 
+                        RenderRequestId = render.Id,
+                        VideoUrl = $"/videos/{fileName}",
+                        DurationSeconds = 5, // Default for Veo3
+                        CompletedAt = DateTime.UtcNow
+                    };
+                    db.RenderResults.Add(result);
 
-                    if (render.Result == null) db.RenderResults.Add(result);
-
-                    _logger.LogInformation("Render {Id} completed with video URL: {Url}", render.Id, status.VideoUrl);
+                    _logger.LogInformation("Successfully processed and saved video to {Path}", destinationPath);
                 }
-                else if (status.Status == "failed")
+                else
                 {
-                    render.Status = RenderStatus.Failed;
-                    render.CompletedAt = DateTime.UtcNow;
-
-                    var result = render.Result ?? new RenderResult { RenderRequestId = render.Id };
-                    result.ErrorMessage = status.ErrorMessage ?? "Generation failed";
-                    if (render.Result == null) db.RenderResults.Add(result);
-
-                    _logger.LogWarning("Render {Id} failed: {Error}", render.Id, status.ErrorMessage);
+                    throw new Exception("Script exited 0 but no valid [RESULT] path found in output.");
                 }
             }
-            catch (Exception ex)
+            else
             {
-                _logger.LogWarning(ex, "Failed to poll render {Id}", render.Id);
+                throw new Exception($"Script exited with code {process.ExitCode}");
             }
         }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to generate video for render {Id}", render.Id);
+            render.Status = RenderStatus.Failed;
+            render.CompletedAt = DateTime.UtcNow;
 
-        if (pendingRenders.Count > 0)
-            await db.SaveChangesAsync(ct);
+            var result = new RenderResult 
+            { 
+                RenderRequestId = render.Id,
+                ErrorMessage = ex.Message
+            };
+            db.RenderResults.Add(result);
+        }
+
+        await db.SaveChangesAsync(ct);
     }
 }

@@ -123,7 +123,7 @@ builder.Services.AddScoped<ITrendCollector, GoogleTrendsCollector>();
 
 // ── Background workers ──
 builder.Services.AddHostedService<TrendCrawlerWorker>();
-builder.Services.AddHostedService<RenderPollerWorker>();
+builder.Services.AddHostedService<Veo3GenerationWorker>();
 
 // ── Validation ──
 builder.Services.AddValidatorsFromAssemblyContaining<LoginRequestValidator>();

@@ -268,3 +268,458 @@ System.Net.Http.HttpRequestException: Response status code does not indicate suc
 2026-03-12 16:25:03.887 +07:00 [INF] Crawling Google Trends trends for region US
 2026-03-12 16:25:04.493 +07:00 [INF] Collected 10 Google Trends for region US
 2026-03-12 16:25:04.502 +07:00 [INF] Saved 10 trends from Google Trends (US)
+2026-03-12 21:22:35.765 +07:00 [INF] TrendCrawlerWorker started
+2026-03-12 21:22:35.796 +07:00 [INF] Veo3GenerationWorker started
+2026-03-12 21:22:35.887 +07:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://[::]:5050: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.AnyIPListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-03-12 21:22:35.893 +07:00 [ERR] BackgroundService failed
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at AutoVeo.Infrastructure.BackgroundJobs.TrendCrawlerWorker.ExecuteAsync(CancellationToken stoppingToken) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/BackgroundJobs/Workers.cs:line 34
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+2026-03-12 21:22:35.893 +07:00 [ERR] BackgroundService failed
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at AutoVeo.Infrastructure.BackgroundJobs.Veo3GenerationWorker.ExecuteAsync(CancellationToken stoppingToken) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/BackgroundJobs/Workers.cs:line 163
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+2026-03-12 21:26:20.379 +07:00 [INF] TrendCrawlerWorker started
+2026-03-12 21:26:20.410 +07:00 [INF] Veo3GenerationWorker started
+2026-03-12 21:26:20.494 +07:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://[::]:5050: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.AnyIPListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-03-12 21:26:32.125 +07:00 [INF] TrendCrawlerWorker started
+2026-03-12 21:26:32.154 +07:00 [INF] Veo3GenerationWorker started
+2026-03-12 21:26:42.240 +07:00 [INF] Crawling YouTube trends for region Global
+2026-03-12 21:26:42.612 +07:00 [ERR] YouTube API error: "BadRequest" - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "errors": [
+      {
+        "message": "API key not valid. Please pass a valid API key.",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "youtube.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+2026-03-12 21:26:42.614 +07:00 [ERR] Failed to collect YouTube trends for region Global
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.YouTubeTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 44
+2026-03-12 21:26:42.629 +07:00 [INF] Saved 0 trends from YouTube (Global)
+2026-03-12 21:26:42.629 +07:00 [INF] Crawling YouTube trends for region VN
+2026-03-12 21:26:42.720 +07:00 [ERR] YouTube API error: "BadRequest" - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "errors": [
+      {
+        "message": "API key not valid. Please pass a valid API key.",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "youtube.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+2026-03-12 21:26:42.720 +07:00 [ERR] Failed to collect YouTube trends for region VN
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.YouTubeTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 44
+2026-03-12 21:26:42.720 +07:00 [INF] Saved 0 trends from YouTube (VN)
+2026-03-12 21:26:42.720 +07:00 [INF] Crawling YouTube trends for region US
+2026-03-12 21:26:42.807 +07:00 [ERR] YouTube API error: "BadRequest" - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "errors": [
+      {
+        "message": "API key not valid. Please pass a valid API key.",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "youtube.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+2026-03-12 21:26:42.807 +07:00 [ERR] Failed to collect YouTube trends for region US
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.YouTubeTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 44
+2026-03-12 21:26:42.807 +07:00 [INF] Saved 0 trends from YouTube (US)
+2026-03-12 21:26:42.808 +07:00 [INF] Crawling TikTok trends for region Global
+2026-03-12 21:26:43.673 +07:00 [ERR] Failed to collect TikTok trends for region Global
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.TikTokTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 123
+2026-03-12 21:26:43.674 +07:00 [INF] Saved 0 trends from TikTok (Global)
+2026-03-12 21:26:43.674 +07:00 [INF] Crawling TikTok trends for region VN
+2026-03-12 21:26:43.983 +07:00 [ERR] Failed to collect TikTok trends for region VN
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.TikTokTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 123
+2026-03-12 21:26:43.983 +07:00 [INF] Saved 0 trends from TikTok (VN)
+2026-03-12 21:26:43.983 +07:00 [INF] Crawling TikTok trends for region US
+2026-03-12 21:26:44.786 +07:00 [ERR] Failed to collect TikTok trends for region US
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.TikTokTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 123
+2026-03-12 21:26:44.788 +07:00 [INF] Saved 0 trends from TikTok (US)
+2026-03-12 21:26:44.790 +07:00 [INF] Crawling Google Trends trends for region Global
+2026-03-12 21:26:45.313 +07:00 [INF] Collected 10 Google Trends for region Global
+2026-03-12 21:26:45.396 +07:00 [INF] Saved 10 trends from Google Trends (Global)
+2026-03-12 21:26:45.396 +07:00 [INF] Crawling Google Trends trends for region VN
+2026-03-12 21:26:45.727 +07:00 [INF] Collected 10 Google Trends for region VN
+2026-03-12 21:26:45.731 +07:00 [INF] Saved 10 trends from Google Trends (VN)
+2026-03-12 21:26:45.731 +07:00 [INF] Crawling Google Trends trends for region US
+2026-03-12 21:26:46.257 +07:00 [INF] Collected 10 Google Trends for region US
+2026-03-12 21:26:46.261 +07:00 [INF] Saved 10 trends from Google Trends (US)
+2026-03-12 21:33:12.389 +07:00 [INF] Starting generation for render "80485c92-9adc-4fea-9d6c-8743f571ad06". Prompt: quái vật khỉ và chăn khổng lồ đại chiến trong rừng rậm
+2026-03-12 21:33:12.624 +07:00 [INF] Node script completed. Exit code: 1
+Stdout: 
+2026-03-12 21:33:12.625 +07:00 [WRN] Node script stderr: node:internal/modules/cjs/loader:1423
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/macbook/Documents/Coding/AutoVeo/backend/automation/generate.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1420:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v25.2.1
+
+2026-03-12 21:33:12.626 +07:00 [ERR] Failed to generate video for render "80485c92-9adc-4fea-9d6c-8743f571ad06"
+System.Exception: Script exited with code 1
+   at AutoVeo.Infrastructure.BackgroundJobs.Veo3GenerationWorker.ProcessNextPendingRenderAsync(CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/BackgroundJobs/Workers.cs:line 270
+2026-03-12 21:35:37.404 +07:00 [INF] TrendCrawlerWorker started
+2026-03-12 21:35:37.434 +07:00 [INF] Veo3GenerationWorker started
+2026-03-12 21:35:47.530 +07:00 [INF] Crawling YouTube trends for region Global
+2026-03-12 21:35:47.893 +07:00 [ERR] YouTube API error: "BadRequest" - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "errors": [
+      {
+        "message": "API key not valid. Please pass a valid API key.",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "youtube.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+2026-03-12 21:35:47.898 +07:00 [ERR] Failed to collect YouTube trends for region Global
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.YouTubeTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 44
+2026-03-12 21:35:47.916 +07:00 [INF] Saved 0 trends from YouTube (Global)
+2026-03-12 21:35:47.916 +07:00 [INF] Crawling YouTube trends for region VN
+2026-03-12 21:35:48.002 +07:00 [ERR] YouTube API error: "BadRequest" - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "errors": [
+      {
+        "message": "API key not valid. Please pass a valid API key.",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "youtube.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+2026-03-12 21:35:48.002 +07:00 [ERR] Failed to collect YouTube trends for region VN
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.YouTubeTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 44
+2026-03-12 21:35:48.003 +07:00 [INF] Saved 0 trends from YouTube (VN)
+2026-03-12 21:35:48.003 +07:00 [INF] Crawling YouTube trends for region US
+2026-03-12 21:35:48.086 +07:00 [ERR] YouTube API error: "BadRequest" - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "errors": [
+      {
+        "message": "API key not valid. Please pass a valid API key.",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "youtube.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+2026-03-12 21:35:48.086 +07:00 [ERR] Failed to collect YouTube trends for region US
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.YouTubeTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 44
+2026-03-12 21:35:48.086 +07:00 [INF] Saved 0 trends from YouTube (US)
+2026-03-12 21:35:48.087 +07:00 [INF] Crawling TikTok trends for region Global
+2026-03-12 21:35:48.848 +07:00 [ERR] Failed to collect TikTok trends for region Global
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.TikTokTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 123
+2026-03-12 21:35:48.849 +07:00 [INF] Saved 0 trends from TikTok (Global)
+2026-03-12 21:35:48.849 +07:00 [INF] Crawling TikTok trends for region VN
+2026-03-12 21:35:49.159 +07:00 [ERR] Failed to collect TikTok trends for region VN
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.TikTokTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 123
+2026-03-12 21:35:49.159 +07:00 [INF] Saved 0 trends from TikTok (VN)
+2026-03-12 21:35:49.159 +07:00 [INF] Crawling TikTok trends for region US
+2026-03-12 21:35:49.479 +07:00 [ERR] Failed to collect TikTok trends for region US
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.TikTokTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 123
+2026-03-12 21:35:49.479 +07:00 [INF] Saved 0 trends from TikTok (US)
+2026-03-12 21:35:49.480 +07:00 [INF] Crawling Google Trends trends for region Global
+2026-03-12 21:35:50.170 +07:00 [INF] Collected 10 Google Trends for region Global
+2026-03-12 21:35:50.271 +07:00 [INF] Saved 10 trends from Google Trends (Global)
+2026-03-12 21:35:50.271 +07:00 [INF] Crawling Google Trends trends for region VN
+2026-03-12 21:35:50.764 +07:00 [INF] Collected 10 Google Trends for region VN
+2026-03-12 21:35:50.771 +07:00 [INF] Saved 10 trends from Google Trends (VN)
+2026-03-12 21:35:50.771 +07:00 [INF] Crawling Google Trends trends for region US
+2026-03-12 21:35:51.291 +07:00 [INF] Collected 10 Google Trends for region US
+2026-03-12 21:35:51.310 +07:00 [INF] Saved 10 trends from Google Trends (US)
+2026-03-12 21:37:37.540 +07:00 [INF] Starting generation for render "e9a9c65c-be45-4a4d-9d05-be6a47b82e46". Prompt: kingkong khổng lồ và chăn khổng lồ đánh nhau trong rừng rậm 
+2026-03-12 21:38:07.388 +07:00 [INF] Node script completed. Exit code: 0
+Stdout: 🔄 Checking if existing Chrome debug instance is running...
+🌐 Navigating to Google Labs Flow...
+🤖 Checking for "Create with Flow" button...
+🖱️ Clicking "Create with Flow"...
+🤖 Checking for "Bắt đầu" (Get Started) onboarding button...
+⏩ "Bắt đầu" button not found, continuing...
+🤖 Looking for "New Project" (Dự án mới) button...
+⏩ "New Project" button not found, assuming prompt area is going to load or already there.
+Closing browser context...
+
+2026-03-12 21:38:07.389 +07:00 [WRN] Node script stderr: Automation failed: locator.waitFor: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator('div[contenteditable="true"][role="textbox"]').first() to be visible
+
+    at generateVideo (/Users/macbook/Documents/Coding/AutoVeo/automation/generate.js:121:23) {
+  name: 'TimeoutError'
+}
+
+2026-03-12 21:38:07.390 +07:00 [ERR] Failed to generate video for render "e9a9c65c-be45-4a4d-9d05-be6a47b82e46"
+System.Exception: Script exited 0 but no valid [RESULT] path found in output.
+   at AutoVeo.Infrastructure.BackgroundJobs.Veo3GenerationWorker.ProcessNextPendingRenderAsync(CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/BackgroundJobs/Workers.cs:line 266
+2026-03-12 21:42:17.470 +07:00 [INF] Starting generation for render "c41925a0-c576-4bb1-bcb8-0ccbe0f210a1". Prompt: kingkong khổng lồ và chăn khổng lồ đánh nhau trong rừng rậm 
+2026-03-12 21:46:16.841 +07:00 [INF] Node script completed. Exit code: 0
+Stdout: 🔄 Checking if existing Chrome debug instance is running...
+🌐 Navigating to Google Labs Flow...
+🤖 Checking for "Create with Flow" button...
+⏩ "Create with Flow" button not found, assuming already on dashboard.
+🤖 Checking for "Bắt đầu" (Get Started) onboarding button...
+⏩ "Bắt đầu" button not found, continuing...
+🤖 Looking for "New Project" (Dự án mới) button...
+🖱️ Clicking "New Project"...
+👀 Waiting for prompt text area to appear...
+⚙️ Applying generation configurations...
+⌨️ Entering prompt: "kingkong khổng lồ và chăn khổng lồ đánh nhau trong rừng rậm "
+🖱️ Clicking Submit/Generate...
+⏳ Waiting for generation to complete (this can take several minutes)...
+🎉 Video generation complete!
+📺 Video source: /fx/api/trpc/media.getMediaUrlRedirect?name=63749404-c1c1-4f23-b4c1-11bea7a614d4
+👀 Hovering over video to reveal menu...
+🖱️ Opening 3-dot options menu...
+🖱️ Selecting "Tải xuống"...
+🖱️ Selecting resolution...
+  -> Skipping 4K (disabled or requires upgrade)
+  -> Downloading 1080p version...
+  -> No resolution sub-menu found, clicking "Tải xuống" directly...
+Closing browser context...
+
+2026-03-12 21:46:16.841 +07:00 [WRN] Node script stderr: Download event timeout
+Automation failed: locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('text="Tải xuống"').first()
+
+    at generateVideo (/Users/macbook/Documents/Coding/AutoVeo/automation/generate.js:295:32) {
+  name: 'TimeoutError'
+}
+
+2026-03-12 21:46:16.844 +07:00 [ERR] Failed to generate video for render "c41925a0-c576-4bb1-bcb8-0ccbe0f210a1"
+System.Exception: Script exited 0 but no valid [RESULT] path found in output.
+   at AutoVeo.Infrastructure.BackgroundJobs.Veo3GenerationWorker.ProcessNextPendingRenderAsync(CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/BackgroundJobs/Workers.cs:line 266
+2026-03-12 21:47:26.864 +07:00 [INF] Starting generation for render "5b77645c-8c03-43ab-a39d-7fe75693381c". Prompt: kingkong khổng lồ và con trăn khổng lồ đánh nhau trong rừng rậm 
+2026-03-12 21:51:28.104 +07:00 [INF] Node script completed. Exit code: 0
+Stdout: 🔄 Checking if existing Chrome debug instance is running...
+🌐 Navigating to Google Labs Flow...
+🤖 Checking for "Create with Flow" button...
+⏩ "Create with Flow" button not found, assuming already on dashboard.
+🤖 Checking for "Bắt đầu" (Get Started) onboarding button...
+⏩ "Bắt đầu" button not found, continuing...
+🤖 Looking for "New Project" (Dự án mới) button...
+🖱️ Clicking "New Project"...
+👀 Waiting for prompt text area to appear...
+⚙️ Applying generation configurations...
+⌨️ Entering prompt: "kingkong khổng lồ và con trăn khổng lồ đánh nhau trong rừng rậm "
+🖱️ Clicking Submit/Generate...
+⏳ Waiting for generation to complete (this can take several minutes)...
+🎉 Video generation complete!
+📺 Video source: /fx/api/trpc/media.getMediaUrlRedirect?name=d6e09ff9-93b9-4a6f-91be-2e7eefbd5ee1
+👀 Hovering over video to reveal menu...
+🖱️ Opening 3-dot options menu...
+🖱️ Selecting "Tải xuống"...
+🖱️ Selecting resolution...
+  -> Skipping 4K (disabled or requires upgrade)
+  -> Downloading 1080p version...
+  -> No resolution sub-menu found, clicking "Tải xuống" directly...
+✅ Video saved to /Users/macbook/Documents/Coding/AutoVeo/automation/output/King_kong_fights_giant_python_delpmaspu_.mp4
+[RESULT] /Users/macbook/Documents/Coding/AutoVeo/automation/output/King_kong_fights_giant_python_delpmaspu_.mp4
+Closing browser context...
+
+2026-03-12 21:51:28.105 +07:00 [WRN] Node script stderr: Download event timeout
+
+2026-03-12 21:51:28.111 +07:00 [INF] Successfully processed and saved video to /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Api/wwwroot/videos/5b77645c-8c03-43ab-a39d-7fe75693381c.mp4

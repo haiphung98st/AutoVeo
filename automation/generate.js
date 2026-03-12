@@ -279,6 +279,7 @@ async function generateVideo(promptText, outputDir, config = { type: 'Video', or
             const downloadPath = path.join(outputDirResolved, download.suggestedFilename());
             await download.saveAs(downloadPath);
             console.log(`✅ Video saved to ${downloadPath}`);
+            console.log(`[RESULT] ${downloadPath}`);
             downloadInitiated = true;
           }
           break;
@@ -297,6 +298,7 @@ async function generateVideo(promptText, outputDir, config = { type: 'Video', or
           const downloadPath = path.join(outputDirResolved, download.suggestedFilename());
           await download.saveAs(downloadPath);
           console.log(`✅ Video saved to ${downloadPath}`);
+          console.log(`[RESULT] ${downloadPath}`);
         } else {
           console.log("⚠️ Could not intercept download.");
         }
