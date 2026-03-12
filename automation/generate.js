@@ -1,19 +1,59 @@
 const { chromium } = require('playwright');
+const { spawn } = require('child_process');
+const path = require('path');
+const fs = require('fs');
+
+async function launchNativeChromeAndConnect() {
+  const userDataDir = path.join(__dirname, 'chrome-debug');
+  const chromePath = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'; // Corrected path for macOS
+
+  console.log('🔄 Checking if existing Chrome debug instance is running...');
+
+  try {
+    // Try to connect first in case it's already running
+    return await chromium.connectOverCDP('http://127.0.0.1:9222');
+  } catch (err) {
+    console.log('🚀 Chrome is not running on debugging port. Spawning it automatically in the background...');
+
+    // Create dir if not exists
+    if (!fs.existsSync(userDataDir)) {
+      fs.mkdirSync(userDataDir, { recursive: true });
+    }
+
+    // Spawn Native Chrome with debugging port
+    const chromeProcess = spawn(chromePath, [
+      '--remote-debugging-port=9222',
+      `--user-data-dir=${userDataDir}`,
+      '--disable-blink-features=AutomationControlled', // Add this arg for stealth
+      '--ignore-certificate-errors',
+      '--window-size=1920,1080', // Essential: ensure desktop UI renders properly
+    ], { detached: true, stdio: 'ignore' });
+
+    chromeProcess.unref();
+
+    console.log('⏳ Waiting 3 seconds for Chrome to initialize...');
+    await new Promise(r => setTimeout(r, 3000));
+
+    console.log('🔄 Connecting to newly spawned Chrome via CDP...');
+    return await chromium.connectOverCDP('http://127.0.0.1:9222');
+  }
+}
 
 async function generateVideo(promptText, outputDir, config = { type: 'Video', orientation: 'Ngang' }) {
-  console.log('🔄 Connecting to existing Chrome instance...');
-
   let browser;
   try {
-    browser = await chromium.connectOverCDP('http://localhost:9222');
+    browser = await launchNativeChromeAndConnect();
   } catch (err) {
-    console.error('❌ Failed to connect to Chrome. Did you launch it with --remote-debugging-port=9222?');
+    console.error('❌ Failed to connect to or spawn Chrome:', err);
     process.exit(1);
   }
 
-  const context = browser.contexts()[0];
-  let page;
+  let context = browser.contexts()[0];
+  if (!context) {
+    context = await browser.newContext();
+  }
 
+  let page;
   // Try to find if a Flow tab is already open
   for (const existingPage of context.pages()) {
     if (existingPage.url().includes('labs.google/fx/vi/tools/flow')) {
@@ -26,11 +66,10 @@ async function generateVideo(promptText, outputDir, config = { type: 'Video', or
   // If not open, create a new tab and navigate
   if (!page) {
     page = await context.newPage();
-    console.log('🌐 Navigating to Google Labs Flow...');
-    await page.goto('https://labs.google/fx/vi/tools/flow', { waitUntil: 'networkidle' });
-  } else {
-    console.log('🌐 Found existing Google Labs Flow tab...');
   }
+
+  console.log('🌐 Navigating to Google Labs Flow...');
+  await page.goto('https://labs.google/fx/vi/tools/flow', { waitUntil: 'networkidle' });
 
   try {
     console.log('🤖 Checking for "Create with Flow" button...');
@@ -145,15 +184,132 @@ async function generateVideo(promptText, outputDir, config = { type: 'Video', or
 
     console.log('🎉 Video generation complete!');
 
-    // Extract video URL
+    // Extract video URL (might be a blob, useful for logging)
     const videoUrl = await videoLocator.getAttribute('src');
-    console.log(`📺 Video URL: ${videoUrl}`);
+    console.log(`📺 Video source: ${videoUrl}`);
+
+    console.log('👀 Hovering over video to reveal menu...');
+    await videoLocator.hover();
+    await page.waitForTimeout(1500); // Wait for menu to animate in
+
+    console.log('🖱️ Opening 3-dot options menu...');
+    let menuOpened = false;
+
+    // Attempt 1: Click by coordinates (top right of video)
+    const box = await videoLocator.boundingBox();
+    if (box) {
+      await page.mouse.move(box.x + box.width - 30, box.y + 30);
+      await page.mouse.click(box.x + box.width - 30, box.y + 30);
+      await page.waitForTimeout(1000);
+    }
+
+    // Check if 'Tải xuống' or 'Download' menu item appeared
+    let downloadMenuItem = page.locator('text="Tải xuống"').first();
+    if (!await downloadMenuItem.isVisible({ timeout: 2000 }).catch(() => false)) {
+      downloadMenuItem = page.locator('text="Download"').first();
+    }
+
+    if (await downloadMenuItem.isVisible({ timeout: 2000 }).catch(() => false)) {
+      menuOpened = true;
+    } else {
+      // Attempt 2: Try to find a button in the top right
+      console.log('⚠️ Coordinate click failed, trying to find menu button via DOM...');
+      const buttons = await page.locator('button').all();
+      let closestBtn = null;
+      let minDistance = Infinity;
+      if (box) {
+        for (const btn of buttons) {
+          if (await btn.isVisible()) {
+            const btnBox = await btn.boundingBox();
+            if (btnBox) {
+              const dx = btnBox.x - (box.x + box.width);
+              const dy = btnBox.y - box.y;
+              const distance = Math.sqrt(dx * dx + dy * dy);
+              if (distance < minDistance && distance < 150) {
+                minDistance = distance;
+                closestBtn = btn;
+              }
+            }
+          }
+        }
+      }
+      if (closestBtn) {
+        await closestBtn.click();
+        await page.waitForTimeout(1000);
+        if (await downloadMenuItem.isVisible({ timeout: 2000 }).catch(() => false)) menuOpened = true;
+      }
+    }
+
+    if (menuOpened) {
+      console.log('🖱️ Selecting "Tải xuống"...');
+      await downloadMenuItem.hover();
+      await page.waitForTimeout(1000); // Wait for resolution sub-menu
+
+      console.log('🖱️ Selecting resolution...');
+      const resolutions = ['4K', '1080p', '720p', '270p'];
+      let downloadInitiated = false;
+
+      // Ensure output directory exists
+      const outputDirResolved = path.resolve(outputDir || path.join(__dirname, 'output'));
+      if (!fs.existsSync(outputDirResolved)) {
+        fs.mkdirSync(outputDirResolved, { recursive: true });
+      }
+
+      for (const res of resolutions) {
+        const resBtn = page.locator(`text="${res}"`).first();
+        if (await resBtn.isVisible()) {
+          // Check if the button is actually enabled (e.g., 4K might be disabled for non-Pro)
+          const isEnabled = await resBtn.isEnabled({ timeout: 1000 }).catch(() => false);
+          if (!isEnabled) {
+            console.log(`  -> Skipping ${res} (disabled or requires upgrade)`);
+            continue; // Fall back to the next resolution
+          }
+
+          console.log(`  -> Downloading ${res} version...`);
+
+          const downloadPromise = page.waitForEvent('download', { timeout: 60000 }).catch(e => {
+            console.error("Download event timeout");
+            return null;
+          });
+
+          await resBtn.click();
+
+          const download = await downloadPromise;
+          if (download) {
+            const downloadPath = path.join(outputDirResolved, download.suggestedFilename());
+            await download.saveAs(downloadPath);
+            console.log(`✅ Video saved to ${downloadPath}`);
+            downloadInitiated = true;
+          }
+          break;
+        }
+      }
+
+      if (!downloadInitiated) {
+        console.log('  -> No resolution sub-menu found, clicking "Tải xuống" directly...');
+        const downloadPromise = page.waitForEvent('download', { timeout: 60000 }).catch(e => {
+          console.error("Download event timeout");
+          return null;
+        });
+        await downloadMenuItem.click();
+        const download = await downloadPromise;
+        if (download) {
+          const downloadPath = path.join(outputDirResolved, download.suggestedFilename());
+          await download.saveAs(downloadPath);
+          console.log(`✅ Video saved to ${downloadPath}`);
+        } else {
+          console.log("⚠️ Could not intercept download.");
+        }
+      }
+    } else {
+      console.log("⚠️ Could not open the options menu. Make sure the video is hovered properly.");
+    }
 
   } catch (error) {
     console.error('Automation failed:', error);
   } finally {
-    console.log('Detaching from Chrome...');
-    await browser.close(); // Note: This detaches Playwright, it does NOT kill the user's Chrome window!
+    console.log('Closing browser context...');
+    await context.close();
   }
 }
 
