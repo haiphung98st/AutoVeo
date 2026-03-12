@@ -2,13 +2,14 @@ import { motion } from "motion/react";
 import { LucideIcon } from "lucide-react";
 
 interface NeonButtonProps {
-  children: React.ReactNode;
+  children?: React.ReactNode;
   onClick?: () => void;
   variant?: "primary" | "secondary" | "cyan" | "outline";
   icon?: LucideIcon;
   className?: string;
   size?: "sm" | "md" | "lg";
   disabled?: boolean;
+  title?: string;
 }
 
 export function NeonButton({
@@ -19,6 +20,7 @@ export function NeonButton({
   className = "",
   size = "md",
   disabled = false,
+  title,
 }: NeonButtonProps) {
   const baseClasses = "rounded-2xl font-medium transition-all duration-300 flex items-center justify-center gap-2";
 
@@ -37,6 +39,7 @@ export function NeonButton({
 
   return (
     <motion.button
+      title={title}
       whileHover={disabled ? {} : { scale: 1.02 }}
       whileTap={disabled ? {} : { scale: 0.98 }}
       onClick={disabled ? undefined : onClick}

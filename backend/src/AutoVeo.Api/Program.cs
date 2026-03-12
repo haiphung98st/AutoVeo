@@ -65,9 +65,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("Frontend", policy =>
     {
-        var origins = builder.Configuration.GetSection("Cors:Origins").Get<string[]>()
-            ?? new[] { "http://localhost:5173", "http://localhost:5174", "http://localhost:5175" };
-        policy.WithOrigins(origins)
+        policy.SetIsOriginAllowed(_ => true)
             .AllowAnyHeader()
             .AllowAnyMethod()
             .AllowCredentials();
@@ -159,18 +157,16 @@ builder.Services.AddSwaggerGen(c =>
 
 var app = builder.Build();
 
-// ── Middleware pipeline ──
+app.UseCors("Frontend");
 app.UseMiddleware<ErrorHandlingMiddleware>();
 app.UseSerilogRequestLogging();
+Log.Information("Application environment: {Environment}", app.Environment.EnvironmentName);
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "AutoVeo API v1"));
-}
+app.UseSwagger();
+app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "AutoVeo API v1"));
 
-app.UseCors("Frontend");
 app.UseRateLimiter();
+// app.UseCors("Frontend"); // Moved up
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
@@ -184,4 +180,4 @@ using (var scope = app.Services.CreateScope())
 }
 
 Log.Information("AutoVeo API started on {Urls}", string.Join(", ", app.Urls));
-app.Run();
+app.Run("http://*:5050");

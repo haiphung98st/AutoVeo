@@ -1,0 +1,14 @@
+2026/03/12-16:41:13.158 598c2 Reusing MANIFEST /Users/macbook/Documents/Coding/AutoVeo/automation/chrome-debug/Default/IndexedDB/https_labs.google_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/12-16:41:13.159 598c2 Recovering log #10
+2026/03/12-16:41:13.159 598c2 Reusing old log /Users/macbook/Documents/Coding/AutoVeo/automation/chrome-debug/Default/IndexedDB/https_labs.google_0.indexeddb.leveldb/000010.log 
+2026/03/12-16:41:13.159 598c2 Delete type=2 #8
+2026/03/12-16:41:13.178 598d3 Level-0 table #15: started
+2026/03/12-16:41:13.179 598d3 Level-0 table #15: 1178 bytes OK
+2026/03/12-16:41:13.181 598d3 Delete type=0 #10
+2026/03/12-16:41:13.181 598c0 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x07\x00\x00\x05' @ 460 : 1
+2026/03/12-16:41:13.181 598c0 Compacting 1@0 + 1@1 files
+2026/03/12-16:41:13.183 598c0 Generated table #16@0: 162 keys, 3451 bytes
+2026/03/12-16:41:13.183 598c0 Compacted 1@0 + 1@1 files => 3451 bytes
+2026/03/12-16:41:13.185 598c0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/12-16:41:13.185 598c0 Delete type=2 #15
+2026/03/12-16:41:13.185 598c0 Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 460 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)

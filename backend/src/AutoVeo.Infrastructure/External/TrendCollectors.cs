@@ -37,7 +37,12 @@ public class YouTubeTrendCollector : ITrendCollector
         try
         {
             var response = await _http.GetAsync(url, ct);
-            response.EnsureSuccessStatusCode();
+            if (!response.IsSuccessStatusCode)
+            {
+                var errorContent = await response.Content.ReadAsStringAsync(ct);
+                _logger.LogError("YouTube API error: {StatusCode} - {Content}", response.StatusCode, errorContent);
+                response.EnsureSuccessStatusCode();
+            }
 
             var json = await response.Content.ReadAsStringAsync(ct);
             var doc = JsonDocument.Parse(json);
@@ -168,7 +173,8 @@ public class GoogleTrendsCollector : ITrendCollector
     public async Task<List<CollectedTrend>> CollectAsync(string region = "Global", CancellationToken ct = default)
     {
         var geo = region == "Global" ? "" : region;
-        var url = $"https://trends.google.com/trends/trendingsearches/daily/rss?geo={geo}";
+        // Use the modern trending searches RSS feed
+        var url = $"https://trends.google.com/trending/rss?geo={geo}";
 
         try
         {

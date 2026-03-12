@@ -120,13 +120,19 @@ export function Dashboard() {
             </NeonButton>
           </div>
           {loading ? (
-            <div className="flex items-center justify-center py-12">
-              <Loader2 className="w-8 h-8 text-[#A855F7] animate-spin" />
+            <div className="flex items-center justify-center py-20 bg-[#171728] rounded-2xl border border-[#2A2A3E]">
+              <Loader2 className="w-10 h-10 text-[#A855F7] animate-spin" />
             </div>
           ) : error ? (
-            <p className="text-gray-400 text-center py-8">{error}</p>
+            <div className="flex flex-col items-center justify-center py-20 bg-red-500/5 rounded-2xl border border-red-500/20">
+              <p className="text-red-400 mb-4 font-medium">{error}</p>
+              <NeonButton size="sm" variant="outline" onClick={() => window.location.reload()}>Retry</NeonButton>
+            </div>
           ) : trendingSummary.length === 0 ? (
-            <p className="text-gray-400 text-center py-8">No trending data yet. Trends will appear once the collector runs.</p>
+            <div className="flex flex-col items-center justify-center py-20 bg-[#171728] rounded-2xl border border-[#2A2A3E]">
+              <TrendingUp className="w-12 h-12 text-gray-700 mb-4 opacity-20" />
+              <p className="text-gray-400 text-center">No trending data yet. Trends will appear once the collector runs.</p>
+            </div>
           ) : (
             <div className="space-y-3">
               {trendingSummary.map((item, index) => (
@@ -135,8 +141,13 @@ export function Dashboard() {
                   className="flex items-center justify-between p-4 rounded-xl bg-[#0F0F18] border border-[#2A2A3E] hover:border-[#A855F7]/30 transition-all duration-300 group"
                 >
                   <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#A855F7]/20 to-[#7C3AED]/20 flex items-center justify-center group-hover:shadow-lg group-hover:shadow-[#A855F7]/20 transition-all">
-                      <ArrowUp className="w-6 h-6 text-[#A855F7]" />
+                    <div className={`w-12 h-12 rounded-xl flex items-center justify-center transition-all ${item.trend === "up" ? "bg-green-500/10" :
+                        item.trend === "down" ? "bg-red-500/10" :
+                          "bg-blue-500/10"
+                      }`}>
+                      {item.trend === "up" ? <ArrowUp className="w-6 h-6 text-green-500" /> :
+                        item.trend === "down" ? <TrendingUp className="w-6 h-6 text-red-500 rotate-180" /> :
+                          <TrendingUp className="w-6 h-6 text-blue-500" />}
                     </div>
                     <div>
                       <h3 className="text-white font-medium">{item.title}</h3>
@@ -144,8 +155,11 @@ export function Dashboard() {
                     </div>
                   </div>
                   <div className="text-right">
-                    <p className="text-2xl font-semibold text-[#22D3EE]">{item.percent}</p>
-                    <p className="text-xs text-gray-500">trending</p>
+                    <p className={`text-2xl font-bold ${item.trend === "up" ? "text-green-400" :
+                        item.trend === "down" ? "text-red-400" :
+                          "text-[#22D3EE]"
+                      }`}>{item.percent}</p>
+                    <p className="text-xs text-gray-500 font-medium uppercase tracking-wider">trending</p>
                   </div>
                 </div>
               ))}

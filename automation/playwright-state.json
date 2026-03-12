@@ -1,0 +1,105 @@
+{
+  "cookies": [
+    {
+      "name": "__Host-next-auth.csrf-token",
+      "value": "08fa2fab45550dea84d8e8dcc51d590dc884224db16f71cad81de946e7bd581f%7Cc7f22a414bb436d95642566f3ac5fad707c3251297f6ae0500e60a86d098d811",
+      "domain": "labs.google",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.1349978998.1773306931",
+      "domain": ".labs.google",
+      "path": "/",
+      "expires": 1807866930.520298,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-next-auth.callback-url",
+      "value": "https%3A%2F%2Flabs.google%2Ffx%2Fvi%2Ftools%2Fflow",
+      "domain": "labs.google",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-next-auth.state",
+      "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..-2KEF6dzfFjidBdo.cQrLWu1F-aHrXavYFlKvptEAshjYq-m0qLxnHBV23ATv0Rg2VbaOCbYQGUmZ-jaehUaI-I4cmC9_qaGcvH2WrLz5c1_fENHtITK1Iiyz4xcICRPFjyuM1poymS8RNVmK60eohH31c1R8f0_YV2HI0OsC4ya2Kcy_SRcJWU_bZgrIrjNgHNc.WEJJ5PmfPjhAovcRAlt5FA",
+      "domain": "labs.google",
+      "path": "/",
+      "expires": 1773307837.158824,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-next-auth.pkce.code_verifier",
+      "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..BVjBeA0fi1zg0zcO.cg2Tv-efIhFQ2ofXYF6CRsWrQ7bpMM-zVEiTQeJVIHidi-ftfqHtU7BqdSjrITLRehDauEeCcXMLkxKNC8QZ29_aUFvnjUUL0gYcacHl3IXjAq96CvEJTBTSRU7bO7oyC9gChGltNdG0ZeCR1rgY-ny7V3xB-YG_HtzW70uQWQF0afHmDBg.5VIMWtCVZJVxjraJjkOXtw",
+      "domain": "labs.google",
+      "path": "/",
+      "expires": 1773307837.158853,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Host-GAPS",
+      "value": "1:CuoNxiCt3Ce9qghKBfizz1Kf1w42Qw:1PF-k8rqwLEFXbI0",
+      "domain": "accounts.google.com",
+      "path": "/",
+      "expires": 1807866937.560799,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "NID",
+      "value": "529=cASz8g7zVYt1oN9GmuJ4Up7YrFQBNBqtH3tx0FgZpbvlm_QWByPuYWGO2R-YKsFRu4tteQuAQ4Z4UJISHsboU0T0b7RjyX7a337yHseXMUKNkywX9FWlgLA9XnF-7QN6q1w_SNpYZJ3jKblrhU3o305Rc3RD_cPxzPHwDnplQokb9M2yMi109l8e53KT-BoFmEq9gGjqJ7PaXA4boA",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1789118129.722507,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga_X2GNH8R5NS",
+      "value": "GS2.1.s1773306930$o1$g0$t1773306937$j53$l0$h878187361",
+      "domain": ".labs.google",
+      "path": "/",
+      "expires": 1807866937.73539,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OTZ",
+      "value": "8516716_28_28__28_",
+      "domain": "accounts.google.com",
+      "path": "/",
+      "expires": 1775898939,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.google.com",
+      "localStorage": [
+        {
+          "name": "rc::a",
+          "value": "NXY5cTRkbWJ6aTkx"
+        }
+      ]
+    }
+  ]
+}

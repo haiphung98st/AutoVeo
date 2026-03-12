@@ -1,6 +1,6 @@
 import type { ApiResponse } from "../types/api";
 
-const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
+const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:5050/api";
 
 class ApiClient {
     private accessToken: string | null = null;

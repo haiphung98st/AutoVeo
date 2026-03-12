@@ -73,6 +73,7 @@ export interface TrendSummaryDto {
     title: string;
     percent: string;
     category: string;
+    trend: "up" | "down" | "neutral";
 }
 
 // Prompts
