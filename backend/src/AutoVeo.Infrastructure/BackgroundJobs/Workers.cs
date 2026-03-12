@@ -144,15 +144,17 @@ public class Veo3GenerationWorker : BackgroundService
         _env = env;
     }
 
+    private readonly SemaphoreSlim _concurrencySemaphore = new SemaphoreSlim(3);
+
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
-        _logger.LogInformation("Veo3GenerationWorker started");
+        _logger.LogInformation("Veo3GenerationWorker started with max parallelism: 3");
 
         while (!stoppingToken.IsCancellationRequested)
         {
             try
             {
-                await ProcessNextPendingRenderAsync(stoppingToken);
+                await ProcessPendingRendersAsync(stoppingToken);
             }
             catch (Exception ex)
             {
@@ -164,31 +166,50 @@ public class Veo3GenerationWorker : BackgroundService
         }
     }
 
-    private async Task ProcessNextPendingRenderAsync(CancellationToken ct)
+    private async Task ProcessPendingRendersAsync(CancellationToken ct)
     {
         using var scope = _scopeFactory.CreateScope();
         var db = scope.ServiceProvider.GetRequiredService<AutoVeoDbContext>();
 
-        // We only process one request at a time to save memory/Chrome instances
-        var render = await db.RenderRequests
+        // Fetch all pending requests
+        var pendingRenders = await db.RenderRequests
             .Include(r => r.Prompt)
-            .FirstOrDefaultAsync(r => r.Status == RenderStatus.Pending, ct);
+            .Where(r => r.Status == RenderStatus.Pending)
+            .ToListAsync(ct);
 
-        if (render == null) return;
+        if (pendingRenders.Count == 0) return;
 
-        // Set to processing immediately to lock it
-        render.Status = RenderStatus.Processing;
-        await db.SaveChangesAsync(ct);
+        _logger.LogInformation("Found {Count} pending renders. Attempting to process in parallel...", pendingRenders.Count);
 
-        _logger.LogInformation("Starting generation for render {Id}. Prompt: {Prompt}", render.Id, render.Prompt?.PromptText);
+        var tasks = pendingRenders.Select(render => ProcessSingleRenderAsync(render.Id, ct));
+        await Task.WhenAll(tasks);
+    }
 
-        string promptText = render.Prompt?.PromptText ?? "A cinematic video";
-        string outputFormat = render.AspectRatio == "16:9" ? "Ngang" : "Dọc"; 
+    private async Task ProcessSingleRenderAsync(Guid renderId, CancellationToken ct)
+    {
+        // Wait for available slot
+        await _concurrencySemaphore.WaitAsync(ct);
         
         try
         {
+            using var scope = _scopeFactory.CreateScope();
+            var db = scope.ServiceProvider.GetRequiredService<AutoVeoDbContext>();
+            
+            var render = await db.RenderRequests
+                .Include(r => r.Prompt)
+                .FirstOrDefaultAsync(r => r.Id == renderId, ct);
+
+            if (render == null || render.Status != RenderStatus.Pending) return;
+
+            // Set to processing immediately to lock it
+            render.Status = RenderStatus.Processing;
+            await db.SaveChangesAsync(ct);
+
+            _logger.LogInformation("Starting generation for render {Id}. Prompt: {Prompt}", render.Id, render.Prompt?.PromptText);
+
+            string promptText = render.Prompt?.PromptText ?? "A cinematic video";
+            
             // Prepare paths
-            // From src/AutoVeo.Api to AutoVeo root: ../../../
             string scriptDir = Path.GetFullPath(Path.Combine(_env.ContentRootPath, "..", "..", "..", "automation"));
             string scriptPath = Path.Combine(scriptDir, "generate.js");
             string outputDir = Path.Combine(scriptDir, "output");
@@ -216,10 +237,8 @@ public class Veo3GenerationWorker : BackgroundService
 
             await process.WaitForExitAsync(ct);
 
-            _logger.LogInformation("Node script completed. Exit code: {Code}\nStdout: {Stdout}", process.ExitCode, stdOut);
-            if (!string.IsNullOrEmpty(stdErr))
-                _logger.LogWarning("Node script stderr: {Stderr}", stdErr);
-
+            _logger.LogInformation("Node script completed for {Id}. Exit code: {Code}", render.Id, process.ExitCode);
+            
             if (process.ExitCode == 0)
             {
                 // Parse the [RESULT] path
@@ -236,7 +255,6 @@ public class Veo3GenerationWorker : BackgroundService
 
                 if (!string.IsNullOrEmpty(resultPath) && File.Exists(resultPath))
                 {
-                    // Copy to wwwroot so the frontend can display it
                     string wwwroot = _env.WebRootPath ?? Path.Combine(_env.ContentRootPath, "wwwroot");
                     string videosDir = Path.Combine(wwwroot, "videos");
                     if (!Directory.Exists(videosDir)) Directory.CreateDirectory(videosDir);
@@ -246,7 +264,6 @@ public class Veo3GenerationWorker : BackgroundService
 
                     File.Copy(resultPath, destinationPath, true);
 
-                    // Update DB with success
                     render.Status = RenderStatus.Completed;
                     render.CompletedAt = DateTime.UtcNow;
 
@@ -254,12 +271,10 @@ public class Veo3GenerationWorker : BackgroundService
                     { 
                         RenderRequestId = render.Id,
                         VideoUrl = $"/videos/{fileName}",
-                        DurationSeconds = 5, // Default for Veo3
+                        DurationSeconds = 5,
                         CompletedAt = DateTime.UtcNow
                     };
                     db.RenderResults.Add(result);
-
-                    _logger.LogInformation("Successfully processed and saved video to {Path}", destinationPath);
                 }
                 else
                 {
@@ -268,23 +283,36 @@ public class Veo3GenerationWorker : BackgroundService
             }
             else
             {
-                throw new Exception($"Script exited with code {process.ExitCode}");
+                throw new Exception($"Script exited with code {process.ExitCode}. Error: {stdErr}");
             }
+            
+            await db.SaveChangesAsync(ct);
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, "Failed to generate video for render {Id}", render.Id);
-            render.Status = RenderStatus.Failed;
-            render.CompletedAt = DateTime.UtcNow;
+            _logger.LogError(ex, "Failed to generate video for render {Id}", renderId);
+            
+            using var scope = _scopeFactory.CreateScope();
+            var db = scope.ServiceProvider.GetRequiredService<AutoVeoDbContext>();
+            var render = await db.RenderRequests.FindAsync(new object[] { renderId }, ct);
+            
+            if (render != null)
+            {
+                render.Status = RenderStatus.Failed;
+                render.CompletedAt = DateTime.UtcNow;
 
-            var result = new RenderResult 
-            { 
-                RenderRequestId = render.Id,
-                ErrorMessage = ex.Message
-            };
-            db.RenderResults.Add(result);
+                var result = new RenderResult 
+                { 
+                    RenderRequestId = render.Id,
+                    ErrorMessage = ex.Message
+                };
+                db.RenderResults.Add(result);
+                await db.SaveChangesAsync(ct);
+            }
         }
-
-        await db.SaveChangesAsync(ct);
+        finally
+        {
+            _concurrencySemaphore.Release();
+        }
     }
 }

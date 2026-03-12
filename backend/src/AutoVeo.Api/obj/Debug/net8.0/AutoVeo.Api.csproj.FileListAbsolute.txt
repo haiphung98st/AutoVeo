@@ -195,3 +195,4 @@
 /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Api/bin/Debug/net8.0/runtimes/win-arm64/native/e_sqlite3.dll
 /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Api/bin/Debug/net8.0/runtimes/win-x64/native/e_sqlite3.dll
 /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Api/bin/Debug/net8.0/runtimes/win-x86/native/e_sqlite3.dll
+/Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Api/bin/Debug/net8.0/AutoVeo.Api.staticwebassets.runtime.json

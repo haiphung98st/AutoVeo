@@ -56,28 +56,46 @@ export function VideoRender() {
 
   const handleRender = async () => {
     if (!prompt.trim()) {
-      setError("Please enter a prompt first.");
+      setError("Please enter one or more prompts (one per line).");
+      return;
+    }
+
+    const promptLines = prompt
+      .split('\n')
+      .map((line: string) => line.trim())
+      .filter((line: string) => line.length > 0);
+
+    if (promptLines.length === 0) {
+      setError("Please enter at least one valid prompt.");
       return;
     }
 
     setStatus("submitting");
     setError("");
-    setLogs(["Submitting render request to AutoVeo engine..."]);
+    setLogs([`Submitting ${promptLines.length} render request(s) to AutoVeo engine...`]);
 
     try {
-      const response = await renderApi.submit({
-        promptId: initialPromptId || undefined,
-        promptText: prompt,
-        aspectRatio,
-        styleOverride: styleOverride || undefined
-      });
+      const submissions = promptLines.map((line: string) =>
+        renderApi.submit({
+          promptId: initialPromptId || undefined,
+          promptText: line,
+          aspectRatio,
+          styleOverride: styleOverride || undefined
+        })
+      );
 
-      const requestId = response.data.renderRequestId;
-      setRenderRequestId(requestId);
-      startPolling(requestId);
+      const results = await Promise.all(submissions);
+
+      // For logging, we'll start polling the last one submitted in this specific view
+      // But the Library will show all of them.
+      const lastRequestId = results[results.length - 1].data.renderRequestId;
+      setRenderRequestId(lastRequestId);
+      startPolling(lastRequestId);
+
+      setLogs(prev => [...prev, "All requests submitted! Tracking latest request status..."]);
     } catch (err) {
       setStatus("failed");
-      setError("Failed to submit render request. Please check your connection.");
+      setError("Failed to submit render requests. Please check your connection.");
       console.error(err);
     }
   };

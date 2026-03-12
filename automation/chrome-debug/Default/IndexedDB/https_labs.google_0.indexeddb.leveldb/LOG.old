@@ -1,34 +1,14 @@
-2026/03/12-21:37:39.730 5cedb Reusing MANIFEST /Users/macbook/Documents/Coding/AutoVeo/automation/chrome-debug/Default/IndexedDB/https_labs.google_0.indexeddb.leveldb/MANIFEST-000001
-2026/03/12-21:37:39.731 5cedb Recovering log #32
-2026/03/12-21:37:39.733 5cedb Reusing old log /Users/macbook/Documents/Coding/AutoVeo/automation/chrome-debug/Default/IndexedDB/https_labs.google_0.indexeddb.leveldb/000032.log 
-2026/03/12-21:37:39.734 5cedb Delete type=2 #31
-2026/03/12-21:37:39.887 5cee8 Level-0 table #37: started
-2026/03/12-21:37:39.899 5cee8 Level-0 table #37: 1182 bytes OK
-2026/03/12-21:37:39.902 5cee8 Delete type=0 #32
-2026/03/12-21:37:39.903 5ced8 Manual compaction at level-0 from '\x00\x10\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x11\x00\x00\x00' @ 0 : 0; will stop at '\x00\x10\x00\x00\x05' @ 739 : 1
-2026/03/12-21:37:39.903 5ced8 Compacting 1@0 + 1@1 files
-2026/03/12-21:37:39.905 5ced8 Generated table #38@0: 180 keys, 3692 bytes
-2026/03/12-21:37:39.905 5ced8 Compacted 1@0 + 1@1 files => 3692 bytes
-2026/03/12-21:37:39.906 5ced8 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/03/12-21:37:39.907 5ced8 Delete type=2 #37
-2026/03/12-21:37:39.907 5ced8 Manual compaction at level-0 from '\x00\x10\x00\x00\x05' @ 739 : 1 .. '\x00\x11\x00\x00\x00' @ 0 : 0; will stop at (end)
-2026/03/12-21:37:44.306 5cedb Level-0 table #40: started
-2026/03/12-21:37:44.307 5cedb Level-0 table #40: 919 bytes OK
-2026/03/12-21:37:44.311 5cedb Delete type=2 #34
-2026/03/12-21:37:44.311 5cedb Delete type=0 #36
-2026/03/12-21:37:44.312 5cedb Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01N\x001\x00:\x003\x006\x005\x009\x004\x001\x005\x009\x005\x004\x002\x000\x00:\x00w\x00e\x00b\x00:\x00c\x001\x00f\x004\x00c\x004\x00f\x00d\x008\x00d\x001\x000\x00a\x00e\x00d\x000\x00c\x00c\x002\x00e\x00d\x009\x00,\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00,\x00f\x00i\x00r\x00e\x00b\x00a\x00s\x00e\x00,\x00l\x00a\x00s\x00t\x00_\x00f\x00e\x00t\x00c\x00h\x00_\x00s\x00t\x00a\x00t\x00u\x00s' @ 760 : 1
-2026/03/12-21:37:44.313 5cedb Compacting 1@0 + 1@1 files
-2026/03/12-21:37:44.315 5cedb Generated table #41@0: 182 keys, 3720 bytes
-2026/03/12-21:37:44.315 5cedb Compacted 1@0 + 1@1 files => 3720 bytes
-2026/03/12-21:37:44.316 5cedb compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/03/12-21:37:44.317 5cedb Delete type=2 #38
-2026/03/12-21:37:44.317 5cedb Delete type=2 #40
-2026/03/12-21:37:44.317 5cedb Manual compaction at level-0 from '\x00\x02\x01\x02\x01N\x001\x00:\x003\x006\x005\x009\x004\x001\x005\x009\x005\x004\x002\x000\x00:\x00w\x00e\x00b\x00:\x00c\x001\x00f\x004\x00c\x004\x00f\x00d\x008\x00d\x001\x000\x00a\x00e\x00d\x000\x00c\x00c\x002\x00e\x00d\x009\x00,\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00,\x00f\x00i\x00r\x00e\x00b\x00a\x00s\x00e\x00,\x00l\x00a\x00s\x00t\x00_\x00f\x00e\x00t\x00c\x00h\x00_\x00s\x00t\x00a\x00t\x00u\x00s' @ 760 : 1 .. (end); will stop at (end)
-2026/03/12-21:37:44.317 5cedb Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x04\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x003\x006\x005\x009\x004\x001\x005\x009\x005\x004\x002\x000\x00:\x00w\x00e\x00b\x00:\x00c\x001\x00f\x004\x00c\x004\x00f\x00d\x008\x00d\x001\x000\x00a\x00e\x00d\x000\x00c\x00c\x002\x00e\x00d\x009' @ 352 : 1
-2026/03/12-21:37:44.317 5cedb Compacting 1@1 + 1@2 files
-2026/03/12-21:37:44.318 5cedb Generated table #42@1: 55 keys, 2244 bytes
-2026/03/12-21:37:44.319 5cedb Compacted 1@1 + 1@2 files => 2244 bytes
-2026/03/12-21:37:44.320 5cedb compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/03/12-21:37:44.320 5cedb Delete type=2 #5
-2026/03/12-21:37:44.320 5cedb Delete type=2 #41
-2026/03/12-21:37:44.321 5cedb Manual compaction at level-1 from '\x00\x04\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x003\x006\x005\x009\x004\x001\x005\x009\x005\x004\x002\x000\x00:\x00w\x00e\x00b\x00:\x00c\x001\x00f\x004\x00c\x004\x00f\x00d\x008\x00d\x001\x000\x00a\x00e\x00d\x000\x00c\x00c\x002\x00e\x00d\x009' @ 352 : 1 .. (end); will stop at (end)
+2026/03/12-22:02:15.412 5ced8 Reusing MANIFEST /Users/macbook/Documents/Coding/AutoVeo/automation/chrome-debug/Default/IndexedDB/https_labs.google_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/12-22:02:15.413 5ced8 Recovering log #56
+2026/03/12-22:02:15.413 5ced8 Reusing old log /Users/macbook/Documents/Coding/AutoVeo/automation/chrome-debug/Default/IndexedDB/https_labs.google_0.indexeddb.leveldb/000056.log 
+2026/03/12-22:02:15.414 5ced8 Delete type=2 #55
+2026/03/12-22:02:15.535 5cee6 Level-0 table #61: started
+2026/03/12-22:02:15.536 5cee6 Level-0 table #61: 1188 bytes OK
+2026/03/12-22:02:15.538 5cee6 Delete type=0 #56
+2026/03/12-22:02:15.538 5ced8 Manual compaction at level-0 from '\x00\x16\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x17\x00\x00\x00' @ 0 : 0; will stop at '\x00\x16\x00\x00\x05' @ 927 : 1
+2026/03/12-22:02:15.538 5ced8 Compacting 1@0 + 1@1 files
+2026/03/12-22:02:15.539 5ced8 Generated table #62@0: 38 keys, 1180 bytes
+2026/03/12-22:02:15.539 5ced8 Compacted 1@0 + 1@1 files => 1180 bytes
+2026/03/12-22:02:15.540 5ced8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/12-22:02:15.541 5ced8 Delete type=2 #61
+2026/03/12-22:02:15.541 5ced8 Manual compaction at level-0 from '\x00\x16\x00\x00\x05' @ 927 : 1 .. '\x00\x17\x00\x00\x00' @ 0 : 0; will stop at (end)

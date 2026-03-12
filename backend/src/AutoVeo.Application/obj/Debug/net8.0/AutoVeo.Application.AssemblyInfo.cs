@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AutoVeo.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9b5fcd5b543442b71d684f4e541301702e9772b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1469cdf4c77ca76c668e77ecefa1ac09749b05b2")]
 [assembly: System.Reflection.AssemblyProductAttribute("AutoVeo.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AutoVeo.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

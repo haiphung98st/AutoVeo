@@ -723,3 +723,295 @@ Closing browser context...
 2026-03-12 21:51:28.105 +07:00 [WRN] Node script stderr: Download event timeout
 
 2026-03-12 21:51:28.111 +07:00 [INF] Successfully processed and saved video to /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Api/wwwroot/videos/5b77645c-8c03-43ab-a39d-7fe75693381c.mp4
+2026-03-12 21:57:39.812 +07:00 [INF] TrendCrawlerWorker started
+2026-03-12 21:57:39.846 +07:00 [INF] Veo3GenerationWorker started with max parallelism: 3
+2026-03-12 21:57:49.933 +07:00 [INF] Crawling YouTube trends for region Global
+2026-03-12 21:57:50.176 +07:00 [ERR] YouTube API error: "BadRequest" - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "errors": [
+      {
+        "message": "API key not valid. Please pass a valid API key.",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "youtube.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+2026-03-12 21:57:50.180 +07:00 [ERR] Failed to collect YouTube trends for region Global
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.YouTubeTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 44
+2026-03-12 21:57:50.190 +07:00 [INF] Saved 0 trends from YouTube (Global)
+2026-03-12 21:57:50.190 +07:00 [INF] Crawling YouTube trends for region VN
+2026-03-12 21:57:50.249 +07:00 [ERR] YouTube API error: "BadRequest" - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "errors": [
+      {
+        "message": "API key not valid. Please pass a valid API key.",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "youtube.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+2026-03-12 21:57:50.249 +07:00 [ERR] Failed to collect YouTube trends for region VN
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.YouTubeTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 44
+2026-03-12 21:57:50.250 +07:00 [INF] Saved 0 trends from YouTube (VN)
+2026-03-12 21:57:50.250 +07:00 [INF] Crawling YouTube trends for region US
+2026-03-12 21:57:50.308 +07:00 [ERR] YouTube API error: "BadRequest" - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "errors": [
+      {
+        "message": "API key not valid. Please pass a valid API key.",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "youtube.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+2026-03-12 21:57:50.309 +07:00 [ERR] Failed to collect YouTube trends for region US
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.YouTubeTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 44
+2026-03-12 21:57:50.309 +07:00 [INF] Saved 0 trends from YouTube (US)
+2026-03-12 21:57:50.310 +07:00 [INF] Crawling TikTok trends for region Global
+2026-03-12 21:57:51.127 +07:00 [ERR] Failed to collect TikTok trends for region Global
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.TikTokTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 123
+2026-03-12 21:57:51.128 +07:00 [INF] Saved 0 trends from TikTok (Global)
+2026-03-12 21:57:51.128 +07:00 [INF] Crawling TikTok trends for region VN
+2026-03-12 21:57:51.457 +07:00 [ERR] Failed to collect TikTok trends for region VN
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.TikTokTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 123
+2026-03-12 21:57:51.457 +07:00 [INF] Saved 0 trends from TikTok (VN)
+2026-03-12 21:57:51.457 +07:00 [INF] Crawling TikTok trends for region US
+2026-03-12 21:57:52.122 +07:00 [ERR] Failed to collect TikTok trends for region US
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.TikTokTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 123
+2026-03-12 21:57:52.124 +07:00 [INF] Saved 0 trends from TikTok (US)
+2026-03-12 21:57:52.127 +07:00 [INF] Crawling Google Trends trends for region Global
+2026-03-12 21:57:52.864 +07:00 [INF] Collected 10 Google Trends for region Global
+2026-03-12 21:57:52.967 +07:00 [INF] Saved 10 trends from Google Trends (Global)
+2026-03-12 21:57:52.967 +07:00 [INF] Crawling Google Trends trends for region VN
+2026-03-12 21:57:53.184 +07:00 [INF] Collected 10 Google Trends for region VN
+2026-03-12 21:57:53.189 +07:00 [INF] Saved 10 trends from Google Trends (VN)
+2026-03-12 21:57:53.189 +07:00 [INF] Crawling Google Trends trends for region US
+2026-03-12 21:57:53.808 +07:00 [INF] Collected 10 Google Trends for region US
+2026-03-12 21:57:53.812 +07:00 [INF] Saved 10 trends from Google Trends (US)
+2026-03-12 21:59:37.048 +07:00 [INF] TrendCrawlerWorker started
+2026-03-12 21:59:37.077 +07:00 [INF] Veo3GenerationWorker started with max parallelism: 3
+2026-03-12 21:59:47.180 +07:00 [INF] Crawling YouTube trends for region Global
+2026-03-12 21:59:47.538 +07:00 [ERR] YouTube API error: "BadRequest" - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "errors": [
+      {
+        "message": "API key not valid. Please pass a valid API key.",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "youtube.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+2026-03-12 21:59:47.543 +07:00 [ERR] Failed to collect YouTube trends for region Global
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.YouTubeTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 44
+2026-03-12 21:59:47.562 +07:00 [INF] Saved 0 trends from YouTube (Global)
+2026-03-12 21:59:47.562 +07:00 [INF] Crawling YouTube trends for region VN
+2026-03-12 21:59:47.651 +07:00 [ERR] YouTube API error: "BadRequest" - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "errors": [
+      {
+        "message": "API key not valid. Please pass a valid API key.",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "youtube.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+2026-03-12 21:59:47.651 +07:00 [ERR] Failed to collect YouTube trends for region VN
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.YouTubeTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 44
+2026-03-12 21:59:47.652 +07:00 [INF] Saved 0 trends from YouTube (VN)
+2026-03-12 21:59:47.652 +07:00 [INF] Crawling YouTube trends for region US
+2026-03-12 21:59:47.750 +07:00 [ERR] YouTube API error: "BadRequest" - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "errors": [
+      {
+        "message": "API key not valid. Please pass a valid API key.",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "youtube.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+2026-03-12 21:59:47.750 +07:00 [ERR] Failed to collect YouTube trends for region US
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.YouTubeTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 44
+2026-03-12 21:59:47.751 +07:00 [INF] Saved 0 trends from YouTube (US)
+2026-03-12 21:59:47.752 +07:00 [INF] Crawling TikTok trends for region Global
+2026-03-12 21:59:48.483 +07:00 [ERR] Failed to collect TikTok trends for region Global
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.TikTokTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 123
+2026-03-12 21:59:48.484 +07:00 [INF] Saved 0 trends from TikTok (Global)
+2026-03-12 21:59:48.484 +07:00 [INF] Crawling TikTok trends for region VN
+2026-03-12 21:59:49.250 +07:00 [ERR] Failed to collect TikTok trends for region VN
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.TikTokTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 123
+2026-03-12 21:59:49.251 +07:00 [INF] Saved 0 trends from TikTok (VN)
+2026-03-12 21:59:49.251 +07:00 [INF] Crawling TikTok trends for region US
+2026-03-12 21:59:49.556 +07:00 [ERR] Failed to collect TikTok trends for region US
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.TikTokTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 123
+2026-03-12 21:59:49.556 +07:00 [INF] Saved 0 trends from TikTok (US)
+2026-03-12 21:59:49.557 +07:00 [INF] Crawling Google Trends trends for region Global
+2026-03-12 21:59:50.221 +07:00 [INF] Collected 10 Google Trends for region Global
+2026-03-12 21:59:50.329 +07:00 [INF] Saved 10 trends from Google Trends (Global)
+2026-03-12 21:59:50.329 +07:00 [INF] Crawling Google Trends trends for region VN
+2026-03-12 21:59:50.565 +07:00 [INF] Collected 10 Google Trends for region VN
+2026-03-12 21:59:50.569 +07:00 [INF] Saved 10 trends from Google Trends (VN)
+2026-03-12 21:59:50.569 +07:00 [INF] Crawling Google Trends trends for region US
+2026-03-12 21:59:50.942 +07:00 [INF] Collected 10 Google Trends for region US
+2026-03-12 21:59:50.945 +07:00 [INF] Saved 10 trends from Google Trends (US)
+2026-03-12 22:01:47.175 +07:00 [INF] Found 2 pending renders. Attempting to process in parallel...
+2026-03-12 22:01:47.186 +07:00 [INF] Starting generation for render "dc2d14b8-46c8-412a-87ca-a0067de714d5". Prompt: video kong đánh nhau với godzilla trên biển
+2026-03-12 22:01:47.252 +07:00 [INF] Starting generation for render "5451869b-3a73-411e-9fec-10d44a7984e9". Prompt: video lái siêu xe với góc quay rộng
+2026-03-12 22:02:02.170 +07:00 [INF] Node script completed for "5451869b-3a73-411e-9fec-10d44a7984e9". Exit code: 0
+2026-03-12 22:02:02.172 +07:00 [ERR] Failed to generate video for render "5451869b-3a73-411e-9fec-10d44a7984e9"
+System.Exception: Script exited 0 but no valid [RESULT] path found in output.
+   at AutoVeo.Infrastructure.BackgroundJobs.Veo3GenerationWorker.ProcessSingleRenderAsync(Guid renderId, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/BackgroundJobs/Workers.cs:line 281
+2026-03-12 22:02:02.651 +07:00 [INF] Node script completed for "dc2d14b8-46c8-412a-87ca-a0067de714d5". Exit code: 0
+2026-03-12 22:02:02.652 +07:00 [ERR] Failed to generate video for render "dc2d14b8-46c8-412a-87ca-a0067de714d5"
+System.Exception: Script exited 0 but no valid [RESULT] path found in output.
+   at AutoVeo.Infrastructure.BackgroundJobs.Veo3GenerationWorker.ProcessSingleRenderAsync(Guid renderId, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/BackgroundJobs/Workers.cs:line 281
+2026-03-12 22:04:12.692 +07:00 [INF] Found 2 pending renders. Attempting to process in parallel...
+2026-03-12 22:04:12.696 +07:00 [INF] Starting generation for render "2c103cab-0db4-4c60-8c76-c65c4718c528". Prompt: video lái siêu xe với góc quay rộng
+2026-03-12 22:04:12.754 +07:00 [INF] Starting generation for render "6a73f98c-41d4-4b0b-b510-b3d3a6c23054". Prompt: video kong đánh nhau với godzilla trên biển
+2026-03-12 22:08:44.188 +07:00 [INF] Node script completed for "2c103cab-0db4-4c60-8c76-c65c4718c528". Exit code: 0
+2026-03-12 22:08:44.191 +07:00 [ERR] Failed to generate video for render "2c103cab-0db4-4c60-8c76-c65c4718c528"
+System.Exception: Script exited 0 but no valid [RESULT] path found in output.
+   at AutoVeo.Infrastructure.BackgroundJobs.Veo3GenerationWorker.ProcessSingleRenderAsync(Guid renderId, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/BackgroundJobs/Workers.cs:line 281

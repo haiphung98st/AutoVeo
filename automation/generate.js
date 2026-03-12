@@ -53,20 +53,8 @@ async function generateVideo(promptText, outputDir, config = { type: 'Video', or
     context = await browser.newContext();
   }
 
-  let page;
-  // Try to find if a Flow tab is already open
-  for (const existingPage of context.pages()) {
-    if (existingPage.url().includes('labs.google/fx/vi/tools/flow')) {
-      page = existingPage;
-      await page.bringToFront();
-      break;
-    }
-  }
-
-  // If not open, create a new tab and navigate
-  if (!page) {
-    page = await context.newPage();
-  }
+  // Always create a new tab and navigate for isolation in parallel runs
+  let page = await context.newPage();
 
   console.log('🌐 Navigating to Google Labs Flow...');
   await page.goto('https://labs.google/fx/vi/tools/flow', { waitUntil: 'networkidle' });
