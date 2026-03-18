@@ -1,0 +1,281 @@
+{
+   "AIandMachineLearning": {
+      "message": "KI & maschinelles Lernen"
+   },
+   "Advertising": {
+      "message": "Werbung"
+   },
+   "AffiliateMarketing": {
+      "message": "Affiliate-Marketing"
+   },
+   "AffiliateNetworks": {
+      "message": "Affiliate-Netzwerke"
+   },
+   "Analytics": {
+      "message": "Analyse"
+   },
+   "Blogs": {
+      "message": "Blogs"
+   },
+   "BookingManagement": {
+      "message": "Buchungsverwaltung"
+   },
+   "BrowserFingerprinting": {
+      "message": "Browser-Fingerprinting"
+   },
+   "BuildCISystems": {
+      "message": "CI-Systeme"
+   },
+   "BuyNowPayLater": {
+      "message": "Jetzt kaufen, später zahlen"
+   },
+   "CDN": {
+      "message": "CDN"
+   },
+   "CMS": {
+      "message": "CMS"
+   },
+   "CRM": {
+      "message": "CRM"
+   },
+   "Cache": {
+      "message": "Cache"
+   },
+   "Captcha": {
+      "message": "Captcha"
+   },
+   "ChatWidgets": {
+      "message": "Chat-Widgets"
+   },
+   "CommentsandReviews": {
+      "message": "Kommentare und Bewertungen"
+   },
+   "Communication": {
+      "message": "Kommunikation"
+   },
+   "ControlSystems": {
+      "message": "Steuerungssysteme"
+   },
+   "CookieandConsent": {
+      "message": "Cookies & Zustimmung"
+   },
+   "Database": {
+      "message": "Datenbank"
+   },
+   "Databases": {
+      "message": "Datenbanken"
+   },
+   "DevTools": {
+      "message": "Entwickler-Tools"
+   },
+   "DocumentManagementSystems": {
+      "message": "Dokumentenmanagement-Systeme"
+   },
+   "Documentation": {
+      "message": "Dokumentation"
+   },
+   "Editors": {
+      "message": "Editoren"
+   },
+   "FeedReaders": {
+      "message": "Feed-Reader"
+   },
+   "FinanceandAccounting": {
+      "message": "Finanzen & Buchhaltung"
+   },
+   "Font": {
+      "message": "Schriftart"
+   },
+   "Gallery": {
+      "message": "Galerie"
+   },
+   "Gaming": {
+      "message": "Gaming"
+   },
+   "HTMLFramework": {
+      "message": "HTML-Framework"
+   },
+   "Hosting": {
+      "message": "Hosting"
+   },
+   "IssueTracker": {
+      "message": "Fehlerverfolgung"
+   },
+   "JavascriptLibraries": {
+      "message": "JavaScript-Bibliotheken"
+   },
+   "LMS": {
+      "message": "LMS"
+   },
+   "Logistics": {
+      "message": "Logistik"
+   },
+   "Maps": {
+      "message": "Karten"
+   },
+   "MediaServer": {
+      "message": "Medienserver"
+   },
+   "MessageBoard": {
+      "message": "Nachrichtenforum"
+   },
+   "Miscellaneous": {
+      "message": "Verschiedenes"
+   },
+   "MobileFrameworks": {
+      "message": "Mobile Frameworks"
+   },
+   "Monitoring": {
+      "message": "Überwachung"
+   },
+   "NetworkDevice": {
+      "message": "Netzwerkgerät"
+   },
+   "NetworkStorage": {
+      "message": "Netzwerkspeicher"
+   },
+   "NoCodePlatforms": {
+      "message": "No-Code-Plattformen"
+   },
+   "OperatingSystem": {
+      "message": "Betriebssystem"
+   },
+   "PageBuilders": {
+      "message": "Seitenbuilder"
+   },
+   "Payments": {
+      "message": "Zahlungen"
+   },
+   "Paywalls": {
+      "message": "Zahlungsschranken"
+   },
+   "Printers": {
+      "message": "Drucker"
+   },
+   "ProgrammingLanguage": {
+      "message": "Programmiersprache"
+   },
+   "RemoteAccess": {
+      "message": "Fernzugriff"
+   },
+   "RichTextEditors": {
+      "message": "Rich-Text-Editoren"
+   },
+   "SalesandMarketing": {
+      "message": "Vertrieb & Marketing"
+   },
+   "SearchEngine": {
+      "message": "Suchmaschine"
+   },
+   "Security": {
+      "message": "Sicherheit"
+   },
+   "StatusPages": {
+      "message": "Statusseiten"
+   },
+   "TagManagers": {
+      "message": "Tag-Manager"
+   },
+   "UIandGraphics": {
+      "message": "UI & Grafik"
+   },
+   "Video": {
+      "message": "Video"
+   },
+   "WebFramework": {
+      "message": "Web-Framework"
+   },
+   "WebMail": {
+      "message": "Web-Mail"
+   },
+   "WebServer": {
+      "message": "Webserver"
+   },
+   "WebServerExtensions": {
+      "message": "Webserver-Erweiterungen"
+   },
+   "Webcams": {
+      "message": "Webcams"
+   },
+   "WebsiteBuilder": {
+      "message": "Website-Builder"
+   },
+   "WebsiteOptimization": {
+      "message": "Website-Optimierung"
+   },
+   "Widgets": {
+      "message": "Widgets"
+   },
+   "Wiki": {
+      "message": "Wiki"
+   },
+   "WordPressPlugins": {
+      "message": "WordPress-Plugins"
+   },
+   "agreeTerms": {
+      "message": "Mit Klick auf diesen Button akzeptieren Sie unsere "
+   },
+   "agreeTermsLink": {
+      "message": "Nutzungsbedingungen."
+   },
+   "analyzingWebsite": {
+      "message": "Analysiere die Website..."
+   },
+   "appDesc": {
+      "message": "Entdecke, was eine Website betreibt. Frameworks, Analysetools, Wordpress-Plugins, Schriftarten – alles, was du dir vorstellen kannst."
+   },
+   "appName": {
+      "message": "WhatRuns"
+   },
+   "cookieContent": {
+      "message": "WhatRuns liest den Quellcode der Websites, die Sie besuchen, um Technologien zu erkennen. Wir verwenden Ihre Daten nicht für Werbung, Profiling oder persönliche Identifizierung. Lesen Sie mehr "
+   },
+   "eCommerce": {
+      "message": "E-Commerce"
+   },
+   "emailPlaceholder": {
+      "message": "E-Mail"
+   },
+   "haveAccount": {
+      "message": "Schon ein Konto?"
+   },
+   "noAccount": {
+      "message": "Noch kein Konto?"
+   },
+   "passwordPlaceholder": {
+      "message": "Passwort"
+   },
+   "privacyPolicy": {
+      "message": "Datenschutzerklärung."
+   },
+   "serverError0": {
+      "message": "Hoppla! Server-Upgrade läuft. Bitte in wenigen Minuten erneut versuchen."
+   },
+   "serverError1": {
+      "message": "WhatRuns wird gewartet 💁‍♀️ Bitte versuchen Sie es in ein oder zwei Minuten erneut."
+   },
+   "serverError2": {
+      "message": "Wir glauben, Sie sind süchtig nach WhatRuns 🤒 Machen Sie eine Pause und schauen Sie später vorbei."
+   },
+   "serverError3": {
+      "message": "Ruhen Sie sich aus! 😾 Nur ein Scherz. Wir aktualisieren Services, damit diese Erweiterung funktioniert."
+   },
+   "serverError4": {
+      "message": "Hoppla! Server-Upgrade läuft. Bitte in wenigen Minuten erneut versuchen."
+   },
+   "shareWhatruns": {
+      "message": "Teile WhatRuns "
+   },
+   "signInButton": {
+      "message": "Anmelden"
+   },
+   "signInHeading": {
+      "message": "Zum Folgen anmelden"
+   },
+   "signUpButton": {
+      "message": "Registrieren"
+   },
+   "signUpHere": {
+      "message": "Hier registrieren"
+   }
+}

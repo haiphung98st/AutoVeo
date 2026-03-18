@@ -1,0 +1,281 @@
+{
+   "AIandMachineLearning": {
+      "message": "AI dan Pembelajaran Mesin"
+   },
+   "Advertising": {
+      "message": "Periklanan"
+   },
+   "AffiliateMarketing": {
+      "message": "Pemasaran Afiliasi"
+   },
+   "AffiliateNetworks": {
+      "message": "Jaringan Afiliasi"
+   },
+   "Analytics": {
+      "message": "Analitik"
+   },
+   "Blogs": {
+      "message": "Blog"
+   },
+   "BookingManagement": {
+      "message": "Manajemen Pemesanan"
+   },
+   "BrowserFingerprinting": {
+      "message": "Fingerprinting Browser"
+   },
+   "BuildCISystems": {
+      "message": "Sistem CI"
+   },
+   "BuyNowPayLater": {
+      "message": "Beli Sekarang Bayar Nanti"
+   },
+   "CDN": {
+      "message": "CDN"
+   },
+   "CMS": {
+      "message": "CMS"
+   },
+   "CRM": {
+      "message": "CRM"
+   },
+   "Cache": {
+      "message": "Cache"
+   },
+   "Captcha": {
+      "message": "Captcha"
+   },
+   "ChatWidgets": {
+      "message": "Widget Obrolan"
+   },
+   "CommentsandReviews": {
+      "message": "Komentar dan Ulasan"
+   },
+   "Communication": {
+      "message": "Komunikasi"
+   },
+   "ControlSystems": {
+      "message": "Sistem Kontrol"
+   },
+   "CookieandConsent": {
+      "message": "Cookie dan Persetujuan"
+   },
+   "Database": {
+      "message": "Basis Data"
+   },
+   "Databases": {
+      "message": "Basis Data"
+   },
+   "DevTools": {
+      "message": "Alat Pengembang"
+   },
+   "DocumentManagementSystems": {
+      "message": "Sistem Manajemen Dokumen"
+   },
+   "Documentation": {
+      "message": "Dokumentasi"
+   },
+   "Editors": {
+      "message": "Editor"
+   },
+   "FeedReaders": {
+      "message": "Pembaca Feed"
+   },
+   "FinanceandAccounting": {
+      "message": "Keuangan dan Akuntansi"
+   },
+   "Font": {
+      "message": "Font"
+   },
+   "Gallery": {
+      "message": "Galeri"
+   },
+   "Gaming": {
+      "message": "Permainan"
+   },
+   "HTMLFramework": {
+      "message": "Framework HTML"
+   },
+   "Hosting": {
+      "message": "Hosting"
+   },
+   "IssueTracker": {
+      "message": "Pelacak Masalah"
+   },
+   "JavascriptLibraries": {
+      "message": "Pustaka Javascript"
+   },
+   "LMS": {
+      "message": "LMS"
+   },
+   "Logistics": {
+      "message": "Logistik"
+   },
+   "Maps": {
+      "message": "Peta"
+   },
+   "MediaServer": {
+      "message": "Server Media"
+   },
+   "MessageBoard": {
+      "message": "Forum"
+   },
+   "Miscellaneous": {
+      "message": "Lain-lain"
+   },
+   "MobileFrameworks": {
+      "message": "Framework Mobile"
+   },
+   "Monitoring": {
+      "message": "Pemantauan"
+   },
+   "NetworkDevice": {
+      "message": "Perangkat Jaringan"
+   },
+   "NetworkStorage": {
+      "message": "Penyimpanan Jaringan"
+   },
+   "NoCodePlatforms": {
+      "message": "Platform Tanpa Kode"
+   },
+   "OperatingSystem": {
+      "message": "Sistem Operasi"
+   },
+   "PageBuilders": {
+      "message": "Pembuat Halaman"
+   },
+   "Payments": {
+      "message": "Pembayaran"
+   },
+   "Paywalls": {
+      "message": "Paywall"
+   },
+   "Printers": {
+      "message": "Printer"
+   },
+   "ProgrammingLanguage": {
+      "message": "Bahasa Pemrograman"
+   },
+   "RemoteAccess": {
+      "message": "Akses Jarak Jauh"
+   },
+   "RichTextEditors": {
+      "message": "Editor Teks Kaya"
+   },
+   "SalesandMarketing": {
+      "message": "Penjualan dan Pemasaran"
+   },
+   "SearchEngine": {
+      "message": "Mesin Pencari"
+   },
+   "Security": {
+      "message": "Keamanan"
+   },
+   "StatusPages": {
+      "message": "Halaman Status"
+   },
+   "TagManagers": {
+      "message": "Pengelola Tag"
+   },
+   "UIandGraphics": {
+      "message": "UI dan Grafik"
+   },
+   "Video": {
+      "message": "Video"
+   },
+   "WebFramework": {
+      "message": "Framework Web"
+   },
+   "WebMail": {
+      "message": "Web Mail"
+   },
+   "WebServer": {
+      "message": "Server Web"
+   },
+   "WebServerExtensions": {
+      "message": "Ekstensi Server Web"
+   },
+   "Webcams": {
+      "message": "Kamera Web"
+   },
+   "WebsiteBuilder": {
+      "message": "Pembuat Situs Web"
+   },
+   "WebsiteOptimization": {
+      "message": "Optimisasi Situs Web"
+   },
+   "Widgets": {
+      "message": "Widget"
+   },
+   "Wiki": {
+      "message": "Wiki"
+   },
+   "WordPressPlugins": {
+      "message": "Plugin WordPress"
+   },
+   "agreeTerms": {
+      "message": "Dengan mengklik tombol ini, Anda menyetujui "
+   },
+   "agreeTermsLink": {
+      "message": "syarat layanan kami."
+   },
+   "analyzingWebsite": {
+      "message": "Menganalisis situs web...."
+   },
+   "appDesc": {
+      "message": "Temukan apa yang digunakan sebuah situs web. Framework, Alat Analitik, Plugin Wordpress, Font - apapun itu."
+   },
+   "appName": {
+      "message": "WhatRuns"
+   },
+   "cookieContent": {
+      "message": "WhatRuns membaca kode sumber dari situs web yang Anda kunjungi untuk mendeteksi teknologi. Kami tidak menggunakan data Anda untuk iklan, pemprofilan, atau identifikasi pribadi. Baca selengkapnya di "
+   },
+   "eCommerce": {
+      "message": "eCommerce"
+   },
+   "emailPlaceholder": {
+      "message": "Email"
+   },
+   "haveAccount": {
+      "message": "Sudah punya akun?"
+   },
+   "noAccount": {
+      "message": "Belum punya akun?"
+   },
+   "passwordPlaceholder": {
+      "message": "Kata sandi"
+   },
+   "privacyPolicy": {
+      "message": "kebijakan privasi."
+   },
+   "serverError0": {
+      "message": "Ups! Ketahuan 🙈 Kami diam-diam sedang melakukan peningkatan server. Tunggu sebentar ya?"
+   },
+   "serverError1": {
+      "message": "Layanan WhatRuns sedang dalam pemeliharaan 💁‍♀️ Coba lagi sebentar lagi."
+   },
+   "serverError2": {
+      "message": "Kami percaya Anda kecanduan WhatRuns 🤒 Demi kesehatan Anda, kami ingin memberi jeda beberapa jam. Silakan coba lagi nanti."
+   },
+   "serverError3": {
+      "message": "Istirahat sebentar! 😾 Hanya bercanda. Kesalahan kami. Kami sedang memperbarui layanan agar ekstensi super keren ini tetap berjalan."
+   },
+   "serverError4": {
+      "message": "Ups! Ketahuan 🙈 Kami diam-diam sedang melakukan peningkatan server. Tunggu sebentar ya?"
+   },
+   "shareWhatruns": {
+      "message": "Bagikan apa yang digunakan "
+   },
+   "signInButton": {
+      "message": "Masuk"
+   },
+   "signInHeading": {
+      "message": "Masuk untuk mengikuti"
+   },
+   "signUpButton": {
+      "message": "Daftar"
+   },
+   "signUpHere": {
+      "message": "Daftar di sini"
+   }
+}

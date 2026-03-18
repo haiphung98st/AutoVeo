@@ -98,6 +98,22 @@ export interface PromptResponse {
     createdAt: string;
 }
 
+export interface SeriesPromptResponse {
+    prompts: PromptResponse[];
+    masterCharacter: string;
+    masterTheme: string;
+}
+
+export interface GenerateConsistentSeriesRequest {
+    keyword: string;
+    count: number;
+    characterStyle?: string;
+    visualTheme?: string;
+    style: string;
+    duration: string;
+    platformTarget: string;
+}
+
 // Render
 export interface SubmitRenderRequest {
     promptId?: string;

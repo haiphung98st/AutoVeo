@@ -1,0 +1,17 @@
+2026/03/14-21:45:13.867 5ced8 Reusing MANIFEST /Users/macbook/Documents/Coding/AutoVeo/automation/chrome-debug/Profile 1/IndexedDB/https_www.figma.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/14-21:45:13.867 5ced8 Recovering log #9
+2026/03/14-21:45:13.867 5ced8 Reusing old log /Users/macbook/Documents/Coding/AutoVeo/automation/chrome-debug/Profile 1/IndexedDB/https_www.figma.com_0.indexeddb.leveldb/000009.log 
+2026/03/14-21:45:14.185 5ced8 Level-0 table #15: started
+2026/03/14-21:45:14.191 5ced8 Level-0 table #15: 627 bytes OK
+2026/03/14-21:45:14.193 5ced8 Delete type=0 #9
+2026/03/14-21:45:14.193 5ced8 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/03/14-21:45:22.155 5ced8 Level-0 table #17: started
+2026/03/14-21:45:22.174 5ced8 Level-0 table #17: 651 bytes OK
+2026/03/14-21:45:22.182 5ced8 Delete type=0 #14
+2026/03/14-21:45:22.182 5ced8 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x07\x00\x00\x05' @ 363 : 1
+2026/03/14-21:45:22.182 5ced8 Compacting 1@0 + 1@1 files
+2026/03/14-21:45:22.184 5ced8 Generated table #18@0: 11 keys, 631 bytes
+2026/03/14-21:45:22.184 5ced8 Compacted 1@0 + 1@1 files => 631 bytes
+2026/03/14-21:45:22.186 5ced8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/14-21:45:22.186 5ced8 Delete type=2 #17
+2026/03/14-21:45:22.186 5ced8 Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 363 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)

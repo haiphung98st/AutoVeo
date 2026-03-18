@@ -1,0 +1,31 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "assert/icon_128.png",
+         "16": "assert/icon_16.png",
+         "32": "assert/icon_32.png",
+         "48": "assert/icon_48.png",
+         "64": "assert/icon_64.png"
+      },
+      "default_popup": "index.html"
+   },
+   "background": {
+      "service_worker": "/js/welcome.js"
+   },
+   "default_locale": "en",
+   "description": "__MSG_AppDesc__",
+   "homepage_url": "https://test-responsive.dllplayer.com",
+   "icons": {
+      "128": "assert/icon_128.png",
+      "16": "assert/icon_16.png",
+      "32": "assert/icon_32.png",
+      "48": "assert/icon_48.png",
+      "64": "assert/icon_64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAj9GdnbsfgS2nlrRX4vWcxGut9RO4mRWOq3pv62amVpYihkrQ1aIHmwemevH3Wk0XGKCxmN0W8kyjXv4Oj9ffZLeGA/6rGn+hG6MtEn/UT2I0CaUMrf0gFIlVSkn4UNSGb2vwFcfVJE+08F7yYXpCCvxusEa9Sjo0iUi95tSo8gnnW7j7JUk1Y0Pyvio3sryR1xj03b47foHyEh3ASnfHagaE1COHlvprmBwKhaJeddSuzrzyXjU+tlKvRaXhKxAzx4ZaEU6twMv/gw7QUnb1bJ7D/bjGTtYILZVKKDmP445VekGYN/itpJGRX6KBM2GmeWdzoehMVQywM5un1MOvhwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_AppName__",
+   "permissions": [ "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.0.0"
+}

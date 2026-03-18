@@ -1,0 +1,281 @@
+{
+   "AIandMachineLearning": {
+      "message": "IA i aprenentatge automàtic"
+   },
+   "Advertising": {
+      "message": "Publicitat"
+   },
+   "AffiliateMarketing": {
+      "message": "Màrqueting d'afiliació"
+   },
+   "AffiliateNetworks": {
+      "message": "Xarxes d'afiliació"
+   },
+   "Analytics": {
+      "message": "Analítica"
+   },
+   "Blogs": {
+      "message": "Blogs"
+   },
+   "BookingManagement": {
+      "message": "Gestió de reserves"
+   },
+   "BrowserFingerprinting": {
+      "message": "Empremta del navegador"
+   },
+   "BuildCISystems": {
+      "message": "Sistemes CI"
+   },
+   "BuyNowPayLater": {
+      "message": "Compra ara, paga després"
+   },
+   "CDN": {
+      "message": "CDN"
+   },
+   "CMS": {
+      "message": "CMS"
+   },
+   "CRM": {
+      "message": "CRM"
+   },
+   "Cache": {
+      "message": "Caché"
+   },
+   "Captcha": {
+      "message": "Captcha"
+   },
+   "ChatWidgets": {
+      "message": "Miniaplicacions de xat"
+   },
+   "CommentsandReviews": {
+      "message": "Comentaris i ressenyes"
+   },
+   "Communication": {
+      "message": "Comunicació"
+   },
+   "ControlSystems": {
+      "message": "Sistemes de control"
+   },
+   "CookieandConsent": {
+      "message": "Cookies i consentiment"
+   },
+   "Database": {
+      "message": "Base de dades"
+   },
+   "Databases": {
+      "message": "Bases de dades"
+   },
+   "DevTools": {
+      "message": "Eines de desenvolupament"
+   },
+   "DocumentManagementSystems": {
+      "message": "Sistemes de gestió de documents"
+   },
+   "Documentation": {
+      "message": "Documentació"
+   },
+   "Editors": {
+      "message": "Editors"
+   },
+   "FeedReaders": {
+      "message": "Leaders de feeds"
+   },
+   "FinanceandAccounting": {
+      "message": "Finances i comptabilitat"
+   },
+   "Font": {
+      "message": "Tipus de lletra"
+   },
+   "Gallery": {
+      "message": "Galeria"
+   },
+   "Gaming": {
+      "message": "Jocs"
+   },
+   "HTMLFramework": {
+      "message": "Framework HTML"
+   },
+   "Hosting": {
+      "message": "Allotjament"
+   },
+   "IssueTracker": {
+      "message": "Seguiment d'incidents"
+   },
+   "JavascriptLibraries": {
+      "message": "Llibreries JavaScript"
+   },
+   "LMS": {
+      "message": "LMS"
+   },
+   "Logistics": {
+      "message": "Logística"
+   },
+   "Maps": {
+      "message": "Maps"
+   },
+   "MediaServer": {
+      "message": "Servidor multimèdia"
+   },
+   "MessageBoard": {
+      "message": "Fòrum de missatges"
+   },
+   "Miscellaneous": {
+      "message": "Diversos"
+   },
+   "MobileFrameworks": {
+      "message": "Frameworks mòbils"
+   },
+   "Monitoring": {
+      "message": "Monitoratge"
+   },
+   "NetworkDevice": {
+      "message": "Dispositiu de xarxa"
+   },
+   "NetworkStorage": {
+      "message": "Emmagatzematge en xarxa"
+   },
+   "NoCodePlatforms": {
+      "message": "Plataformes sense codi"
+   },
+   "OperatingSystem": {
+      "message": "Sistema operatiu"
+   },
+   "PageBuilders": {
+      "message": "Constructors de pàgines"
+   },
+   "Payments": {
+      "message": "Pagaments"
+   },
+   "Paywalls": {
+      "message": "Paywalls"
+   },
+   "Printers": {
+      "message": "Impressores"
+   },
+   "ProgrammingLanguage": {
+      "message": "Llenguatge de programació"
+   },
+   "RemoteAccess": {
+      "message": "Accés remot"
+   },
+   "RichTextEditors": {
+      "message": "Editores de text enriquit"
+   },
+   "SalesandMarketing": {
+      "message": "Vendes i màrqueting"
+   },
+   "SearchEngine": {
+      "message": "Motor de cerca"
+   },
+   "Security": {
+      "message": "Seguretat"
+   },
+   "StatusPages": {
+      "message": "Pàgines d’estat"
+   },
+   "TagManagers": {
+      "message": "Gestors d'etiquetes"
+   },
+   "UIandGraphics": {
+      "message": "UI i gràfics"
+   },
+   "Video": {
+      "message": "Vídeo"
+   },
+   "WebFramework": {
+      "message": "Framework web"
+   },
+   "WebMail": {
+      "message": "Webmail"
+   },
+   "WebServer": {
+      "message": "Servidor web"
+   },
+   "WebServerExtensions": {
+      "message": "Extensions del servidor web"
+   },
+   "Webcams": {
+      "message": "Webcams"
+   },
+   "WebsiteBuilder": {
+      "message": "Constructor de llocs web"
+   },
+   "WebsiteOptimization": {
+      "message": "Optimització web"
+   },
+   "Widgets": {
+      "message": "Miniaplicacions"
+   },
+   "Wiki": {
+      "message": "Viqui"
+   },
+   "WordPressPlugins": {
+      "message": "Plugins de WordPress"
+   },
+   "agreeTerms": {
+      "message": "En fer clic a aquest botó, acceptes els nostres "
+   },
+   "agreeTermsLink": {
+      "message": "termes del servei."
+   },
+   "analyzingWebsite": {
+      "message": "Analitzant el lloc web..."
+   },
+   "appDesc": {
+      "message": "Descobreix què hi ha darrere d’un lloc web. Frameworks, eines d’analítica, plugins de WordPress, tipus de lletra — el que necessitis."
+   },
+   "appName": {
+      "message": "WhatRuns"
+   },
+   "cookieContent": {
+      "message": "WhatRuns llegeix el codi font dels llocs web que visites per detectar tecnologies. No fem servir les teves dades per a publicitat, perfilat o identificació personal. Llegeix més a la nostra "
+   },
+   "eCommerce": {
+      "message": "Comerç electrònic"
+   },
+   "emailPlaceholder": {
+      "message": "Correu electrònic"
+   },
+   "haveAccount": {
+      "message": "Ja tens compte?"
+   },
+   "noAccount": {
+      "message": "No tens compte?"
+   },
+   "passwordPlaceholder": {
+      "message": "Contrasenya"
+   },
+   "privacyPolicy": {
+      "message": "política de privadesa."
+   },
+   "serverError0": {
+      "message": "Ups! 🙈 Estem actualitzant el servidor en secret. Espera uns minuts i torna-ho a provar."
+   },
+   "serverError1": {
+      "message": "WhatRuns està en manteniment 💁‍♀️ Torna-ho a provar en un minut o dos."
+   },
+   "serverError2": {
+      "message": "Creiem que estàs enganxat a WhatRuns 🤒 Per a la teva salut, et donem unes hores de descans. Torna més tard. (De debò? És una actualització del servidor)."
+   },
+   "serverError3": {
+      "message": "Descansa! 😾 És una broma. Ha estat culpa nostra. Estem actualitzant els serveis necessaris per mantenir l’extensió en funcionament."
+   },
+   "serverError4": {
+      "message": "Ups! 🙈 Estem actualitzant el servidor en secret. Espera uns minuts i torna-ho a provar."
+   },
+   "shareWhatruns": {
+      "message": "Comparteix WhatRuns "
+   },
+   "signInButton": {
+      "message": "Iniciar sessió"
+   },
+   "signInHeading": {
+      "message": "Inicia sessió per seguir"
+   },
+   "signUpButton": {
+      "message": "Registrar-se"
+   },
+   "signUpHere": {
+      "message": "Registra’t aquí"
+   }
+}

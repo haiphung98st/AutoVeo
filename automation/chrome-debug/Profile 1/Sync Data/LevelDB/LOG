@@ -1,0 +1,14 @@
+2026/03/14-20:59:44.481 5ced8 Creating DB /Users/macbook/Documents/Coding/AutoVeo/automation/chrome-debug/Profile 1/Sync Data/LevelDB since it was missing.
+2026/03/14-20:59:44.485 5ced8 Reusing MANIFEST /Users/macbook/Documents/Coding/AutoVeo/automation/chrome-debug/Profile 1/Sync Data/LevelDB/MANIFEST-000001
+2026/03/14-21:03:48.517 5cedb Level-0 table #5: started
+2026/03/14-21:03:48.532 5cedb Level-0 table #5: 204536 bytes OK
+2026/03/14-21:03:48.534 5cedb Delete type=0 #3
+2026/03/14-21:54:33.985 5ced8 Level-0 table #7: started
+2026/03/14-21:54:34.007 5ced8 Level-0 table #7: 122804 bytes OK
+2026/03/14-21:54:34.094 5ced8 Delete type=0 #4
+2026/03/14-22:30:25.294 5ced8 Level-0 table #9: started
+2026/03/14-22:30:25.308 5ced8 Level-0 table #9: 104259 bytes OK
+2026/03/14-22:30:25.316 5ced8 Delete type=0 #6
+2026/03/15-15:01:58.411 5ced8 Level-0 table #11: started
+2026/03/15-15:01:58.421 5ced8 Level-0 table #11: 163471 bytes OK
+2026/03/15-15:01:58.424 5ced8 Delete type=0 #8

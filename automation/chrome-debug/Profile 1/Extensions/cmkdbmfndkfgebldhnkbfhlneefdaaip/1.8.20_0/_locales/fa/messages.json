@@ -1,0 +1,281 @@
+{
+   "AIandMachineLearning": {
+      "message": "هوش مصنوعی و یادگیری ماشین"
+   },
+   "Advertising": {
+      "message": "تبلیغات"
+   },
+   "AffiliateMarketing": {
+      "message": "بازاریابی وابسته"
+   },
+   "AffiliateNetworks": {
+      "message": "شبکه‌های وابسته"
+   },
+   "Analytics": {
+      "message": "تحلیل‌ها"
+   },
+   "Blogs": {
+      "message": "وبلاگ‌ها"
+   },
+   "BookingManagement": {
+      "message": "مدیریت رزرو"
+   },
+   "BrowserFingerprinting": {
+      "message": "اثر انگشت مرورگر"
+   },
+   "BuildCISystems": {
+      "message": "سیستم‌های CI"
+   },
+   "BuyNowPayLater": {
+      "message": "الان بخر بعداً پرداخت کن"
+   },
+   "CDN": {
+      "message": "شبکه توزیع محتوا"
+   },
+   "CMS": {
+      "message": "سیستم مدیریت محتوا"
+   },
+   "CRM": {
+      "message": "مدیریت ارتباط با مشتری"
+   },
+   "Cache": {
+      "message": "کش"
+   },
+   "Captcha": {
+      "message": "کپچا"
+   },
+   "ChatWidgets": {
+      "message": "ویجت‌های چت"
+   },
+   "CommentsandReviews": {
+      "message": "نظرات و بازبینی‌ها"
+   },
+   "Communication": {
+      "message": "ارتباطات"
+   },
+   "ControlSystems": {
+      "message": "سیستم‌های کنترلی"
+   },
+   "CookieandConsent": {
+      "message": "کوکی و رضایت"
+   },
+   "Database": {
+      "message": "پایگاه داده"
+   },
+   "Databases": {
+      "message": "پایگاه‌های داده"
+   },
+   "DevTools": {
+      "message": "ابزارهای توسعه"
+   },
+   "DocumentManagementSystems": {
+      "message": "سیستم‌های مدیریت اسناد"
+   },
+   "Documentation": {
+      "message": "مستندات"
+   },
+   "Editors": {
+      "message": "ویرایشگرها"
+   },
+   "FeedReaders": {
+      "message": "خوانندگان فید"
+   },
+   "FinanceandAccounting": {
+      "message": "مالی و حسابداری"
+   },
+   "Font": {
+      "message": "فونت"
+   },
+   "Gallery": {
+      "message": "گالری"
+   },
+   "Gaming": {
+      "message": "بازی"
+   },
+   "HTMLFramework": {
+      "message": "چارچوب HTML"
+   },
+   "Hosting": {
+      "message": "میزبانی"
+   },
+   "IssueTracker": {
+      "message": "رهگیر مشکلات"
+   },
+   "JavascriptLibraries": {
+      "message": "کتابخانه‌های جاوااسکریپت"
+   },
+   "LMS": {
+      "message": "سیستم مدیریت یادگیری"
+   },
+   "Logistics": {
+      "message": "لجستیک"
+   },
+   "Maps": {
+      "message": "نقشه‌ها"
+   },
+   "MediaServer": {
+      "message": "مدیا سرور"
+   },
+   "MessageBoard": {
+      "message": "تالار گفتگو"
+   },
+   "Miscellaneous": {
+      "message": "متفرقه"
+   },
+   "MobileFrameworks": {
+      "message": "چارچوب‌های موبایل"
+   },
+   "Monitoring": {
+      "message": "نظارت"
+   },
+   "NetworkDevice": {
+      "message": "دستگاه شبکه"
+   },
+   "NetworkStorage": {
+      "message": "ذخیره‌سازی شبکه‌ای"
+   },
+   "NoCodePlatforms": {
+      "message": "پلتفرم‌های بدون کدنویسی"
+   },
+   "OperatingSystem": {
+      "message": "سیستم عامل"
+   },
+   "PageBuilders": {
+      "message": "سازندگان صفحه"
+   },
+   "Payments": {
+      "message": "پرداخت‌ها"
+   },
+   "Paywalls": {
+      "message": "دیوارهای پرداخت"
+   },
+   "Printers": {
+      "message": "پرینترها"
+   },
+   "ProgrammingLanguage": {
+      "message": "زبان برنامه‌نویسی"
+   },
+   "RemoteAccess": {
+      "message": "دسترسی از راه دور"
+   },
+   "RichTextEditors": {
+      "message": "ویرایشگر متن غنی"
+   },
+   "SalesandMarketing": {
+      "message": "فروش و بازاریابی"
+   },
+   "SearchEngine": {
+      "message": "موتور جستجو"
+   },
+   "Security": {
+      "message": "امنیت"
+   },
+   "StatusPages": {
+      "message": "صفحات وضعیت"
+   },
+   "TagManagers": {
+      "message": "مدیران برچسب"
+   },
+   "UIandGraphics": {
+      "message": "رابط کاربری و گرافیک"
+   },
+   "Video": {
+      "message": "ویدئو"
+   },
+   "WebFramework": {
+      "message": "چارچوب وب"
+   },
+   "WebMail": {
+      "message": "ایمیل وب"
+   },
+   "WebServer": {
+      "message": "وب سرور"
+   },
+   "WebServerExtensions": {
+      "message": "افزونه‌های وب‌سرور"
+   },
+   "Webcams": {
+      "message": "وب‌کم‌ها"
+   },
+   "WebsiteBuilder": {
+      "message": "سازنده وب‌سایت"
+   },
+   "WebsiteOptimization": {
+      "message": "بهینه‌سازی وب‌سایت"
+   },
+   "Widgets": {
+      "message": "ابزارک‌ها"
+   },
+   "Wiki": {
+      "message": "ویکی"
+   },
+   "WordPressPlugins": {
+      "message": "افزونه‌های وردپرس"
+   },
+   "agreeTerms": {
+      "message": "با کلیک روی این دکمه، شما با "
+   },
+   "agreeTermsLink": {
+      "message": "شرایط خدمات ما موافقت می‌کنید."
+   },
+   "analyzingWebsite": {
+      "message": "در حال تحلیل وب‌سایت...."
+   },
+   "appDesc": {
+      "message": "کشف کنید چه چیزی یک وب‌سایت را اجرا می‌کند. چارچوب‌ها، ابزارهای تحلیلی، افزونه‌های وردپرس، فونت‌ها - هر چیزی که فکرش را بکنید."
+   },
+   "appName": {
+      "message": "وات‌رانز"
+   },
+   "cookieContent": {
+      "message": "WhatRuns کد منبع وب‌سایت‌هایی که بازدید می‌کنید را می‌خواند تا فناوری‌ها را شناسایی کند. ما از داده‌های شما برای تبلیغات، پروفایل‌سازی یا شناسایی شخصی استفاده نمی‌کنیم. بیشتر بخوانید در"
+   },
+   "eCommerce": {
+      "message": "تجارت الکترونیک"
+   },
+   "emailPlaceholder": {
+      "message": "ایمیل"
+   },
+   "haveAccount": {
+      "message": "قبلاً حساب دارید؟ "
+   },
+   "noAccount": {
+      "message": "حساب کاربری ندارید؟"
+   },
+   "passwordPlaceholder": {
+      "message": "رمز عبور"
+   },
+   "privacyPolicy": {
+      "message": "سیاست حفظ حریم خصوصی."
+   },
+   "serverError0": {
+      "message": "اوه! 🙈 ما در حال ارتقای سرور هستیم. چند دقیقه صبر کنید."
+   },
+   "serverError1": {
+      "message": "وات‌رانز در حال نگهداری سرور است 💁‍♀️ لطفاً چند دقیقه بعد دوباره امتحان کنید."
+   },
+   "serverError2": {
+      "message": "به نظر می‌رسد به وات‌رانز معتاد شده‌اید 🤒 لطفاً کمی استراحت کنید و بعداً دوباره بررسی کنید."
+   },
+   "serverError3": {
+      "message": "کمی استراحت کنید! 😾 شوخی کردم. مشکل از ماست. خدمات را به‌روزرسانی می‌کنیم."
+   },
+   "serverError4": {
+      "message": "اوه! 🙈 ما در حال ارتقای سرور هستیم. چند دقیقه صبر کنید."
+   },
+   "shareWhatruns": {
+      "message": "اشتراک‌گذاری WhatRuns "
+   },
+   "signInButton": {
+      "message": "ورود"
+   },
+   "signInHeading": {
+      "message": "برای دنبال کردن وارد شوید"
+   },
+   "signUpButton": {
+      "message": "ثبت‌نام"
+   },
+   "signUpHere": {
+      "message": "اینجا ثبت‌نام کنید"
+   }
+}

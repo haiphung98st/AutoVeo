@@ -1,0 +1,281 @@
+{
+   "AIandMachineLearning": {
+      "message": "人工智能与机器学习"
+   },
+   "Advertising": {
+      "message": "广告"
+   },
+   "AffiliateMarketing": {
+      "message": "联盟营销"
+   },
+   "AffiliateNetworks": {
+      "message": "联盟网络"
+   },
+   "Analytics": {
+      "message": "分析工具"
+   },
+   "Blogs": {
+      "message": "博客"
+   },
+   "BookingManagement": {
+      "message": "预订管理"
+   },
+   "BrowserFingerprinting": {
+      "message": "浏览器指纹"
+   },
+   "BuildCISystems": {
+      "message": "持续集成系统"
+   },
+   "BuyNowPayLater": {
+      "message": "先买后付"
+   },
+   "CDN": {
+      "message": "内容分发网络 (CDN)"
+   },
+   "CMS": {
+      "message": "内容管理系统 (CMS)"
+   },
+   "CRM": {
+      "message": "客户关系管理 (CRM)"
+   },
+   "Cache": {
+      "message": "缓存"
+   },
+   "Captcha": {
+      "message": "验证码"
+   },
+   "ChatWidgets": {
+      "message": "聊天小工具"
+   },
+   "CommentsandReviews": {
+      "message": "评论与评价"
+   },
+   "Communication": {
+      "message": "通信"
+   },
+   "ControlSystems": {
+      "message": "控制系统"
+   },
+   "CookieandConsent": {
+      "message": "Cookie 与同意管理"
+   },
+   "Database": {
+      "message": "数据库"
+   },
+   "Databases": {
+      "message": "数据库"
+   },
+   "DevTools": {
+      "message": "开发工具"
+   },
+   "DocumentManagementSystems": {
+      "message": "文档管理系统"
+   },
+   "Documentation": {
+      "message": "文档"
+   },
+   "Editors": {
+      "message": "编辑器"
+   },
+   "FeedReaders": {
+      "message": "RSS 阅读器"
+   },
+   "FinanceandAccounting": {
+      "message": "财务与会计"
+   },
+   "Font": {
+      "message": "字体"
+   },
+   "Gallery": {
+      "message": "图库"
+   },
+   "Gaming": {
+      "message": "游戏"
+   },
+   "HTMLFramework": {
+      "message": "HTML 框架"
+   },
+   "Hosting": {
+      "message": "主机托管"
+   },
+   "IssueTracker": {
+      "message": "问题跟踪器"
+   },
+   "JavascriptLibraries": {
+      "message": "JavaScript 库"
+   },
+   "LMS": {
+      "message": "学习管理系统 (LMS)"
+   },
+   "Logistics": {
+      "message": "物流"
+   },
+   "Maps": {
+      "message": "地图"
+   },
+   "MediaServer": {
+      "message": "媒体服务器"
+   },
+   "MessageBoard": {
+      "message": "论坛"
+   },
+   "Miscellaneous": {
+      "message": "其他"
+   },
+   "MobileFrameworks": {
+      "message": "移动框架"
+   },
+   "Monitoring": {
+      "message": "监控"
+   },
+   "NetworkDevice": {
+      "message": "网络设备"
+   },
+   "NetworkStorage": {
+      "message": "网络存储"
+   },
+   "NoCodePlatforms": {
+      "message": "无代码平台"
+   },
+   "OperatingSystem": {
+      "message": "操作系统"
+   },
+   "PageBuilders": {
+      "message": "页面构建器"
+   },
+   "Payments": {
+      "message": "支付"
+   },
+   "Paywalls": {
+      "message": "付费墙"
+   },
+   "Printers": {
+      "message": "打印机"
+   },
+   "ProgrammingLanguage": {
+      "message": "编程语言"
+   },
+   "RemoteAccess": {
+      "message": "远程访问"
+   },
+   "RichTextEditors": {
+      "message": "富文本编辑器"
+   },
+   "SalesandMarketing": {
+      "message": "销售与营销"
+   },
+   "SearchEngine": {
+      "message": "搜索引擎"
+   },
+   "Security": {
+      "message": "安全"
+   },
+   "StatusPages": {
+      "message": "状态页面"
+   },
+   "TagManagers": {
+      "message": "标签管理器"
+   },
+   "UIandGraphics": {
+      "message": "界面与图形"
+   },
+   "Video": {
+      "message": "视频"
+   },
+   "WebFramework": {
+      "message": "Web 框架"
+   },
+   "WebMail": {
+      "message": "网络邮件"
+   },
+   "WebServer": {
+      "message": "Web 服务器"
+   },
+   "WebServerExtensions": {
+      "message": "Web 服务器扩展"
+   },
+   "Webcams": {
+      "message": "网络摄像头"
+   },
+   "WebsiteBuilder": {
+      "message": "网站构建器"
+   },
+   "WebsiteOptimization": {
+      "message": "网站优化"
+   },
+   "Widgets": {
+      "message": "小部件"
+   },
+   "Wiki": {
+      "message": "维基"
+   },
+   "WordPressPlugins": {
+      "message": "WordPress 插件"
+   },
+   "agreeTerms": {
+      "message": "点击此按钮，即表示您同意我们的 "
+   },
+   "agreeTermsLink": {
+      "message": "服务条款。"
+   },
+   "analyzingWebsite": {
+      "message": "正在分析网站..."
+   },
+   "appDesc": {
+      "message": "发现网站背后的技术。框架、分析工具、WordPress 插件、字体——应有尽有。"
+   },
+   "appName": {
+      "message": "WhatRuns"
+   },
+   "cookieContent": {
+      "message": "WhatRuns 会读取您访问的网站的源代码以检测所用技术。我们不会将您的数据用于广告、画像或个人身份识别。详细内容请参见我们的 "
+   },
+   "eCommerce": {
+      "message": "电子商务"
+   },
+   "emailPlaceholder": {
+      "message": "电子邮箱"
+   },
+   "haveAccount": {
+      "message": "已经有账号？"
+   },
+   "noAccount": {
+      "message": "还没有账号？"
+   },
+   "passwordPlaceholder": {
+      "message": "密码"
+   },
+   "privacyPolicy": {
+      "message": " 隐私政策。"
+   },
+   "serverError0": {
+      "message": "糟糕！🙈 我们正在偷偷升级服务器，请稍等几分钟再试。"
+   },
+   "serverError1": {
+      "message": "WhatRuns 正在进行服务器维护 💁‍♀️ 请稍后再试。"
+   },
+   "serverError2": {
+      "message": "我们认为您可能对 WhatRuns 上瘾了 🤒 为了您的健康，我们想让您休息几个小时。请稍后再来。（说真的，是服务器升级）。"
+   },
+   "serverError3": {
+      "message": "休息一下吧！😾 开玩笑的。我们的错。我们正在更新一些服务以保证扩展正常运行。"
+   },
+   "serverError4": {
+      "message": "糟糕！🙈 我们正在偷偷升级服务器，请稍等几分钟再试。"
+   },
+   "shareWhatruns": {
+      "message": "分享 WhatRuns "
+   },
+   "signInButton": {
+      "message": "登录"
+   },
+   "signInHeading": {
+      "message": "登录以关注"
+   },
+   "signUpButton": {
+      "message": "注册"
+   },
+   "signUpHere": {
+      "message": "在这里注册"
+   }
+}

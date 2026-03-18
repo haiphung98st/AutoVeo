@@ -1,0 +1,281 @@
+{
+   "AIandMachineLearning": {
+      "message": "AI en Machine Learning"
+   },
+   "Advertising": {
+      "message": "Reclame"
+   },
+   "AffiliateMarketing": {
+      "message": "Affiliate Marketing"
+   },
+   "AffiliateNetworks": {
+      "message": "Affiliate Netwerken"
+   },
+   "Analytics": {
+      "message": "Analyse"
+   },
+   "Blogs": {
+      "message": "Blogs"
+   },
+   "BookingManagement": {
+      "message": "Boekingsbeheer"
+   },
+   "BrowserFingerprinting": {
+      "message": "Browser Fingerprinting"
+   },
+   "BuildCISystems": {
+      "message": "CI-systemen bouwen"
+   },
+   "BuyNowPayLater": {
+      "message": "Nu kopen, later betalen"
+   },
+   "CDN": {
+      "message": "CDN"
+   },
+   "CMS": {
+      "message": "CMS"
+   },
+   "CRM": {
+      "message": "CRM"
+   },
+   "Cache": {
+      "message": "Cache"
+   },
+   "Captcha": {
+      "message": "Captcha"
+   },
+   "ChatWidgets": {
+      "message": "Chatwidgets"
+   },
+   "CommentsandReviews": {
+      "message": "Opmerkingen en recensies"
+   },
+   "Communication": {
+      "message": "Communicatie"
+   },
+   "ControlSystems": {
+      "message": "Besturingssystemen"
+   },
+   "CookieandConsent": {
+      "message": "Cookies en Toestemming"
+   },
+   "Database": {
+      "message": "Database"
+   },
+   "Databases": {
+      "message": "Databases"
+   },
+   "DevTools": {
+      "message": "Ontwikkeltools"
+   },
+   "DocumentManagementSystems": {
+      "message": "Documentbeheersystemen"
+   },
+   "Documentation": {
+      "message": "Documentatie"
+   },
+   "Editors": {
+      "message": "Editors"
+   },
+   "FeedReaders": {
+      "message": "Feedlezers"
+   },
+   "FinanceandAccounting": {
+      "message": "Financiën en Boekhouding"
+   },
+   "Font": {
+      "message": "Lettertype"
+   },
+   "Gallery": {
+      "message": "Galerij"
+   },
+   "Gaming": {
+      "message": "Gaming"
+   },
+   "HTMLFramework": {
+      "message": "HTML-framework"
+   },
+   "Hosting": {
+      "message": "Hosting"
+   },
+   "IssueTracker": {
+      "message": "Issue Tracker"
+   },
+   "JavascriptLibraries": {
+      "message": "Javascriptbibliotheken"
+   },
+   "LMS": {
+      "message": "LMS"
+   },
+   "Logistics": {
+      "message": "Logistiek"
+   },
+   "Maps": {
+      "message": "Kaarten"
+   },
+   "MediaServer": {
+      "message": "Mediaserver"
+   },
+   "MessageBoard": {
+      "message": "Forum"
+   },
+   "Miscellaneous": {
+      "message": "Diversen"
+   },
+   "MobileFrameworks": {
+      "message": "Mobiele Frameworks"
+   },
+   "Monitoring": {
+      "message": "Monitoring"
+   },
+   "NetworkDevice": {
+      "message": "Netwerkapparaat"
+   },
+   "NetworkStorage": {
+      "message": "Netwerkopslag"
+   },
+   "NoCodePlatforms": {
+      "message": "No-Code Platforms"
+   },
+   "OperatingSystem": {
+      "message": "Besturingssysteem"
+   },
+   "PageBuilders": {
+      "message": "Pagina-bouwers"
+   },
+   "Payments": {
+      "message": "Betalingen"
+   },
+   "Paywalls": {
+      "message": "Paywalls"
+   },
+   "Printers": {
+      "message": "Printers"
+   },
+   "ProgrammingLanguage": {
+      "message": "Programmeertaal"
+   },
+   "RemoteAccess": {
+      "message": "Toegang op afstand"
+   },
+   "RichTextEditors": {
+      "message": "Rich Text Editors"
+   },
+   "SalesandMarketing": {
+      "message": "Verkoop en Marketing"
+   },
+   "SearchEngine": {
+      "message": "Zoekmachine"
+   },
+   "Security": {
+      "message": "Beveiliging"
+   },
+   "StatusPages": {
+      "message": "Statuspagina’s"
+   },
+   "TagManagers": {
+      "message": "Tag Managers"
+   },
+   "UIandGraphics": {
+      "message": "UI en Grafisch"
+   },
+   "Video": {
+      "message": "Video"
+   },
+   "WebFramework": {
+      "message": "Webframework"
+   },
+   "WebMail": {
+      "message": "Webmail"
+   },
+   "WebServer": {
+      "message": "Webserver"
+   },
+   "WebServerExtensions": {
+      "message": "Webserverextensies"
+   },
+   "Webcams": {
+      "message": "Webcams"
+   },
+   "WebsiteBuilder": {
+      "message": "Websitebouwer"
+   },
+   "WebsiteOptimization": {
+      "message": "Website-optimalisatie"
+   },
+   "Widgets": {
+      "message": "Widgets"
+   },
+   "Wiki": {
+      "message": "Wiki"
+   },
+   "WordPressPlugins": {
+      "message": "WordPress-plugins"
+   },
+   "agreeTerms": {
+      "message": "Door op deze knop te klikken, ga je akkoord met onze "
+   },
+   "agreeTermsLink": {
+      "message": "servicevoorwaarden."
+   },
+   "analyzingWebsite": {
+      "message": "Website analyseren...."
+   },
+   "appDesc": {
+      "message": "Ontdek wat een website aandrijft. Frameworks, analysetools, Wordpress-plugins, lettertypen - noem maar op."
+   },
+   "appName": {
+      "message": "WhatRuns"
+   },
+   "cookieContent": {
+      "message": "WhatRuns leest de broncode van de websites die u bezoekt om technologieën te detecteren. Wij gebruiken uw gegevens niet voor reclame, profilering of persoonlijke identificatie. Lees meer in onze "
+   },
+   "eCommerce": {
+      "message": "eCommerce"
+   },
+   "emailPlaceholder": {
+      "message": "E-mail"
+   },
+   "haveAccount": {
+      "message": "Heb je al een account?"
+   },
+   "noAccount": {
+      "message": "Heb je geen account?"
+   },
+   "passwordPlaceholder": {
+      "message": "Wachtwoord"
+   },
+   "privacyPolicy": {
+      "message": "privacybeleid."
+   },
+   "serverError0": {
+      "message": "Oeps! 🙈 We zijn bezig met een serverupgrade. Probeer het over een paar minuten opnieuw."
+   },
+   "serverError1": {
+      "message": "WhatRuns ondergaat serveronderhoud 💁‍♀️ Probeer het straks opnieuw."
+   },
+   "serverError2": {
+      "message": "We denken dat je verslaafd bent aan WhatRuns 🤒 Neem even een pauze en kom later terug. (Serieus: serverupgrade)."
+   },
+   "serverError3": {
+      "message": "Even rustig aan! 😾 Grapje. Onze fout. We werken onze diensten bij."
+   },
+   "serverError4": {
+      "message": "Oeps! 🙈 We zijn bezig met een serverupgrade. Even geduld a.u.b."
+   },
+   "shareWhatruns": {
+      "message": "Deel WhatRuns "
+   },
+   "signInButton": {
+      "message": "Inloggen"
+   },
+   "signInHeading": {
+      "message": "Meld je aan om te volgen"
+   },
+   "signUpButton": {
+      "message": "Registreren"
+   },
+   "signUpHere": {
+      "message": "Hier registreren"
+   }
+}

@@ -1,0 +1,281 @@
+{
+   "AIandMachineLearning": {
+      "message": "IA & Apprentissage automatique"
+   },
+   "Advertising": {
+      "message": "Publicité"
+   },
+   "AffiliateMarketing": {
+      "message": "Marketing d’affiliation"
+   },
+   "AffiliateNetworks": {
+      "message": "Réseaux d’affiliation"
+   },
+   "Analytics": {
+      "message": "Analyse"
+   },
+   "Blogs": {
+      "message": "Blogs"
+   },
+   "BookingManagement": {
+      "message": "Gestion des réservations"
+   },
+   "BrowserFingerprinting": {
+      "message": "Empreinte navigateur"
+   },
+   "BuildCISystems": {
+      "message": "Systèmes CI"
+   },
+   "BuyNowPayLater": {
+      "message": "Achetez maintenant, payez plus tard"
+   },
+   "CDN": {
+      "message": "CDN"
+   },
+   "CMS": {
+      "message": "CMS"
+   },
+   "CRM": {
+      "message": "CRM"
+   },
+   "Cache": {
+      "message": "Cache"
+   },
+   "Captcha": {
+      "message": "Captcha"
+   },
+   "ChatWidgets": {
+      "message": "Widgets de chat"
+   },
+   "CommentsandReviews": {
+      "message": "Commentaires et avis"
+   },
+   "Communication": {
+      "message": "Communication"
+   },
+   "ControlSystems": {
+      "message": "Systèmes de contrôle"
+   },
+   "CookieandConsent": {
+      "message": "Cookies & Consentement"
+   },
+   "Database": {
+      "message": "Base de données"
+   },
+   "Databases": {
+      "message": "Bases de données"
+   },
+   "DevTools": {
+      "message": "Outils développeur"
+   },
+   "DocumentManagementSystems": {
+      "message": "SGestion documentaire"
+   },
+   "Documentation": {
+      "message": "Documentation"
+   },
+   "Editors": {
+      "message": "Éditeurs"
+   },
+   "FeedReaders": {
+      "message": "Lecteurs de flux"
+   },
+   "FinanceandAccounting": {
+      "message": "Finance & Comptabilité"
+   },
+   "Font": {
+      "message": "Police"
+   },
+   "Gallery": {
+      "message": "Galerie"
+   },
+   "Gaming": {
+      "message": "Jeux"
+   },
+   "HTMLFramework": {
+      "message": "Framework HTML"
+   },
+   "Hosting": {
+      "message": "Hébergement"
+   },
+   "IssueTracker": {
+      "message": "Suivi des problèmes"
+   },
+   "JavascriptLibraries": {
+      "message": "Bibliothèques JavaScript"
+   },
+   "LMS": {
+      "message": "LMS"
+   },
+   "Logistics": {
+      "message": "Logistique"
+   },
+   "Maps": {
+      "message": "Cartes"
+   },
+   "MediaServer": {
+      "message": "Serveur multimédia"
+   },
+   "MessageBoard": {
+      "message": "Forum de discussion"
+   },
+   "Miscellaneous": {
+      "message": "Divers"
+   },
+   "MobileFrameworks": {
+      "message": "Frameworks mobiles"
+   },
+   "Monitoring": {
+      "message": "Surveillance"
+   },
+   "NetworkDevice": {
+      "message": "Appareil réseau"
+   },
+   "NetworkStorage": {
+      "message": "Stockage réseau"
+   },
+   "NoCodePlatforms": {
+      "message": "Plateformes no-code"
+   },
+   "OperatingSystem": {
+      "message": "Système d’exploitation"
+   },
+   "PageBuilders": {
+      "message": "Constructeurs de pages"
+   },
+   "Payments": {
+      "message": "Paiements"
+   },
+   "Paywalls": {
+      "message": "Plafonds payants"
+   },
+   "Printers": {
+      "message": "Imprimantes"
+   },
+   "ProgrammingLanguage": {
+      "message": "Langage de programmation"
+   },
+   "RemoteAccess": {
+      "message": "Accès à distance"
+   },
+   "RichTextEditors": {
+      "message": "Éditeurs enrichis"
+   },
+   "SalesandMarketing": {
+      "message": "Ventes & Marketing"
+   },
+   "SearchEngine": {
+      "message": "Moteur de recherche"
+   },
+   "Security": {
+      "message": "Sécurité"
+   },
+   "StatusPages": {
+      "message": "Pages d’état"
+   },
+   "TagManagers": {
+      "message": "Gestionnaires de balises"
+   },
+   "UIandGraphics": {
+      "message": "Interface & Graphiques"
+   },
+   "Video": {
+      "message": "Vidéo"
+   },
+   "WebFramework": {
+      "message": "Cadre web"
+   },
+   "WebMail": {
+      "message": "Webmail"
+   },
+   "WebServer": {
+      "message": "Serveur Web"
+   },
+   "WebServerExtensions": {
+      "message": "Extensions Serveur Web"
+   },
+   "Webcams": {
+      "message": "Webcams"
+   },
+   "WebsiteBuilder": {
+      "message": "Constructeur de site"
+   },
+   "WebsiteOptimization": {
+      "message": "Optimisation de site"
+   },
+   "Widgets": {
+      "message": "Widgets"
+   },
+   "Wiki": {
+      "message": "Wiki"
+   },
+   "WordPressPlugins": {
+      "message": "Plugins WordPress"
+   },
+   "agreeTerms": {
+      "message": "En cliquant sur ce bouton, vous acceptez nos "
+   },
+   "agreeTermsLink": {
+      "message": "conditions d’utilisation."
+   },
+   "analyzingWebsite": {
+      "message": "Analyse du site en cours..."
+   },
+   "appDesc": {
+      "message": "Découvrez ce qui fait fonctionner un site web. Frameworks, outils d'analyse, plugins Wordpress, polices – tout ce que vous voulez."
+   },
+   "appName": {
+      "message": "WhatRuns"
+   },
+   "cookieContent": {
+      "message": "WhatRuns lit le code source des sites Web que vous visitez pour détecter les technologies. Nous n’utilisons pas vos données à des fins publicitaires, de profilage ou d’identification personnelle. En savoir plus dans notre "
+   },
+   "eCommerce": {
+      "message": "e-Commerce"
+   },
+   "emailPlaceholder": {
+      "message": "E-mail"
+   },
+   "haveAccount": {
+      "message": "Vous avez déjà un compte ? "
+   },
+   "noAccount": {
+      "message": "Vous n’avez pas de compte ?"
+   },
+   "passwordPlaceholder": {
+      "message": "Mot de passe"
+   },
+   "privacyPolicy": {
+      "message": "politique de confidentialité."
+   },
+   "serverError0": {
+      "message": "Oups ! Mise à jour du serveur en cours ; revenez dans quelques minutes !"
+   },
+   "serverError1": {
+      "message": "WhatRuns est en maintenance 💁‍♀️ Veuillez réessayer d’ici une minute ou deux."
+   },
+   "serverError2": {
+      "message": "Nous pensons que vous êtes accro à WhatRuns 🤒 Prenez une pause et revenez plus tard."
+   },
+   "serverError3": {
+      "message": "Faites une pause ! 😾 Blague. Nous mettons à jour pour garder cette extension fonctionnelle."
+   },
+   "serverError4": {
+      "message": "Oups ! Mise à jour du serveur en cours ; revenez dans quelques minutes !"
+   },
+   "shareWhatruns": {
+      "message": "Partager WhatRuns "
+   },
+   "signInButton": {
+      "message": "Se connecter"
+   },
+   "signInHeading": {
+      "message": "Connectez-vous pour suivre"
+   },
+   "signUpButton": {
+      "message": "S'inscrire"
+   },
+   "signUpHere": {
+      "message": "Inscrivez-vous ici"
+   }
+}

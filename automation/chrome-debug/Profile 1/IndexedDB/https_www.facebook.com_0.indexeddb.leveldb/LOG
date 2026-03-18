@@ -1,0 +1,23 @@
+2026/03/15-15:26:03.023 5ced8 Creating DB /Users/macbook/Documents/Coding/AutoVeo/automation/chrome-debug/Profile 1/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb since it was missing.
+2026/03/15-15:26:03.025 5ced8 Reusing MANIFEST /Users/macbook/Documents/Coding/AutoVeo/automation/chrome-debug/Profile 1/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/15-15:26:24.889 5ced8 Level-0 table #5: started
+2026/03/15-15:26:24.910 5ced8 Level-0 table #5: 1465552 bytes OK
+2026/03/15-15:26:24.913 5ced8 Delete type=0 #3
+2026/03/15-15:26:25.953 5cedb Level-0 table #7: started
+2026/03/15-15:26:25.969 5cedb Level-0 table #7: 1339200 bytes OK
+2026/03/15-15:26:25.972 5cedb Delete type=0 #4
+2026/03/15-15:26:25.979 5cedb Compacting 1@1 + 1@2 files
+2026/03/15-15:26:26.003 5cedb Generated table #8@1: 15714 keys, 1468978 bytes
+2026/03/15-15:26:26.003 5cedb Compacted 1@1 + 1@2 files => 1468978 bytes
+2026/03/15-15:26:26.004 5cedb compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/03/15-15:26:26.004 5cedb Delete type=2 #7
+2026/03/15-15:26:26.004 5cedb Delete type=2 #5
+2026/03/15-15:26:31.258 5cedb Level-0 table #10: started
+2026/03/15-15:26:31.274 5cedb Level-0 table #10: 1442207 bytes OK
+2026/03/15-15:26:31.276 5cedb Delete type=0 #6
+2026/03/15-15:26:41.259 5cedb Compacting 1@1 + 1@2 files
+2026/03/15-15:26:41.299 5cedb Generated table #11@1: 20928 keys, 1927788 bytes
+2026/03/15-15:26:41.299 5cedb Compacted 1@1 + 1@2 files => 1927788 bytes
+2026/03/15-15:26:41.300 5cedb compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/03/15-15:26:41.300 5cedb Delete type=2 #10
+2026/03/15-15:26:41.300 5cedb Delete type=2 #8

@@ -1,0 +1,281 @@
+{
+   "AIandMachineLearning": {
+      "message": "IA y aprendizaje automático"
+   },
+   "Advertising": {
+      "message": "Publicidad"
+   },
+   "AffiliateMarketing": {
+      "message": "Marketing de afiliados"
+   },
+   "AffiliateNetworks": {
+      "message": "Redes de afiliados"
+   },
+   "Analytics": {
+      "message": "Analítica"
+   },
+   "Blogs": {
+      "message": "Blogs"
+   },
+   "BookingManagement": {
+      "message": "Gestión de reservas"
+   },
+   "BrowserFingerprinting": {
+      "message": "Huella digital del navegador"
+   },
+   "BuildCISystems": {
+      "message": "Sistemas CI"
+   },
+   "BuyNowPayLater": {
+      "message": "Compra ahora, paga después"
+   },
+   "CDN": {
+      "message": "CDN"
+   },
+   "CMS": {
+      "message": "CMS"
+   },
+   "CRM": {
+      "message": "CRM"
+   },
+   "Cache": {
+      "message": "Caché"
+   },
+   "Captcha": {
+      "message": "Captcha"
+   },
+   "ChatWidgets": {
+      "message": "Widgets de chat"
+   },
+   "CommentsandReviews": {
+      "message": "Comentarios y reseñas"
+   },
+   "Communication": {
+      "message": "Comunicación"
+   },
+   "ControlSystems": {
+      "message": "Sistemas de control"
+   },
+   "CookieandConsent": {
+      "message": "Cookies y consentimiento"
+   },
+   "Database": {
+      "message": "Base de datos"
+   },
+   "Databases": {
+      "message": "Bases de datos"
+   },
+   "DevTools": {
+      "message": "Herramientas de desarrollo"
+   },
+   "DocumentManagementSystems": {
+      "message": "Sistemas de gestión documental"
+   },
+   "Documentation": {
+      "message": "Documentación"
+   },
+   "Editors": {
+      "message": "Editores"
+   },
+   "FeedReaders": {
+      "message": "Lectores de feeds"
+   },
+   "FinanceandAccounting": {
+      "message": "Finanzas y contabilidad"
+   },
+   "Font": {
+      "message": "Fuente"
+   },
+   "Gallery": {
+      "message": "Galería"
+   },
+   "Gaming": {
+      "message": "Juegos"
+   },
+   "HTMLFramework": {
+      "message": "Framework HTML"
+   },
+   "Hosting": {
+      "message": "Hosting"
+   },
+   "IssueTracker": {
+      "message": "Gestor de incidencias"
+   },
+   "JavascriptLibraries": {
+      "message": "Bibliotecas de JavaScript"
+   },
+   "LMS": {
+      "message": "LMS"
+   },
+   "Logistics": {
+      "message": "Logística"
+   },
+   "Maps": {
+      "message": "Mapas"
+   },
+   "MediaServer": {
+      "message": "Servidor multimedia"
+   },
+   "MessageBoard": {
+      "message": "Foro de mensajes"
+   },
+   "Miscellaneous": {
+      "message": "Misceláneo"
+   },
+   "MobileFrameworks": {
+      "message": "Frameworks móviles"
+   },
+   "Monitoring": {
+      "message": "Monitoreo"
+   },
+   "NetworkDevice": {
+      "message": "Dispositivo de red"
+   },
+   "NetworkStorage": {
+      "message": "Almacenamiento en red"
+   },
+   "NoCodePlatforms": {
+      "message": "Plataformas sin código"
+   },
+   "OperatingSystem": {
+      "message": "Sistema operativo"
+   },
+   "PageBuilders": {
+      "message": "Constructores de páginas"
+   },
+   "Payments": {
+      "message": "Pagos"
+   },
+   "Paywalls": {
+      "message": "Muros de pago"
+   },
+   "Printers": {
+      "message": "Impresoras"
+   },
+   "ProgrammingLanguage": {
+      "message": "Lenguaje de programación"
+   },
+   "RemoteAccess": {
+      "message": "Acceso remoto"
+   },
+   "RichTextEditors": {
+      "message": "Editores de texto enriquecido"
+   },
+   "SalesandMarketing": {
+      "message": "Ventas y marketing"
+   },
+   "SearchEngine": {
+      "message": "Motor de búsqueda"
+   },
+   "Security": {
+      "message": "Seguridad"
+   },
+   "StatusPages": {
+      "message": "Páginas de estado"
+   },
+   "TagManagers": {
+      "message": "Gestores de etiquetas"
+   },
+   "UIandGraphics": {
+      "message": "UI y gráficos"
+   },
+   "Video": {
+      "message": "Vídeo"
+   },
+   "WebFramework": {
+      "message": "Framework web"
+   },
+   "WebMail": {
+      "message": "Correo web"
+   },
+   "WebServer": {
+      "message": "Servidor web"
+   },
+   "WebServerExtensions": {
+      "message": "Extensiones de servidor web"
+   },
+   "Webcams": {
+      "message": "Cámaras web"
+   },
+   "WebsiteBuilder": {
+      "message": "Constructor de sitios web"
+   },
+   "WebsiteOptimization": {
+      "message": "Optimización de sitios web"
+   },
+   "Widgets": {
+      "message": "Widgets"
+   },
+   "Wiki": {
+      "message": "Wiki"
+   },
+   "WordPressPlugins": {
+      "message": "Plugins de WordPress"
+   },
+   "agreeTerms": {
+      "message": "Al hacer clic en este botón, aceptas nuestros "
+   },
+   "agreeTermsLink": {
+      "message": "términos de servicio."
+   },
+   "analyzingWebsite": {
+      "message": "Analizando el sitio web..."
+   },
+   "appDesc": {
+      "message": "Descubre qué hace funcionar un sitio web. Frameworks, herramientas de análisis, complementos de Wordpress, fuentes: lo que quieras."
+   },
+   "appName": {
+      "message": "WhatRuns"
+   },
+   "cookieContent": {
+      "message": "WhatRuns lee el código fuente de los sitios web que visitas para detectar tecnologías. No utilizamos tus datos para publicidad, creación de perfiles o identificación personal. Lee más en nuestra "
+   },
+   "eCommerce": {
+      "message": "Comercio electrónico"
+   },
+   "emailPlaceholder": {
+      "message": "Correo electrónico"
+   },
+   "haveAccount": {
+      "message": "¿Ya tienes una cuenta?"
+   },
+   "noAccount": {
+      "message": "¿No tienes una cuenta?"
+   },
+   "passwordPlaceholder": {
+      "message": "Contraseña"
+   },
+   "privacyPolicy": {
+      "message": "política de privacidad."
+   },
+   "serverError0": {
+      "message": "¡Vaya! 🙈 Estamos actualizando el servidor. Vuelve en unos minutos."
+   },
+   "serverError1": {
+      "message": "WhatRuns está en mantenimiento 💁‍♀️ Inténtalo de nuevo en un momento."
+   },
+   "serverError2": {
+      "message": "Creemos que eres adicto a WhatRuns 🤒 Tómate un descanso. Vuelve más tarde (en serio, estamos actualizando servidores)."
+   },
+   "serverError3": {
+      "message": "¡Un descanso! 😾 Es broma. Es culpa nuestra. Estamos actualizando servicios necesarios."
+   },
+   "serverError4": {
+      "message": "¡Vaya! 🙈 Estamos actualizando el servidor. Vuelve en unos minutos."
+   },
+   "shareWhatruns": {
+      "message": "Comparte WhatRuns "
+   },
+   "signInButton": {
+      "message": "Iniciar sesión"
+   },
+   "signInHeading": {
+      "message": "Inicia sesión para seguir"
+   },
+   "signUpButton": {
+      "message": "Regístrate"
+   },
+   "signUpHere": {
+      "message": "Regístrate aquí"
+   }
+}

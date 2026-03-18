@@ -1,0 +1,33 @@
+{
+   "action": {
+      "default_icon": "assets/images/icons/app_icons/grayscale.png",
+      "default_title": "PerfectPixel"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+   },
+   "default_locale": "en",
+   "description": "__MSG_extension_description__",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "assets/images/icons/128.png",
+      "16": "assets/images/icons/16.png",
+      "48": "assets/images/icons/48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDL3tn13WeiqluDvu7YhowZ+iol6gptyVV01cxZnRcpZJKDrXpGja91HXCBxL2gFrQOYZAwWDfbv3FTsbnhgSZlq6oP1qdxHvsou7lcVldoxK+LItzlRCOjfxYbzzE1DGv+Nhh3ohnN3snMC3807ryu0h+bAKKFrtxRyXfR9RRwPQIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_extension_name__",
+   "optional_permissions": [ "clipboardRead" ],
+   "options_page": "settings.html",
+   "permissions": [ "activeTab", "scripting", "storage", "unlimitedStorage" ],
+   "short_name": "PerfectPixel",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.2.1.0",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "assets/**", "styles/**", "settings.html" ]
+   } ]
+}

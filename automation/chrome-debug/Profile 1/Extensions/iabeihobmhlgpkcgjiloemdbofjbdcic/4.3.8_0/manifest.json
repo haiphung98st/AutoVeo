@@ -1,0 +1,24 @@
+{
+   "action": {
+      "default_icon": "bitly-logo-md.png",
+      "default_popup": "index.html",
+      "default_title": "Bitly"
+   },
+   "background": {
+      "service_worker": "./static/js/background.js",
+      "type": "module"
+   },
+   "description": "Create short, powerful links and QR Codes and share them with the world.",
+   "host_permissions": [ "https://api-ssl.bitly.com/", "https://api-ssl.bitly.net/" ],
+   "icons": {
+      "128": "bitly-logo-lg.png",
+      "16": "bitly-logo-sm.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCpjrqTBAPULiPXZOQK+COqppxLEFd+qKpd9+AOBkGLujrt8cPhsrScjI/8KCTM5UiYHLo1dGr56p0uzjclY6Mqlwas0l1v3kLq4NUrgKnLQyhOxaEae3RPUn1zhAx93opOn0z9nB+oJcYZWQl6z/Cq2lgG6XsyX/kMHstsRgUicQIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "88.0.0.0",
+   "name": "Bitly | Short links and QR Codes",
+   "permissions": [ "activeTab", "clipboardWrite", "identity", "storage", "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.3.8"
+}

@@ -1,0 +1,281 @@
+{
+   "AIandMachineLearning": {
+      "message": "AI a Strojové učenie"
+   },
+   "Advertising": {
+      "message": "Reklama"
+   },
+   "AffiliateMarketing": {
+      "message": "Affiliate Marketing"
+   },
+   "AffiliateNetworks": {
+      "message": "Partnerské siete"
+   },
+   "Analytics": {
+      "message": "Analytika"
+   },
+   "Blogs": {
+      "message": "Blogy"
+   },
+   "BookingManagement": {
+      "message": "Správa rezervácií"
+   },
+   "BrowserFingerprinting": {
+      "message": "Odlačok prehliadača"
+   },
+   "BuildCISystems": {
+      "message": "Systémy CI"
+   },
+   "BuyNowPayLater": {
+      "message": "Kúp teraz, zaplať neskôr"
+   },
+   "CDN": {
+      "message": "CDN"
+   },
+   "CMS": {
+      "message": "CMS"
+   },
+   "CRM": {
+      "message": "CRM"
+   },
+   "Cache": {
+      "message": "Cache"
+   },
+   "Captcha": {
+      "message": "Captcha"
+   },
+   "ChatWidgets": {
+      "message": "Chat Widgety"
+   },
+   "CommentsandReviews": {
+      "message": "Komentáre a Recenzie"
+   },
+   "Communication": {
+      "message": "Komunikácia"
+   },
+   "ControlSystems": {
+      "message": "Riadiace systémy"
+   },
+   "CookieandConsent": {
+      "message": "Cookies a Súhlas"
+   },
+   "Database": {
+      "message": "Databáza"
+   },
+   "Databases": {
+      "message": "Databázy"
+   },
+   "DevTools": {
+      "message": "Vývojárske nástroje"
+   },
+   "DocumentManagementSystems": {
+      "message": "Systémy správy dokumentov"
+   },
+   "Documentation": {
+      "message": "Dokumentácia"
+   },
+   "Editors": {
+      "message": "Editory"
+   },
+   "FeedReaders": {
+      "message": "Čítačky Feedov"
+   },
+   "FinanceandAccounting": {
+      "message": "Financie a Účtovníctvo"
+   },
+   "Font": {
+      "message": "Písmo"
+   },
+   "Gallery": {
+      "message": "Galéria"
+   },
+   "Gaming": {
+      "message": "Hry"
+   },
+   "HTMLFramework": {
+      "message": "HTML Framework"
+   },
+   "Hosting": {
+      "message": "Hosting"
+   },
+   "IssueTracker": {
+      "message": "Sledovanie problémov"
+   },
+   "JavascriptLibraries": {
+      "message": "Javascript knižnice"
+   },
+   "LMS": {
+      "message": "LMS"
+   },
+   "Logistics": {
+      "message": "Logistika"
+   },
+   "Maps": {
+      "message": "Mapy"
+   },
+   "MediaServer": {
+      "message": "Mediálny server"
+   },
+   "MessageBoard": {
+      "message": "Diskusné fórum"
+   },
+   "Miscellaneous": {
+      "message": "Rôzne"
+   },
+   "MobileFrameworks": {
+      "message": "Mobilné Frameworky"
+   },
+   "Monitoring": {
+      "message": "Monitorovanie"
+   },
+   "NetworkDevice": {
+      "message": "Sieťové zariadenie"
+   },
+   "NetworkStorage": {
+      "message": "Sieťové úložisko"
+   },
+   "NoCodePlatforms": {
+      "message": "No Code Platformy"
+   },
+   "OperatingSystem": {
+      "message": "Operačný systém"
+   },
+   "PageBuilders": {
+      "message": "Tvorcovia stránok"
+   },
+   "Payments": {
+      "message": "Platby"
+   },
+   "Paywalls": {
+      "message": "Paywalls"
+   },
+   "Printers": {
+      "message": "Tlačiarne"
+   },
+   "ProgrammingLanguage": {
+      "message": "Programovací jazyk"
+   },
+   "RemoteAccess": {
+      "message": "Vzdialený prístup"
+   },
+   "RichTextEditors": {
+      "message": "Editory Rich Text"
+   },
+   "SalesandMarketing": {
+      "message": "Predaj a Marketing"
+   },
+   "SearchEngine": {
+      "message": "Vyhľadávač"
+   },
+   "Security": {
+      "message": "Bezpečnosť"
+   },
+   "StatusPages": {
+      "message": "Stránky so stavom"
+   },
+   "TagManagers": {
+      "message": "Správci Tagov"
+   },
+   "UIandGraphics": {
+      "message": "UI a Grafika"
+   },
+   "Video": {
+      "message": "Video"
+   },
+   "WebFramework": {
+      "message": "Webový Framework"
+   },
+   "WebMail": {
+      "message": "Web Mail"
+   },
+   "WebServer": {
+      "message": "Webový Server"
+   },
+   "WebServerExtensions": {
+      "message": "Rozšírenia Web Servera"
+   },
+   "Webcams": {
+      "message": "Webkamery"
+   },
+   "WebsiteBuilder": {
+      "message": "Tvorca webu"
+   },
+   "WebsiteOptimization": {
+      "message": "Optimalizácia webu"
+   },
+   "Widgets": {
+      "message": "Widgety"
+   },
+   "Wiki": {
+      "message": "Wiki"
+   },
+   "WordPressPlugins": {
+      "message": "Pluginy WordPress"
+   },
+   "agreeTerms": {
+      "message": "Kliknutím na toto tlačidlo súhlasíte s našimi "
+   },
+   "agreeTermsLink": {
+      "message": "podmienkami používania."
+   },
+   "analyzingWebsite": {
+      "message": "Analyzujem webovú stránku..."
+   },
+   "appDesc": {
+      "message": "Zistite, čo beží na webe. Frameworky, analytické nástroje, pluginy Wordpress, písma - čokoľvek."
+   },
+   "appName": {
+      "message": "WhatRuns"
+   },
+   "cookieContent": {
+      "message": "WhatRuns číta zdrojový kód webových stránok, ktoré navštevujete, aby zistil použité technológie. Vaše údaje nepoužívame na reklamu, profilovanie ani osobnú identifikáciu. Prečítajte si viac v našej "
+   },
+   "eCommerce": {
+      "message": "eCommerce"
+   },
+   "emailPlaceholder": {
+      "message": "E-mail"
+   },
+   "haveAccount": {
+      "message": "Už máte účet? "
+   },
+   "noAccount": {
+      "message": "Nemáte účet?"
+   },
+   "passwordPlaceholder": {
+      "message": "Heslo"
+   },
+   "privacyPolicy": {
+      "message": " zásadách ochrany osobných údajov."
+   },
+   "serverError0": {
+      "message": "Ups! 🙈 Robíme aktualizáciu servera. Skúste znova o pár minút."
+   },
+   "serverError1": {
+      "message": "WhatRuns prechádza údržbou servera 💁‍♀️  Skúste to znova o minútu alebo dve."
+   },
+   "serverError2": {
+      "message": "Myslíme si, že ste závislý na WhatRuns 🤒  Dajte si prestávku a vráťte sa neskôr. (Áno, aktualizácia servera)."
+   },
+   "serverError3": {
+      "message": "Dajte si pauzu! 😾 Len žartujeme. Naša chyba. Aktualizujeme služby, aby rozšírenie fungovalo."
+   },
+   "serverError4": {
+      "message": "Ups! 🙈 Robíme aktualizáciu servera. Skúste znova o pár minút."
+   },
+   "shareWhatruns": {
+      "message": "Zdieľajte, čo beží "
+   },
+   "signInButton": {
+      "message": "Prihlásiť sa"
+   },
+   "signInHeading": {
+      "message": "Prihláste sa na sledovanie"
+   },
+   "signUpButton": {
+      "message": "Zaregistrovať sa"
+   },
+   "signUpHere": {
+      "message": "Zaregistrujte sa tu"
+   }
+}

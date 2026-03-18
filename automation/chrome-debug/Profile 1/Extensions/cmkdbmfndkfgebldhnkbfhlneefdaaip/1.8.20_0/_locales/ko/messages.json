@@ -1,0 +1,281 @@
+{
+   "AIandMachineLearning": {
+      "message": "AI 및 기계 학습"
+   },
+   "Advertising": {
+      "message": "광고"
+   },
+   "AffiliateMarketing": {
+      "message": "제휴 마케팅"
+   },
+   "AffiliateNetworks": {
+      "message": "제휴 네트워크"
+   },
+   "Analytics": {
+      "message": "분석"
+   },
+   "Blogs": {
+      "message": "블로그"
+   },
+   "BookingManagement": {
+      "message": "예약 관리"
+   },
+   "BrowserFingerprinting": {
+      "message": "브라우저 지문 인식"
+   },
+   "BuildCISystems": {
+      "message": "CI 시스템"
+   },
+   "BuyNowPayLater": {
+      "message": "지금 구매, 나중에 결제"
+   },
+   "CDN": {
+      "message": "CDN"
+   },
+   "CMS": {
+      "message": "CMS"
+   },
+   "CRM": {
+      "message": "CRM"
+   },
+   "Cache": {
+      "message": "캐시"
+   },
+   "Captcha": {
+      "message": "캡차"
+   },
+   "ChatWidgets": {
+      "message": "채팅 위젯"
+   },
+   "CommentsandReviews": {
+      "message": "댓글 및 리뷰"
+   },
+   "Communication": {
+      "message": "커뮤니케이션"
+   },
+   "ControlSystems": {
+      "message": "제어 시스템"
+   },
+   "CookieandConsent": {
+      "message": "쿠키 및 동의"
+   },
+   "Database": {
+      "message": "데이터베이스"
+   },
+   "Databases": {
+      "message": "데이터베이스"
+   },
+   "DevTools": {
+      "message": "개발 도구"
+   },
+   "DocumentManagementSystems": {
+      "message": "문서 관리 시스템"
+   },
+   "Documentation": {
+      "message": "문서"
+   },
+   "Editors": {
+      "message": "편집기"
+   },
+   "FeedReaders": {
+      "message": "피드 리더"
+   },
+   "FinanceandAccounting": {
+      "message": "재무 및 회계"
+   },
+   "Font": {
+      "message": "글꼴"
+   },
+   "Gallery": {
+      "message": "갤러리"
+   },
+   "Gaming": {
+      "message": "게임"
+   },
+   "HTMLFramework": {
+      "message": "HTML 프레임워크"
+   },
+   "Hosting": {
+      "message": "호스팅"
+   },
+   "IssueTracker": {
+      "message": "이슈 추적기"
+   },
+   "JavascriptLibraries": {
+      "message": "자바스크립트 라이브러리"
+   },
+   "LMS": {
+      "message": "LMS"
+   },
+   "Logistics": {
+      "message": "물류"
+   },
+   "Maps": {
+      "message": "지도"
+   },
+   "MediaServer": {
+      "message": "미디어 서버"
+   },
+   "MessageBoard": {
+      "message": "게시판"
+   },
+   "Miscellaneous": {
+      "message": "기타"
+   },
+   "MobileFrameworks": {
+      "message": "모바일 프레임워크"
+   },
+   "Monitoring": {
+      "message": "모니터링"
+   },
+   "NetworkDevice": {
+      "message": "네트워크 장치"
+   },
+   "NetworkStorage": {
+      "message": "네트워크 스토리지"
+   },
+   "NoCodePlatforms": {
+      "message": "노코드 플랫폼"
+   },
+   "OperatingSystem": {
+      "message": "운영 체제"
+   },
+   "PageBuilders": {
+      "message": "페이지 빌더"
+   },
+   "Payments": {
+      "message": "결제"
+   },
+   "Paywalls": {
+      "message": "유료 장벽"
+   },
+   "Printers": {
+      "message": "프린터"
+   },
+   "ProgrammingLanguage": {
+      "message": "프로그래밍 언어"
+   },
+   "RemoteAccess": {
+      "message": "원격 액세스"
+   },
+   "RichTextEditors": {
+      "message": "리치 텍스트 편집기"
+   },
+   "SalesandMarketing": {
+      "message": "영업 및 마케팅"
+   },
+   "SearchEngine": {
+      "message": "검색 엔진"
+   },
+   "Security": {
+      "message": "보안"
+   },
+   "StatusPages": {
+      "message": "상태 페이지"
+   },
+   "TagManagers": {
+      "message": "태그 관리자"
+   },
+   "UIandGraphics": {
+      "message": "UI 및 그래픽"
+   },
+   "Video": {
+      "message": "비디오"
+   },
+   "WebFramework": {
+      "message": "웹 프레임워크"
+   },
+   "WebMail": {
+      "message": "웹 메일"
+   },
+   "WebServer": {
+      "message": "웹 서버"
+   },
+   "WebServerExtensions": {
+      "message": "웹 서버 확장"
+   },
+   "Webcams": {
+      "message": "웹캠"
+   },
+   "WebsiteBuilder": {
+      "message": "웹사이트 빌더"
+   },
+   "WebsiteOptimization": {
+      "message": "웹사이트 최적화"
+   },
+   "Widgets": {
+      "message": "위젯"
+   },
+   "Wiki": {
+      "message": "위키"
+   },
+   "WordPressPlugins": {
+      "message": "워드프레스 플러그인"
+   },
+   "agreeTerms": {
+      "message": "이 버튼을 클릭하면 당사의 "
+   },
+   "agreeTermsLink": {
+      "message": "서비스 약관에 동의하는 것입니다."
+   },
+   "analyzingWebsite": {
+      "message": "웹사이트 분석 중...."
+   },
+   "appDesc": {
+      "message": "웹사이트에서 어떤 기술이 사용되는지 확인하세요. 프레임워크, 분석 도구, 워드프레스 플러그인, 글꼴 등 모두 알 수 있습니다."
+   },
+   "appName": {
+      "message": "WhatRuns"
+   },
+   "cookieContent": {
+      "message": "WhatRuns는 사용자가 방문하는 웹사이트의 소스 코드를 읽어 기술을 감지합니다. 우리는 사용자의 데이터를 광고, 프로파일링 또는 개인 식별에 사용하지 않습니다. 자세한 내용은 우리의 "
+   },
+   "eCommerce": {
+      "message": "전자상거래"
+   },
+   "emailPlaceholder": {
+      "message": "이메일"
+   },
+   "haveAccount": {
+      "message": "이미 계정이 있으신가요?"
+   },
+   "noAccount": {
+      "message": "계정이 없으신가요?"
+   },
+   "passwordPlaceholder": {
+      "message": "비밀번호"
+   },
+   "privacyPolicy": {
+      "message": "개인정보 보호정책을 참조하세요."
+   },
+   "serverError0": {
+      "message": "앗! 🙈 서버 업그레이드 중입니다. 잠시 후 다시 시도해주세요."
+   },
+   "serverError1": {
+      "message": "WhatRuns 서버가 점검 중입니다 💁‍♀️ 잠시 후 다시 시도해주세요."
+   },
+   "serverError2": {
+      "message": "당신은 WhatRuns에 중독된 것 같아요 🤒 저희는 건강을 걱정합니다. 잠시 휴식을 취하시고 나중에 다시 확인해주세요."
+   },
+   "serverError3": {
+      "message": "잠시 쉬세요! 😾 농담이에요. 저희 잘못입니다. 확장을 유지하기 위해 필요한 서비스를 업데이트 중입니다."
+   },
+   "serverError4": {
+      "message": "앗! 🙈 서버 업그레이드 중입니다. 잠시 후 돌아와 주세요."
+   },
+   "shareWhatruns": {
+      "message": "WhatRuns 공유 "
+   },
+   "signInButton": {
+      "message": "로그인"
+   },
+   "signInHeading": {
+      "message": "팔로우하려면 로그인하세요"
+   },
+   "signUpButton": {
+      "message": "가입하기"
+   },
+   "signUpHere": {
+      "message": "여기에서 가입"
+   }
+}

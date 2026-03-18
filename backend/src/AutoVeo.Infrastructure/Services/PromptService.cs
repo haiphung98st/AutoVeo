@@ -10,10 +10,12 @@ namespace AutoVeo.Infrastructure.Services;
 public class PromptService : IPromptService
 {
     private readonly AutoVeoDbContext _db;
+    private readonly IAIService _ai;
 
-    public PromptService(AutoVeoDbContext db)
+    public PromptService(AutoVeoDbContext db, IAIService ai)
     {
         _db = db;
+        _ai = ai;
     }
 
     public async Task<PromptResponse> GeneratePromptAsync(Guid userId, GeneratePromptRequest request)
@@ -47,6 +49,54 @@ public class PromptService : IPromptService
         await _db.SaveChangesAsync();
 
         return MapToResponse(prompt, request.Style);
+    }
+
+    public async Task<SeriesPromptResponse> GenerateConsistentSeriesAsync(Guid userId, GenerateConsistentSeriesRequest request)
+    {
+        // 1. Generate scenes via AI
+        var scenes = await _ai.GenerateConsistentScenesAsync(request.Keyword, request.Count, request.CharacterStyle, request.VisualTheme);
+
+        var firstScene = scenes.FirstOrDefault();
+        var masterChar = firstScene?.Character ?? "mysterious character";
+        var masterTheme = firstScene?.Theme ?? "futuristic adventure";
+
+        var response = new SeriesPromptResponse
+        {
+            MasterCharacter = masterChar,
+            MasterTheme = masterTheme
+        };
+
+        // Create a unique ID for this specific series generation
+        var seriesId = Guid.NewGuid();
+
+        // 2. Map scenes to Prompts and Save
+        foreach (var scene in scenes)
+        {
+            var promptText = $"Create a {request.Duration} {request.Style.ToLower()} video featuring {scene.Character}. " +
+                             $"Theme: {scene.Theme}. Scene: {scene.SceneDetail}. " +
+                             $"Optimized for {request.PlatformTarget} vertical format.";
+
+            var style = await _db.PromptStyles.FirstOrDefaultAsync(s => s.Name == request.Style);
+
+            var prompt = new GeneratedPrompt
+            {
+                UserId = userId,
+                Character = scene.Character,
+                Theme = scene.Theme,
+                PromptStyleId = style?.Id,
+                SceneDetail = scene.SceneDetail,
+                Duration = request.Duration,
+                PlatformTarget = request.PlatformTarget,
+                PromptText = promptText,
+                SeriesId = seriesId
+            };
+
+            _db.GeneratedPrompts.Add(prompt);
+            response.Prompts.Add(MapToResponse(prompt, request.Style));
+        }
+
+        await _db.SaveChangesAsync();
+        return response;
     }
 
     public async Task<ApiResponse<List<PromptResponse>>> GetUserPromptsAsync(Guid userId, int page = 1, int pageSize = 20)

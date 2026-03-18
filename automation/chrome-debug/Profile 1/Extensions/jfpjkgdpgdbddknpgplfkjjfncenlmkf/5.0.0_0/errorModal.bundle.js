@@ -1,0 +1,1 @@
+document.getElementById("close-modal-btn").addEventListener("click",(function(){chrome.runtime.sendMessage({type:"remove-alert-modal"})})),chrome.runtime.onMessage.addListener((function(e){"alert-modal-content"===e.type&&(document.getElementById("clapboard-modal-content").innerText=e.content)}));

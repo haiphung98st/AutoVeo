@@ -9,7 +9,7 @@ import type { TrendDto } from "../types/api";
 
 export function TrendExplorer() {
   const navigate = useNavigate();
-  const [platform, setPlatform] = useState("YouTube");
+  const [platform, setPlatform] = useState("Google Trends");
   const [timeRange, setTimeRange] = useState("7 days");
   const [region, setRegion] = useState("Global");
 
@@ -22,7 +22,7 @@ export function TrendExplorer() {
     setError("");
     try {
       const response = await trendsApi.getAll({
-        platform: platform === "Google Trends" ? "GoogleTrends" : platform,
+        platform: platform,
         region: region === "Global" ? undefined : region,
       });
       setTrends(response.data);
@@ -65,10 +65,10 @@ export function TrendExplorer() {
                   <button
                     key={p}
                     onClick={() => setPlatform(p)}
-                    className={`w - full px - 4 py - 3 rounded - xl text - left transition - all duration - 300 ${platform === p
-                        ? "bg-[#A855F7] text-white shadow-lg shadow-[#A855F7]/30"
-                        : "bg-[#0F0F18] text-gray-400 hover:text-white hover:bg-[#2A2A3E] border border-[#2A2A3E]"
-                      } `}
+                    className={`w-full px-4 py-3 rounded-xl text-left transition-all duration-300 ${platform === p
+                      ? "bg-[#A855F7] text-white shadow-lg shadow-[#A855F7]/30"
+                      : "bg-[#0F0F18] text-gray-400 hover:text-white hover:bg-[#2A2A3E] border border-[#2A2A3E]"
+                      }`}
                   >
                     {p}
                   </button>
@@ -83,10 +83,10 @@ export function TrendExplorer() {
                   <button
                     key={t}
                     onClick={() => setTimeRange(t)}
-                    className={`w - full px - 4 py - 3 rounded - xl text - left transition - all duration - 300 ${timeRange === t
-                        ? "bg-[#A855F7] text-white shadow-lg shadow-[#A855F7]/30"
-                        : "bg-[#0F0F18] text-gray-400 hover:text-white hover:bg-[#2A2A3E] border border-[#2A2A3E]"
-                      } `}
+                    className={`w-full px-4 py-3 rounded-xl text-left transition-all duration-300 ${timeRange === t
+                      ? "bg-[#A855F7] text-white shadow-lg shadow-[#A855F7]/30"
+                      : "bg-[#0F0F18] text-gray-400 hover:text-white hover:bg-[#2A2A3E] border border-[#2A2A3E]"
+                      }`}
                   >
                     {t}
                   </button>
@@ -101,10 +101,10 @@ export function TrendExplorer() {
                   <button
                     key={r}
                     onClick={() => setRegion(r)}
-                    className={`w - full px - 4 py - 3 rounded - xl text - left transition - all duration - 300 ${region === r
-                        ? "bg-[#A855F7] text-white shadow-lg shadow-[#A855F7]/30"
-                        : "bg-[#0F0F18] text-gray-400 hover:text-white hover:bg-[#2A2A3E] border border-[#2A2A3E]"
-                      } `}
+                    className={`w-full px-4 py-3 rounded-xl text-left transition-all duration-300 ${region === r
+                      ? "bg-[#A855F7] text-white shadow-lg shadow-[#A855F7]/30"
+                      : "bg-[#0F0F18] text-gray-400 hover:text-white hover:bg-[#2A2A3E] border border-[#2A2A3E]"
+                      }`}
                   >
                     {r}
                   </button>

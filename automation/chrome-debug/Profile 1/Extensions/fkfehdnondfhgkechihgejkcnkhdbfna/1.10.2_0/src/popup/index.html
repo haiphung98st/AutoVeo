@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="/css/base.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="d-flex flex-column align-items-center w-15em" id="loader">
+			<div class="preloader__spinner">
+				<div class="preloader__spinner__animation">
+					<!-- Empty div used by spinner for animation(css) -->
+					<div></div>
+				</div>
+				<svg class="mq-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 16">
+					<path
+						d="M22.8,12.7c-0.4,0-0.6-0.1-0.7-0.2c-0.1-0.1-0.2-0.3-0.2-0.7c0-0.3,0.1-0.7,0.2-1.3L23,6l0.2-0.7c0.1-0.4,0.1-0.7,0.2-1.1
+					c0-0.3,0.1-0.6,0.1-1c0-1.1-0.3-1.9-0.9-2.4C21.9,0.3,21.2,0,20.3,0c-0.9,0-1.7,0.2-2.4,0.5c-0.8,0.3-1.6,0.9-2.4,1.8
+					c-0.1-0.8-0.4-1.4-0.9-1.7C14,0.2,13.4,0,12.6,0c-1.7,0-3.3,0.7-4.8,2.2C7.7,1.7,7.4,1.2,7,0.9C6.3,0.3,5.4,0,4.2,0
+					C3.3,0,2.5,0.2,1.8,0.6c-0.4,0.1-0.7,0.3-1,0.5L0,4.7c0.1-0.1,0.1-0.1,0.2-0.2C0.4,4.2,0.7,4,1,3.7c0.3-0.2,0.6-0.4,0.9-0.5
+					C2.2,3.1,2.6,3,2.9,3c0.2,0,0.4,0.1,0.6,0.3c0.2,0.2,0.3,0.5,0.3,0.9c0,0.2,0,0.5-0.1,0.9c0,0.1,0,0.1,0,0.2L1.5,15.6h3.9l2.1-10
+					C8,4.8,8.6,4.3,9.1,3.9c0.5-0.4,1.1-0.6,1.6-0.6c0.3,0,0.6,0.1,0.7,0.2c0.1,0.1,0.2,0.3,0.2,0.6c0,0.4-0.1,0.9-0.2,1.5l-2.1,10h3.7
+					l2.1-10c0.4-0.7,1-1.3,1.5-1.7c0.6-0.4,1.1-0.6,1.6-0.6c0.4,0,0.6,0.1,0.7,0.2c0.1,0.1,0.2,0.3,0.2,0.7c0,0.3-0.1,0.7-0.2,1.3
+					l-0.4,2.2l-0.7,3.1c-0.1,0.4-0.1,0.7-0.2,1.1c0,0.3-0.1,0.6-0.1,1c0,1.1,0.3,1.9,0.9,2.4c0.6,0.5,1.3,0.7,2.2,0.7s1.7-0.2,2.4-0.5
+					c0,0,0.1,0,0.1,0l0.7-3.1C23.7,12.5,23.2,12.7,22.8,12.7z"
+					/>
+				</svg>
+			</div>
+			<div class="preloader__spinner__message p-1" id="loaderMessage">Loading...</div>
+		</div>
+		<div class="w-15em hidden" id="loggedOutContainer">
+			<a
+				href="https://app.moqups.com/login"
+				target="_blank"
+				class="d-flex align-items-center justify-content-between p-05"
+			>
+				<img src="/images/m48.png" class="logo" />
+				<div class="clear-text-decoration d-flex align-items-center">
+					Log in to Continue
+					<div class="ml-05">&#9654;</div>
+				</div>
+			</a>
+		</div>
+		<div class="hidden" id="loggedInContainer">
+			<div class="p-05 w-15em mt-05">
+				<a href="https://app.moqups.com/projects/new/" target="_blank" class="w-100 p-05"
+					>New Moqups Project</a
+				>
+			</div>
+			<div class="p-05 w-15em">
+				<a href="https://my.moqups.com/dashboard/" target="_blank" class="w-100 p-05"
+					>Account Dashboard</a
+				>
+			</div>
+
+			<div class="p-05 w-15em text-secondary">
+				<small class="p-05">TAKE A SCREENSHOT</small>
+			</div>
+
+			<div class="p-05 w-15em">
+				<a href="#" class="p-05 w-100" id="visibleAreaButton">Visible Area</a>
+			</div>
+			<div class="p-05 w-15em">
+				<a href="#" class="p-05 w-100" id="selectedAreaButton">Select an Area...</a>
+			</div>
+			<div class="p-05 w-15em mb-05">
+				<a href="#" class="p-05 w-100" id="wholePageButton">Entire Page</a>
+			</div>
+		</div>
+		<script src="index.js"></script>
+	</body>
+</html>

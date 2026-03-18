@@ -1,0 +1,281 @@
+{
+   "AIandMachineLearning": {
+      "message": "Yapay Zeka ve Makine Öğrenimi"
+   },
+   "Advertising": {
+      "message": "Reklamcılık"
+   },
+   "AffiliateMarketing": {
+      "message": "Ortaklık Pazarlaması"
+   },
+   "AffiliateNetworks": {
+      "message": "Ortaklık Ağları"
+   },
+   "Analytics": {
+      "message": "Analitik"
+   },
+   "Blogs": {
+      "message": "Bloglar"
+   },
+   "BookingManagement": {
+      "message": "Rezervasyon Yönetimi"
+   },
+   "BrowserFingerprinting": {
+      "message": "Tarayıcı Parmak İzi"
+   },
+   "BuildCISystems": {
+      "message": "CI Sistemleri Kur"
+   },
+   "BuyNowPayLater": {
+      "message": "Şimdi Al Sonra Öde"
+   },
+   "CDN": {
+      "message": "CDN"
+   },
+   "CMS": {
+      "message": "CMS"
+   },
+   "CRM": {
+      "message": "CRM"
+   },
+   "Cache": {
+      "message": "Önbellek"
+   },
+   "Captcha": {
+      "message": "Captcha"
+   },
+   "ChatWidgets": {
+      "message": "Sohbet Widget'ları"
+   },
+   "CommentsandReviews": {
+      "message": "Yorumlar ve İncelemeler"
+   },
+   "Communication": {
+      "message": "İletişim"
+   },
+   "ControlSystems": {
+      "message": "Kontrol Sistemleri"
+   },
+   "CookieandConsent": {
+      "message": "Çerez ve Onay"
+   },
+   "Database": {
+      "message": "Veritabanı"
+   },
+   "Databases": {
+      "message": "Veritabanları"
+   },
+   "DevTools": {
+      "message": "Geliştirici Araçları"
+   },
+   "DocumentManagementSystems": {
+      "message": "Doküman Yönetim Sistemleri"
+   },
+   "Documentation": {
+      "message": "Dokümantasyon"
+   },
+   "Editors": {
+      "message": "Editörler"
+   },
+   "FeedReaders": {
+      "message": "Besleme Okuyucuları"
+   },
+   "FinanceandAccounting": {
+      "message": "Finans ve Muhasebe"
+   },
+   "Font": {
+      "message": "Yazı Tipi"
+   },
+   "Gallery": {
+      "message": "Galeri"
+   },
+   "Gaming": {
+      "message": "Oyun"
+   },
+   "HTMLFramework": {
+      "message": "HTML Çerçevesi"
+   },
+   "Hosting": {
+      "message": "Barındırma"
+   },
+   "IssueTracker": {
+      "message": "Hata Takipçisi"
+   },
+   "JavascriptLibraries": {
+      "message": "Javascript Kütüphaneleri"
+   },
+   "LMS": {
+      "message": "Öğrenme Yönetim Sistemi"
+   },
+   "Logistics": {
+      "message": "Lojistik"
+   },
+   "Maps": {
+      "message": "Haritalar"
+   },
+   "MediaServer": {
+      "message": "Medya Sunucusu"
+   },
+   "MessageBoard": {
+      "message": "Mesaj Panosu"
+   },
+   "Miscellaneous": {
+      "message": "Çeşitli"
+   },
+   "MobileFrameworks": {
+      "message": "Mobil Çerçeveler"
+   },
+   "Monitoring": {
+      "message": "İzleme"
+   },
+   "NetworkDevice": {
+      "message": "Ağ Cihazı"
+   },
+   "NetworkStorage": {
+      "message": "Ağ Depolama"
+   },
+   "NoCodePlatforms": {
+      "message": "Kod Gerektirmeyen Platformlar"
+   },
+   "OperatingSystem": {
+      "message": "İşletim Sistemi"
+   },
+   "PageBuilders": {
+      "message": "Sayfa Oluşturucular"
+   },
+   "Payments": {
+      "message": "Ödemeler"
+   },
+   "Paywalls": {
+      "message": "Ödeme Duvarları"
+   },
+   "Printers": {
+      "message": "Yazıcılar"
+   },
+   "ProgrammingLanguage": {
+      "message": "Programlama Dili"
+   },
+   "RemoteAccess": {
+      "message": "Uzaktan Erişim"
+   },
+   "RichTextEditors": {
+      "message": "Zengin Metin Editörleri"
+   },
+   "SalesandMarketing": {
+      "message": "Satış ve Pazarlama"
+   },
+   "SearchEngine": {
+      "message": "Arama Motoru"
+   },
+   "Security": {
+      "message": "Güvenlik"
+   },
+   "StatusPages": {
+      "message": "Durum Sayfaları"
+   },
+   "TagManagers": {
+      "message": "Etiket Yöneticileri"
+   },
+   "UIandGraphics": {
+      "message": "UI ve Grafikler"
+   },
+   "Video": {
+      "message": "Video"
+   },
+   "WebFramework": {
+      "message": "Web Çerçevesi"
+   },
+   "WebMail": {
+      "message": "Web Mail"
+   },
+   "WebServer": {
+      "message": "Web Sunucusu"
+   },
+   "WebServerExtensions": {
+      "message": "Web Sunucusu Uzantıları"
+   },
+   "Webcams": {
+      "message": "Web Kameraları"
+   },
+   "WebsiteBuilder": {
+      "message": "Web Sitesi Oluşturucu"
+   },
+   "WebsiteOptimization": {
+      "message": "Web Sitesi Optimizasyonu"
+   },
+   "Widgets": {
+      "message": "Widget'lar"
+   },
+   "Wiki": {
+      "message": "Viki"
+   },
+   "WordPressPlugins": {
+      "message": "WordPress Eklentileri"
+   },
+   "agreeTerms": {
+      "message": "Bu butona tıklayarak, "
+   },
+   "agreeTermsLink": {
+      "message": "hizmet şartlarımızı"
+   },
+   "analyzingWebsite": {
+      "message": "Web sitesi analiz ediliyor..."
+   },
+   "appDesc": {
+      "message": "Bir web sitesinde hangi teknolojilerin çalıştığını keşfedin. Çerçeveler, Analiz Araçları, Wordpress Eklentileri, Yazı Tipleri - aklınıza ne gelirse."
+   },
+   "appName": {
+      "message": "WhatRuns"
+   },
+   "cookieContent": {
+      "message": "WhatRuns, ziyaret ettiğiniz web sitelerinin kaynak kodunu okuyarak kullanılan teknolojileri tespit eder. Verilerinizi reklam, profilleme veya kişisel tanımlama için kullanmayız. Daha fazlasını şurada okuyun: "
+   },
+   "eCommerce": {
+      "message": "E-ticaret"
+   },
+   "emailPlaceholder": {
+      "message": "E-posta"
+   },
+   "haveAccount": {
+      "message": "Zaten hesabınız var mı? "
+   },
+   "noAccount": {
+      "message": "Hesabınız yok mu?"
+   },
+   "passwordPlaceholder": {
+      "message": "Şifre"
+   },
+   "privacyPolicy": {
+      "message": " gizlilik politikamızı okuyun."
+   },
+   "serverError0": {
+      "message": "Ah! Yakalandık 🙈 Gizlice bir sunucu yükseltmesi yapıyoruz. Bizi birkaç dakika yalnız bırakır mısın?"
+   },
+   "serverError1": {
+      "message": "WhatRuns şu anda sunucu bakımı yapıyor 💁‍♀️ Bir dakika içinde tekrar deneyebilir misiniz?"
+   },
+   "serverError2": {
+      "message": "WhatRuns’a bağımlı olduğunuzu düşünüyoruz 🤒 Sağlığınız için kısa bir mola vermek istiyoruz. Lütfen daha sonra tekrar kontrol edin. (Cidden sunucu yükseltmesi)."
+   },
+   "serverError3": {
+      "message": "Biraz ara verin! 😾 Şaka yapıyoruz. Bizim hatamız. Bu süper eklentinin çalışması için gerekli servisleri güncelliyoruz."
+   },
+   "serverError4": {
+      "message": "Ah! Yakalandık 🙈 Gizlice bir sunucu yükseltmesi yapıyoruz. Bizi birkaç dakika yalnız bırakır mısın?"
+   },
+   "shareWhatruns": {
+      "message": "WhatRuns'ı paylaş "
+   },
+   "signInButton": {
+      "message": "Giriş yap"
+   },
+   "signInHeading": {
+      "message": "Takip etmek için giriş yapın"
+   },
+   "signUpButton": {
+      "message": "Kaydol"
+   },
+   "signUpHere": {
+      "message": "Buradan kaydolun"
+   }
+}

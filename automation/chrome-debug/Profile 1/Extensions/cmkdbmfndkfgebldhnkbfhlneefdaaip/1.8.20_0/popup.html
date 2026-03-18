@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Whatruns Popup</title>
+		<link href='css/font-lato.css' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/popup.css">
+		<script src="js/i18n.js"></script>
+		<script src="js/browser-polyfill.js"></script>
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/bootstrap-tooltip.js"></script>
+		<script src="js/global.constants.js"></script>
+		<script src="js/popup_final.js"></script>
+		<script src="js/popup_final_extension.js"></script>
+	</head>
+	<body>
+		<div class="body-header">
+				<div class="body-header-wrap">
+					<div class="inline-block">
+						<h3> What runs <span class="current-site-name"  id="current-site-name" style="font-weight:normal;"></span>?</h3>
+					</div>
+					<div class="body-header-buttons">
+						<div class="inline-block header-btn" id="forceRefreshApps" data-toggle="tooltip" data-placement="bottom" title="Update Apps">	
+							<img src="images/refresh.webp" class="btn-force-refresh">
+						</div>
+						<div class="inline-block header-btn back" data-toggle="tooltip" data-placement="bottom" title="Back">	
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="btn-back">
+								<path d="M13.0469 8H4.04688" stroke="black" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M6.46094 4.5L2.96094 8L6.46094 11.5" stroke="black" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+						</div>
+						<div class="inline-block header-btn user-already-following" data-toggle="tooltip" data-placement="bottom" title="Following">
+							<img src="images/already-following.png" class="btn-already-following">
+						</div>
+						<div class="inline-block header-btn user-follow" data-toggle="tooltip" data-placement="bottom" title="Follow">	
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+								<path d="M3.33594 8H12.6693" stroke="#000" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M8 3.33301V12.6663" stroke="#000" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+						</div>
+						<div class="inline-block  header-btn user-following" data-toggle="tooltip" data-placement="bottom" title="Your Sites">	
+							<img src="images/Following.png" class="btn-following">
+						</div>
+						<div class="inline-block header-btn share-url share-url-header-icon" data-toggle="tooltip" data-placement="bottom" title="">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+								<path d="M8 1.33398V10.0007" stroke="#0A0A0A" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M10.6693 4.00065L8.0026 1.33398L5.33594 4.00065" stroke="#0A0A0A" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M2.66406 8V13.3333C2.66406 13.687 2.80454 14.0261 3.05459 14.2761C3.30464 14.5262 3.64377 14.6667 3.9974 14.6667H11.9974C12.351 14.6667 12.6902 14.5262 12.9402 14.2761C13.1903 14.0261 13.3307 13.687 13.3307 13.3333V8" stroke="#0A0A0A" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+						</div>
+						<div class="inline-block whatruns-dark" data-toggle="tooltip" data-placement="bottom" title="Dark">	
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="btn-dark">
+								<path d="M13.9913 8.32394C13.9288 9.48137 13.5324 10.5959 12.85 11.5329C12.1676 12.4698 11.2284 13.1891 10.146 13.6036C9.06352 14.0182 7.88416 14.1104 6.75046 13.869C5.61676 13.6276 4.57725 13.063 3.75759 12.2434C2.93792 11.4238 2.3732 10.3844 2.13169 9.25068C1.89018 8.117 1.98221 6.93764 2.39666 5.85515C2.81112 4.77266 3.53025 3.8334 4.46713 3.1509C5.40401 2.4684 6.51852 2.07188 7.67595 2.00927C7.94595 1.99461 8.08728 2.31594 7.94395 2.54461C7.46454 3.31164 7.25926 4.21852 7.36161 5.11724C7.46396 6.01596 7.86789 6.85346 8.50749 7.49306C9.14709 8.13266 9.98459 8.53659 10.8833 8.63894C11.782 8.74129 12.6889 8.53601 13.4559 8.05661C13.6853 7.91327 14.0059 8.05394 13.9913 8.32394Z" stroke="black" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+						</div>
+						<div class="inline-block whatruns-white" data-toggle="tooltip" data-placement="bottom" title="White">	
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="btn-white">
+							<path d="M8.0026 10.6663C9.47536 10.6663 10.6693 9.47243 10.6693 7.99967C10.6693 6.52692 9.47536 5.33301 8.0026 5.33301C6.52984 5.33301 5.33594 6.52692 5.33594 7.99967C5.33594 9.47243 6.52984 10.6663 8.0026 10.6663Z" stroke="#fff" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M8 1.33301V2.66634" stroke="#fff" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M8 13.333V14.6663" stroke="#fff" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M3.28906 3.28711L4.22906 4.22711" stroke="#fff" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M11.7734 11.7734L12.7134 12.7134" stroke="#fff" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M1.33594 8H2.66927" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M13.3359 8H14.6693" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M4.22906 11.7734L3.28906 12.7134" stroke="#fff" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M12.7134 3.28711L11.7734 4.22711" stroke="#fff" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+						</div>
+					</div>
+					
+				</div>
+		</div>
+		<div class="loading">
+			<img src="images/Whatruns loading.gif" alt="">
+			<p data-i18n="analyzingWebsite"></p>
+		  </div>
+		<div class="content">
+		  <div class="container current-app-info active">
+			  <div class="list" id="tech-info">	
+				  <div id="even" class="even"></div>
+				  <div id="odd" class="odd"></div>
+			  </div>
+				<div class="cookie-policy hide">
+					<div class="cookie-policy-inner">
+						<span class="cookie-content">
+							<span data-i18n="cookieContent"></span>
+							<a href="https://www.whatruns.com/privacy" target="_blank"  data-i18n="privacyPolicy"></a>
+						</span>
+						<span class="close">
+							<img class="close_light" src="images/close_1.svg" alt="Close"/>
+							<img class="close_dark" src="images/close_2.svg" alt="Close">
+						</span>
+					</div>
+				</div>
+		  </div>
+		  <div class="whatruns-review-container hide">
+			<div class="whatruns-review">
+			  <div class="whatruns-review-wrap">
+				  <img class="whatruns-review-logo" src="images/review_img1.svg" alt="">
+				  <div>
+					WhatRuns made you feel like a hacking genius?</span>
+				  </div>
+				  <p>
+					We promise we won't tell the Feds!
+				  </p>
+				  <img class="whatruns-review-rating" src="/images/rating1.svg" alt="">
+			  </div>
+			  <button class="whatruns-review-button">Write a Review</button>
+			  <button class="whatruns-later-button">May be later</button>
+  
+		  </div>
+		  </div>
+		  
+		  <div class="container block signup">
+		  	<form class="form signup-form" url="register" method="POST">
+		  		<div class="form-heading" data-i18n="signUpButton">
+		  		</div>
+		  		<div class="form-group">
+		  			<input type="email" class="form-control" name="email" autocomplete="off" data-i18n="emailPlaceholder">
+		  		</div>
+		  		<div class="form-group">
+		  			<input type="password" class="form-control" name="password" autocomplete="off" data-i18n="passwordPlaceholder">
+		  		</div>
+		  		<div class="form-bottom"><span data-i18n="agreeTerms"></span><a class="terms_service_link" href="http://whatruns.com/terms" target="_blank" data-i18n="agreeTermsLink"></a></div>
+		  		<div class="result"></div>
+		  		<input type="text" class="form-control hide" name="source" value="extension" style="display:none;">
+		  		<button type="submit" class="btn btn-sm btn-primary" data-i18n="signUpButton"></button>
+		  		<div class="form-bottom">
+		  			<div class=""><span data-i18n="haveAccount"></span><a class="btn-signin" data-i18n="signInButton"></a></div>
+		  		</div>
+		  	</form>
+		  </div>
+		  <div class="container block signin">
+		  	<form class="form signin-form" url="extension_signin" method="POST">	
+		  		<div class="form-heading" >
+					<span data-i18n="signInHeading"></span>
+		  			 <span class="current-site-name"></span>
+		  		</div>
+		  		<div class="form-group">
+		  			<input type="email" class="form-control" name="email" autocomplete="off" data-i18n="emailPlaceholder">
+		  		</div>
+		  		<div class="form-group">
+		  			<input type="password" class="form-control" name="password" autocomplete="off" data-i18n="passwordPlaceholder">
+		  		</div>
+		  		<div class="result"></div>
+		  		<button type="submit" class="btn btn-sm btn-primary" data-i18n="signInButton"></button>
+		  		<div class="form-bottom"><span data-i18n="noAccount"></span><a class="btn-signup" data-i18n="signUpHere"></a></div>
+		  	</form>
+		  </div>
+		  <div class="container block following">
+				<div class="following-sites">
+					<div class="following-sites-list"></div>
+				</div>
+		  </div>
+		  <div class="container block share-container">
+		  		<div style="padding:33px 23px 80px 17px;">
+				   <div class="share-url-heading">
+					   <h4><span data-i18n="shareWhatruns"></span><span class="current-site-name current-site-name-regular"></span></h4>
+				   </div>
+				   <div class="share-url-body">	
+					   <div class="form-group">
+					   		<div class="inner-addon left-addon">
+					   			<img class="copy-link-img" src="images/copy-link.svg">
+								<img class="copy-link-dark-img" src="images/copy-link-dark.svg">
+						   		<input type="text" class="form-control share-url-original" readonly autocomplete="off" >
+						   	</div>
+					   </div>
+				   </div>
+				   <div class="share-url-footer text-center">
+					   <div class="inline-block share-facebook share-common" data-toggle="tooltip" data-placement="bottom" title="Share on Facebook">
+						 <button class="btn btn-default btn-sm share-btn ">  <img src="images/Facebook.svg"> </button>
+					   </div>
+					   <div class="inline-block share-twitter share-common" data-toggle="tooltip" data-placement="bottom" title="Share on Twitter">
+						<a href="" target="_blank" class="twitter-share-href"><button class="btn btn-default btn-sm share-btn">    <img src="images/Twitter.svg"> </button></a>
+					   </div>
+					   <div class="inline-block share-email share-common" data-toggle="tooltip" data-placement="bottom" title="Send as an Email">
+						  <button class="btn btn-default btn-sm share-btn">  <img src="images/Email.svg"> </button>
+					   </div>
+				   </div>
+			</div>
+		  </div>
+		  <div class="container block email-share-container">
+		  	<div class="share-email-container">
+				  <form id="email-share-form">
+				  		<h4>Share as an Email</h4>
+					  <div class="form-group">
+						  <input type="text" class="form-control" name="name" placeholder="Your name" autocomplete="off" >
+					  </div>
+					  <div class="form-group">
+						  <input type="text" class="form-control" name="email" placeholder="Email address you want to share" autocomplete="off" >
+					  </div>
+					  <div class="form-group">
+						  <button type="submit" class="btn btn-primary share-email-submit btn-sm btn-success">Share</button>
+					  </div>
+					  <div class="result" style="margin:5px 0px;"></div>
+				  </form>
+				</div>
+		  </div>
+		</div>
+		<div class="footer">
+			<a href="https://www.whatruns.com/" target="_blank"><img src="images/Logo.svg"></a>
+		</div>
+	</body>
+</html>

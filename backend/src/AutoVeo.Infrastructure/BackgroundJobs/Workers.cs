@@ -31,12 +31,13 @@ public class TrendCrawlerWorker : BackgroundService
         _logger.LogInformation("TrendCrawlerWorker started");
 
         // Initial delay to let the app fully start
-        await Task.Delay(TimeSpan.FromSeconds(10), stoppingToken);
+        await Task.Delay(TimeSpan.FromSeconds(5), stoppingToken);
 
         while (!stoppingToken.IsCancellationRequested)
         {
             try
             {
+                _logger.LogInformation("TrendCrawlerWorker: Starting scheduled crawl...");
                 await CrawlAllPlatformsAsync(stoppingToken);
             }
             catch (Exception ex)
@@ -45,6 +46,7 @@ public class TrendCrawlerWorker : BackgroundService
             }
 
             var intervalMinutes = int.Parse(_config["TrendCrawler:IntervalMinutes"] ?? "60");
+            _logger.LogInformation("TrendCrawlerWorker: Waiting {Minutes} minutes for next crawl...", intervalMinutes);
             await Task.Delay(TimeSpan.FromMinutes(intervalMinutes), stoppingToken);
         }
     }
@@ -54,7 +56,9 @@ public class TrendCrawlerWorker : BackgroundService
         using var scope = _scopeFactory.CreateScope();
         var db = scope.ServiceProvider.GetRequiredService<AutoVeoDbContext>();
         var collectors = scope.ServiceProvider.GetServices<ITrendCollector>();
-        var regions = new[] { "Global", "VN", "US" };
+        
+        // Region mapping for consistent database storage
+        var regions = new[] { "Global", "United States", "Vietnam" };
 
         foreach (var collector in collectors)
         {
@@ -171,7 +175,6 @@ public class Veo3GenerationWorker : BackgroundService
         using var scope = _scopeFactory.CreateScope();
         var db = scope.ServiceProvider.GetRequiredService<AutoVeoDbContext>();
 
-        // Fetch all pending requests
         var pendingRenders = await db.RenderRequests
             .Include(r => r.Prompt)
             .Where(r => r.Status == RenderStatus.Pending)
@@ -179,15 +182,19 @@ public class Veo3GenerationWorker : BackgroundService
 
         if (pendingRenders.Count == 0) return;
 
-        _logger.LogInformation("Found {Count} pending renders. Attempting to process in parallel...", pendingRenders.Count);
+        // Group by SeriesId. If SeriesId is null, each gets its own "series"
+        var groups = pendingRenders
+            .GroupBy(r => r.Prompt?.SeriesId ?? Guid.NewGuid())
+            .ToList();
 
-        var tasks = pendingRenders.Select(render => ProcessSingleRenderAsync(render.Id, ct));
+        _logger.LogInformation("Found {Count} pending renders in {GroupCount} groups.", pendingRenders.Count, groups.Count);
+
+        var tasks = groups.Select(group => ProcessRenderGroupAsync(group.ToList(), ct));
         await Task.WhenAll(tasks);
     }
 
-    private async Task ProcessSingleRenderAsync(Guid renderId, CancellationToken ct)
+    private async Task ProcessRenderGroupAsync(List<RenderRequest> renderGroup, CancellationToken ct)
     {
-        // Wait for available slot
         await _concurrencySemaphore.WaitAsync(ct);
         
         try
@@ -195,33 +202,36 @@ public class Veo3GenerationWorker : BackgroundService
             using var scope = _scopeFactory.CreateScope();
             var db = scope.ServiceProvider.GetRequiredService<AutoVeoDbContext>();
             
-            var render = await db.RenderRequests
+            // Re-fetch to ensure we have the latest and mark as Processing
+            var groupIds = renderGroup.Select(r => r.Id).ToList();
+            var renders = await db.RenderRequests
                 .Include(r => r.Prompt)
-                .FirstOrDefaultAsync(r => r.Id == renderId, ct);
+                .Where(r => groupIds.Contains(r.Id))
+                .ToListAsync(ct);
 
-            if (render == null || render.Status != RenderStatus.Pending) return;
-
-            // Set to processing immediately to lock it
-            render.Status = RenderStatus.Processing;
+            foreach (var r in renders) r.Status = RenderStatus.Processing;
             await db.SaveChangesAsync(ct);
 
-            _logger.LogInformation("Starting generation for render {Id}. Prompt: {Prompt}", render.Id, render.Prompt?.PromptText);
+            _logger.LogInformation("Processing group of {Count} renders. First ID: {Id}", renders.Count, renders[0].Id);
 
-            string promptText = render.Prompt?.PromptText ?? "A cinematic video";
+            // Prepare prompt data for generate.js
+            var promptData = renders.Select(r => new { 
+                id = r.Id, 
+                text = r.Prompt?.PromptText ?? "A cinematic video" 
+            }).ToList();
             
-            // Prepare paths
+            string jsonPrompts = System.Text.Json.JsonSerializer.Serialize(promptData);
+            
             string scriptDir = Path.GetFullPath(Path.Combine(_env.ContentRootPath, "..", "..", "..", "automation"));
             string scriptPath = Path.Combine(scriptDir, "generate.js");
             string outputDir = Path.Combine(scriptDir, "output");
 
-            if (!Directory.Exists(outputDir))
-                Directory.CreateDirectory(outputDir);
+            if (!Directory.Exists(outputDir)) Directory.CreateDirectory(outputDir);
 
-            // Setup process
             var startInfo = new System.Diagnostics.ProcessStartInfo
             {
                 FileName = "node",
-                Arguments = $"\"{scriptPath}\" \"{promptText}\" \"{outputDir}\"",
+                Arguments = $"\"{scriptPath}\" '{jsonPrompts}' \"{outputDir}\"",
                 WorkingDirectory = scriptDir,
                 RedirectStandardOutput = true,
                 RedirectStandardError = true,
@@ -237,78 +247,74 @@ public class Veo3GenerationWorker : BackgroundService
 
             await process.WaitForExitAsync(ct);
 
-            _logger.LogInformation("Node script completed for {Id}. Exit code: {Code}", render.Id, process.ExitCode);
+            _logger.LogInformation("Group process completed. Exit code: {Code}", process.ExitCode);
             
             if (process.ExitCode == 0)
             {
-                // Parse the [RESULT] path
-                string? resultPath = null;
                 var lines = stdOut.Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
-                foreach (var line in lines)
+                foreach (var render in renders)
                 {
-                    if (line.Contains("[RESULT]"))
+                    // Look for [RESULT][renderId] in output
+                    string marker = $"[RESULT][{render.Id}]";
+                    string? resultLine = lines.FirstOrDefault(l => l.Contains(marker));
+                    
+                    if (resultLine != null)
                     {
-                        resultPath = line.Split("[RESULT]", StringSplitOptions.TrimEntries).LastOrDefault();
-                        break;
+                        string resultPath = resultLine.Split(marker, StringSplitOptions.TrimEntries).Last().Trim();
+                        if (File.Exists(resultPath))
+                        {
+                            string wwwroot = _env.WebRootPath ?? Path.Combine(_env.ContentRootPath, "wwwroot");
+                            string videosDir = Path.Combine(wwwroot, "videos");
+                            if (!Directory.Exists(videosDir)) Directory.CreateDirectory(videosDir);
+
+                            string fileName = $"{render.Id}.mp4";
+                            string destinationPath = Path.Combine(videosDir, fileName);
+
+                            File.Copy(resultPath, destinationPath, true);
+
+                            render.Status = RenderStatus.Completed;
+                            render.CompletedAt = DateTime.UtcNow;
+
+                            var result = new RenderResult 
+                            { 
+                                RenderRequestId = render.Id,
+                                VideoUrl = $"/videos/{fileName}",
+                                DurationSeconds = 8,
+                                CompletedAt = DateTime.UtcNow
+                            };
+                            db.RenderResults.Add(result);
+                        }
                     }
-                }
-
-                if (!string.IsNullOrEmpty(resultPath) && File.Exists(resultPath))
-                {
-                    string wwwroot = _env.WebRootPath ?? Path.Combine(_env.ContentRootPath, "wwwroot");
-                    string videosDir = Path.Combine(wwwroot, "videos");
-                    if (!Directory.Exists(videosDir)) Directory.CreateDirectory(videosDir);
-
-                    string fileName = $"{render.Id}.mp4";
-                    string destinationPath = Path.Combine(videosDir, fileName);
-
-                    File.Copy(resultPath, destinationPath, true);
-
-                    render.Status = RenderStatus.Completed;
-                    render.CompletedAt = DateTime.UtcNow;
-
-                    var result = new RenderResult 
-                    { 
-                        RenderRequestId = render.Id,
-                        VideoUrl = $"/videos/{fileName}",
-                        DurationSeconds = 5,
-                        CompletedAt = DateTime.UtcNow
-                    };
-                    db.RenderResults.Add(result);
-                }
-                else
-                {
-                    throw new Exception("Script exited 0 but no valid [RESULT] path found in output.");
+                    else
+                    {
+                        render.Status = RenderStatus.Failed;
+                        db.RenderResults.Add(new RenderResult 
+                        { 
+                            RenderRequestId = render.Id,
+                            ErrorMessage = "Success exit but result path not found in output for this prompt."
+                        });
+                    }
                 }
             }
             else
             {
-                throw new Exception($"Script exited with code {process.ExitCode}. Error: {stdErr}");
+                foreach (var render in renders)
+                {
+                    render.Status = RenderStatus.Failed;
+                    db.RenderResults.Add(new RenderResult 
+                    { 
+                        RenderRequestId = render.Id,
+                        ErrorMessage = $"Automation script failed with exit code {process.ExitCode}. Error: {stdErr}"
+                    });
+                }
             }
             
             await db.SaveChangesAsync(ct);
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, "Failed to generate video for render {Id}", renderId);
-            
-            using var scope = _scopeFactory.CreateScope();
-            var db = scope.ServiceProvider.GetRequiredService<AutoVeoDbContext>();
-            var render = await db.RenderRequests.FindAsync(new object[] { renderId }, ct);
-            
-            if (render != null)
-            {
-                render.Status = RenderStatus.Failed;
-                render.CompletedAt = DateTime.UtcNow;
-
-                var result = new RenderResult 
-                { 
-                    RenderRequestId = render.Id,
-                    ErrorMessage = ex.Message
-                };
-                db.RenderResults.Add(result);
-                await db.SaveChangesAsync(ct);
-            }
+            _logger.LogError(ex, "Exception in render group processing");
+            // Optionally update all in group to failed here
         }
         finally
         {

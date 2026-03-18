@@ -1,0 +1,281 @@
+{
+   "AIandMachineLearning": {
+      "message": "الذكاء الاصطناعي وتعلم الآلة"
+   },
+   "Advertising": {
+      "message": "الإعلانات"
+   },
+   "AffiliateMarketing": {
+      "message": "تسويق تابع"
+   },
+   "AffiliateNetworks": {
+      "message": "شبكات تابعة"
+   },
+   "Analytics": {
+      "message": "التحليلات"
+   },
+   "Blogs": {
+      "message": "مدونات"
+   },
+   "BookingManagement": {
+      "message": "إدارة الحجوزات"
+   },
+   "BrowserFingerprinting": {
+      "message": "بصمة المتصفح"
+   },
+   "BuildCISystems": {
+      "message": "أنظمة CI"
+   },
+   "BuyNowPayLater": {
+      "message": "اشترِ الآن وادفع لاحقًا"
+   },
+   "CDN": {
+      "message": "خدمة توصيل المحتوى"
+   },
+   "CMS": {
+      "message": "نظام إدارة المحتوى"
+   },
+   "CRM": {
+      "message": "إدارة علاقات العملاء"
+   },
+   "Cache": {
+      "message": "ذاكرة التخزين المؤقت"
+   },
+   "Captcha": {
+      "message": "كابتشا"
+   },
+   "ChatWidgets": {
+      "message": "عناصر الدردشة"
+   },
+   "CommentsandReviews": {
+      "message": "تعليقات ومراجعات"
+   },
+   "Communication": {
+      "message": "الاتصال"
+   },
+   "ControlSystems": {
+      "message": "أنظمة التحكم"
+   },
+   "CookieandConsent": {
+      "message": "ملفات تعريف الارتباط والموافقة"
+   },
+   "Database": {
+      "message": "قاعدة بيانات"
+   },
+   "Databases": {
+      "message": "قواعد البيانات"
+   },
+   "DevTools": {
+      "message": "أدوات المطور"
+   },
+   "DocumentManagementSystems": {
+      "message": "أنظمة إدارة المستندات"
+   },
+   "Documentation": {
+      "message": "توثيق"
+   },
+   "Editors": {
+      "message": "محررون"
+   },
+   "FeedReaders": {
+      "message": "قارئات الخلاصات"
+   },
+   "FinanceandAccounting": {
+      "message": "المالية والمحاسبة"
+   },
+   "Font": {
+      "message": "الخط"
+   },
+   "Gallery": {
+      "message": "معرض"
+   },
+   "Gaming": {
+      "message": "ألعاب"
+   },
+   "HTMLFramework": {
+      "message": "إطار عمل HTML"
+   },
+   "Hosting": {
+      "message": "استضافة"
+   },
+   "IssueTracker": {
+      "message": "متتبع المشكلات"
+   },
+   "JavascriptLibraries": {
+      "message": "مكتبات JavaScript"
+   },
+   "LMS": {
+      "message": "نظام LMS"
+   },
+   "Logistics": {
+      "message": "الخدمات اللوجستية"
+   },
+   "Maps": {
+      "message": "خرائط"
+   },
+   "MediaServer": {
+      "message": "خادم الوسائط"
+   },
+   "MessageBoard": {
+      "message": "لوحة رسائل"
+   },
+   "Miscellaneous": {
+      "message": "متنوع"
+   },
+   "MobileFrameworks": {
+      "message": "أطر العمل للهواتف"
+   },
+   "Monitoring": {
+      "message": "المراقبة"
+   },
+   "NetworkDevice": {
+      "message": "جهاز الشبكة"
+   },
+   "NetworkStorage": {
+      "message": "تخزين الشبكة"
+   },
+   "NoCodePlatforms": {
+      "message": "منصات بدون كود"
+   },
+   "OperatingSystem": {
+      "message": "نظام التشغيل"
+   },
+   "PageBuilders": {
+      "message": "منشئو الصفحات"
+   },
+   "Payments": {
+      "message": "المدفوعات"
+   },
+   "Paywalls": {
+      "message": "جدران الدفع"
+   },
+   "Printers": {
+      "message": "طابعات"
+   },
+   "ProgrammingLanguage": {
+      "message": "لغة برمجة"
+   },
+   "RemoteAccess": {
+      "message": "الوصول عن بعد"
+   },
+   "RichTextEditors": {
+      "message": "محررات النص الغني"
+   },
+   "SalesandMarketing": {
+      "message": "المبيعات والتسويق"
+   },
+   "SearchEngine": {
+      "message": "محرك البحث"
+   },
+   "Security": {
+      "message": "الأمان"
+   },
+   "StatusPages": {
+      "message": "صفحات الحالة"
+   },
+   "TagManagers": {
+      "message": "مديري العلامات"
+   },
+   "UIandGraphics": {
+      "message": "واجهة المستخدم والرسومات"
+   },
+   "Video": {
+      "message": "فيديو"
+   },
+   "WebFramework": {
+      "message": "إطار الويب"
+   },
+   "WebMail": {
+      "message": "البريد الإلكتروني"
+   },
+   "WebServer": {
+      "message": "خادم ويب"
+   },
+   "WebServerExtensions": {
+      "message": "ملحقات خادم الويب"
+   },
+   "Webcams": {
+      "message": "كاميرات ويب"
+   },
+   "WebsiteBuilder": {
+      "message": "منشئ المواقع"
+   },
+   "WebsiteOptimization": {
+      "message": "تحسين المواقع"
+   },
+   "Widgets": {
+      "message": "عناصر واجهة"
+   },
+   "Wiki": {
+      "message": "ويكي"
+   },
+   "WordPressPlugins": {
+      "message": "إضافات WordPress"
+   },
+   "agreeTerms": {
+      "message": "بالضغط على هذا الزر، فإنك توافق على "
+   },
+   "agreeTermsLink": {
+      "message": "شروط الخدمة."
+   },
+   "analyzingWebsite": {
+      "message": "جارٍ تحليل الموقع..."
+   },
+   "appDesc": {
+      "message": "اكتشف ما الذي يعمل على موقع الويب. الأطر، أدوات التحليلات، إضافات ووردبريس، الخطوط - كل ما يخطر ببالك."
+   },
+   "appName": {
+      "message": "ما الذي يعمل"
+   },
+   "cookieContent": {
+      "message": "يقرأ WhatRuns الشيفرة المصدرية للمواقع التي تزورها لاكتشاف التقنيات. نحن لا نستخدم بياناتك للإعلانات أو التصنيف أو التعرف الشخصي. اقرأ المزيد في "
+   },
+   "eCommerce": {
+      "message": "التجارة الإلكترونية"
+   },
+   "emailPlaceholder": {
+      "message": "البريد الإلكتروني"
+   },
+   "haveAccount": {
+      "message": "هل لديك حساب بالفعل؟ "
+   },
+   "noAccount": {
+      "message": "ليس لديك حساب؟"
+   },
+   "passwordPlaceholder": {
+      "message": "كلمة المرور"
+   },
+   "privacyPolicy": {
+      "message": "سياسة الخصوصية."
+   },
+   "serverError0": {
+      "message": "عفوًا! جاري ترقية الخادم. الرجاء العودة بعد بضع دقائق."
+   },
+   "serverError1": {
+      "message": "WhatRuns في صيانة 💁‍♀️ الرجاء المحاولة في دقيقة أو دقيقتين."
+   },
+   "serverError2": {
+      "message": "يبدو أنك مدمن على WhatRuns 🤒 نرجو أن تأخذ استراحة وتعود لاحقًا."
+   },
+   "serverError3": {
+      "message": "خذ قسطًا من الراحة! 😾 نحن فقط نمزح. نحن نقوم بتحديث خدماتنا لتظل هذه الإضافة تعمل."
+   },
+   "serverError4": {
+      "message": "عفوًا! جاري ترقية الخادم. الرجاء العودة بعد بضع دقائق."
+   },
+   "shareWhatruns": {
+      "message": "مشاركة WhatRuns "
+   },
+   "signInButton": {
+      "message": "تسجيل الدخول"
+   },
+   "signInHeading": {
+      "message": "سجّل الدخول للمتابعة"
+   },
+   "signUpButton": {
+      "message": "إنشاء حساب"
+   },
+   "signUpHere": {
+      "message": "سجّل الآن"
+   }
+}

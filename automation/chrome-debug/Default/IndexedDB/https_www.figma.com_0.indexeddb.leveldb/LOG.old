@@ -1,0 +1,6 @@
+2026/03/14-20:58:40.365 5cee6 Creating DB /Users/macbook/Documents/Coding/AutoVeo/automation/chrome-debug/Default/IndexedDB/https_www.figma.com_0.indexeddb.leveldb since it was missing.
+2026/03/14-20:58:40.369 5cee6 Reusing MANIFEST /Users/macbook/Documents/Coding/AutoVeo/automation/chrome-debug/Default/IndexedDB/https_www.figma.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/14-20:58:40.782 5ced8 Level-0 table #5: started
+2026/03/14-20:58:40.785 5ced8 Level-0 table #5: 3264 bytes OK
+2026/03/14-20:58:40.788 5ced8 Delete type=0 #3
+2026/03/14-20:58:40.788 5ced8 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

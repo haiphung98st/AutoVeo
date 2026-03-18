@@ -1,0 +1,281 @@
+{
+   "AIandMachineLearning": {
+      "message": "AI & Máy học"
+   },
+   "Advertising": {
+      "message": "Quảng cáo"
+   },
+   "AffiliateMarketing": {
+      "message": "Tiếp thị liên kết"
+   },
+   "AffiliateNetworks": {
+      "message": "Mạng tiếp thị liên kết"
+   },
+   "Analytics": {
+      "message": "Phân tích"
+   },
+   "Blogs": {
+      "message": "Blog"
+   },
+   "BookingManagement": {
+      "message": "Quản lý đặt chỗ"
+   },
+   "BrowserFingerprinting": {
+      "message": "Dấu vân tay trình duyệt"
+   },
+   "BuildCISystems": {
+      "message": "Hệ thống CI"
+   },
+   "BuyNowPayLater": {
+      "message": "Mua trước, trả sau"
+   },
+   "CDN": {
+      "message": "CDN"
+   },
+   "CMS": {
+      "message": "CMS"
+   },
+   "CRM": {
+      "message": "CRM"
+   },
+   "Cache": {
+      "message": "Bộ nhớ đệm"
+   },
+   "Captcha": {
+      "message": "Captcha"
+   },
+   "ChatWidgets": {
+      "message": "Tiện ích chat"
+   },
+   "CommentsandReviews": {
+      "message": "Bình luận & đánh giá"
+   },
+   "Communication": {
+      "message": "Giao tiếp"
+   },
+   "ControlSystems": {
+      "message": "Hệ thống điều khiển"
+   },
+   "CookieandConsent": {
+      "message": "Cookie & Đồng ý"
+   },
+   "Database": {
+      "message": "Cơ sở dữ liệu"
+   },
+   "Databases": {
+      "message": "Cơ sở dữ liệu"
+   },
+   "DevTools": {
+      "message": "Công cụ dev"
+   },
+   "DocumentManagementSystems": {
+      "message": "Hệ thống quản lý tài liệu"
+   },
+   "Documentation": {
+      "message": "Tài liệu"
+   },
+   "Editors": {
+      "message": "Trình soạn thảo"
+   },
+   "FeedReaders": {
+      "message": "Trình đọc RSS"
+   },
+   "FinanceandAccounting": {
+      "message": "Tài chính & Kế toán"
+   },
+   "Font": {
+      "message": "Phông chữ"
+   },
+   "Gallery": {
+      "message": "Thư viện ảnh"
+   },
+   "Gaming": {
+      "message": "Trò chơi"
+   },
+   "HTMLFramework": {
+      "message": "Framework HTML"
+   },
+   "Hosting": {
+      "message": "Hosting"
+   },
+   "IssueTracker": {
+      "message": "Theo dõi lỗi"
+   },
+   "JavascriptLibraries": {
+      "message": "Thư viện Javascript"
+   },
+   "LMS": {
+      "message": "Hệ thống quản lý học tập"
+   },
+   "Logistics": {
+      "message": "Hậu cần"
+   },
+   "Maps": {
+      "message": "Bản đồ"
+   },
+   "MediaServer": {
+      "message": "Máy chủ media"
+   },
+   "MessageBoard": {
+      "message": "Diễn đàn"
+   },
+   "Miscellaneous": {
+      "message": "Khác"
+   },
+   "MobileFrameworks": {
+      "message": "Framework di động"
+   },
+   "Monitoring": {
+      "message": "Giám sát"
+   },
+   "NetworkDevice": {
+      "message": "Thiết bị mạng"
+   },
+   "NetworkStorage": {
+      "message": "Lưu trữ mạng"
+   },
+   "NoCodePlatforms": {
+      "message": "Nền tảng No-code"
+   },
+   "OperatingSystem": {
+      "message": "Hệ điều hành"
+   },
+   "PageBuilders": {
+      "message": "Trình tạo trang"
+   },
+   "Payments": {
+      "message": "Thanh toán"
+   },
+   "Paywalls": {
+      "message": "Tường phí"
+   },
+   "Printers": {
+      "message": "Máy in"
+   },
+   "ProgrammingLanguage": {
+      "message": "Ngôn ngữ lập trình"
+   },
+   "RemoteAccess": {
+      "message": "Truy cập từ xa"
+   },
+   "RichTextEditors": {
+      "message": "Trình soạn thảo văn bản"
+   },
+   "SalesandMarketing": {
+      "message": "Bán hàng & Tiếp thị"
+   },
+   "SearchEngine": {
+      "message": "Công cụ tìm kiếm"
+   },
+   "Security": {
+      "message": "Bảo mật"
+   },
+   "StatusPages": {
+      "message": "Trang trạng thái"
+   },
+   "TagManagers": {
+      "message": "Trình quản lý thẻ"
+   },
+   "UIandGraphics": {
+      "message": "UI và Đồ họa"
+   },
+   "Video": {
+      "message": "Video"
+   },
+   "WebFramework": {
+      "message": "Framework web"
+   },
+   "WebMail": {
+      "message": "Webmail"
+   },
+   "WebServer": {
+      "message": "Máy chủ web"
+   },
+   "WebServerExtensions": {
+      "message": "Tiện ích mở rộng Web Server"
+   },
+   "Webcams": {
+      "message": "Webcam"
+   },
+   "WebsiteBuilder": {
+      "message": "Trình tạo website"
+   },
+   "WebsiteOptimization": {
+      "message": "Tối ưu website"
+   },
+   "Widgets": {
+      "message": "Tiện ích"
+   },
+   "Wiki": {
+      "message": "Wiki"
+   },
+   "WordPressPlugins": {
+      "message": "Plugin WordPress"
+   },
+   "agreeTerms": {
+      "message": "Bằng cách nhấn nút này, bạn đồng ý với "
+   },
+   "agreeTermsLink": {
+      "message": "điều khoản dịch vụ."
+   },
+   "analyzingWebsite": {
+      "message": "Đang phân tích website..."
+   },
+   "appDesc": {
+      "message": "Tìm hiểu công nghệ nào đang được sử dụng trên website. Frameworks, phân tích, plugin Wordpress, phông chữ và nhiều hơn nữa."
+   },
+   "appName": {
+      "message": "WhatRuns"
+   },
+   "cookieContent": {
+      "message": "WhatRuns đọc mã nguồn của các trang web bạn truy cập để phát hiện công nghệ. Chúng tôi không sử dụng dữ liệu của bạn cho quảng cáo, phân tích hồ sơ hay nhận dạng cá nhân. Đọc thêm trong "
+   },
+   "eCommerce": {
+      "message": "Thương mại điện tử"
+   },
+   "emailPlaceholder": {
+      "message": "Email"
+   },
+   "haveAccount": {
+      "message": "Đã có tài khoản? "
+   },
+   "noAccount": {
+      "message": "Chưa có tài khoản?"
+   },
+   "passwordPlaceholder": {
+      "message": "Mật khẩu"
+   },
+   "privacyPolicy": {
+      "message": "chính sách bảo mật."
+   },
+   "serverError0": {
+      "message": "Ối! Bắt quả tang 🙈 Chúng tôi đang bí mật nâng cấp máy chủ. Vui lòng chờ vài phút."
+   },
+   "serverError1": {
+      "message": "WhatRuns hiện đang bảo trì 💁‍♀️ Vui lòng thử lại sau ít phút."
+   },
+   "serverError2": {
+      "message": "Có vẻ bạn đang nghiện WhatRuns 🤒 Chúng tôi quan tâm đến sức khỏe của bạn và cho bạn nghỉ ngơi một chút. Vui lòng quay lại sau. (Thật ra chúng tôi đang nâng cấp server)."
+   },
+   "serverError3": {
+      "message": "Hãy nghỉ ngơi chút nhé! 😾 Đùa thôi. Lỗi của chúng tôi. Chúng tôi đang nâng cấp dịch vụ để extension này chạy tốt hơn."
+   },
+   "serverError4": {
+      "message": "Ối! Bắt quả tang 🙈 Chúng tôi đang bí mật nâng cấp máy chủ. Vui lòng chờ vài phút."
+   },
+   "shareWhatruns": {
+      "message": "Chia sẻ WhatRuns "
+   },
+   "signInButton": {
+      "message": "Đăng nhập"
+   },
+   "signInHeading": {
+      "message": "Đăng nhập để theo dõi"
+   },
+   "signUpButton": {
+      "message": "Đăng ký"
+   },
+   "signUpHere": {
+      "message": "Đăng ký tại đây"
+   }
+}

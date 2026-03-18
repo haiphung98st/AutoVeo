@@ -1,0 +1,281 @@
+{
+   "AIandMachineLearning": {
+      "message": "AI と機械学習"
+   },
+   "Advertising": {
+      "message": "広告"
+   },
+   "AffiliateMarketing": {
+      "message": "アフィリエイトマーケティング"
+   },
+   "AffiliateNetworks": {
+      "message": "アフィリエイトネットワーク"
+   },
+   "Analytics": {
+      "message": "分析"
+   },
+   "Blogs": {
+      "message": "ブログ"
+   },
+   "BookingManagement": {
+      "message": "予約管理"
+   },
+   "BrowserFingerprinting": {
+      "message": "ブラウザフィンガープリンティング"
+   },
+   "BuildCISystems": {
+      "message": "CI システム"
+   },
+   "BuyNowPayLater": {
+      "message": "今買ってあとで支払う"
+   },
+   "CDN": {
+      "message": "CDN"
+   },
+   "CMS": {
+      "message": "CMS"
+   },
+   "CRM": {
+      "message": "CRM"
+   },
+   "Cache": {
+      "message": "キャッシュ"
+   },
+   "Captcha": {
+      "message": "キャプチャ"
+   },
+   "ChatWidgets": {
+      "message": "チャットウィジェット"
+   },
+   "CommentsandReviews": {
+      "message": "コメントとレビュー"
+   },
+   "Communication": {
+      "message": "通信"
+   },
+   "ControlSystems": {
+      "message": "制御システム"
+   },
+   "CookieandConsent": {
+      "message": "クッキーと同意"
+   },
+   "Database": {
+      "message": "データベース"
+   },
+   "Databases": {
+      "message": "データベース"
+   },
+   "DevTools": {
+      "message": "デブツール"
+   },
+   "DocumentManagementSystems": {
+      "message": "文書管理システム"
+   },
+   "Documentation": {
+      "message": "ドキュメンテーション"
+   },
+   "Editors": {
+      "message": "エディター"
+   },
+   "FeedReaders": {
+      "message": "フィードリーダー"
+   },
+   "FinanceandAccounting": {
+      "message": "財務と会計"
+   },
+   "Font": {
+      "message": "フォント"
+   },
+   "Gallery": {
+      "message": "ギャラリー"
+   },
+   "Gaming": {
+      "message": "ゲーム"
+   },
+   "HTMLFramework": {
+      "message": "HTML フレームワーク"
+   },
+   "Hosting": {
+      "message": "ホスティング"
+   },
+   "IssueTracker": {
+      "message": "課題トラッカー"
+   },
+   "JavascriptLibraries": {
+      "message": "JavaScript ライブラリ"
+   },
+   "LMS": {
+      "message": "LMS"
+   },
+   "Logistics": {
+      "message": "ロジスティクス"
+   },
+   "Maps": {
+      "message": "地図"
+   },
+   "MediaServer": {
+      "message": "メディアサーバー"
+   },
+   "MessageBoard": {
+      "message": "掲示板"
+   },
+   "Miscellaneous": {
+      "message": "その他"
+   },
+   "MobileFrameworks": {
+      "message": "モバイルフレームワーク"
+   },
+   "Monitoring": {
+      "message": "モニタリング"
+   },
+   "NetworkDevice": {
+      "message": "ネットワークデバイス"
+   },
+   "NetworkStorage": {
+      "message": "ネットワークストレージ"
+   },
+   "NoCodePlatforms": {
+      "message": "ノーコードプラットフォーム"
+   },
+   "OperatingSystem": {
+      "message": "オペレーティングシステム"
+   },
+   "PageBuilders": {
+      "message": "ページビルダー"
+   },
+   "Payments": {
+      "message": "支払い"
+   },
+   "Paywalls": {
+      "message": "ペイウォール"
+   },
+   "Printers": {
+      "message": "プリンター"
+   },
+   "ProgrammingLanguage": {
+      "message": "プログラミング言語"
+   },
+   "RemoteAccess": {
+      "message": "リモートアクセス"
+   },
+   "RichTextEditors": {
+      "message": "リッチテキストエディター"
+   },
+   "SalesandMarketing": {
+      "message": "販売とマーケティング"
+   },
+   "SearchEngine": {
+      "message": "検索エンジン"
+   },
+   "Security": {
+      "message": "セキュリティ"
+   },
+   "StatusPages": {
+      "message": "ステータスページ"
+   },
+   "TagManagers": {
+      "message": "タグマネージャー"
+   },
+   "UIandGraphics": {
+      "message": "UI とグラフィックス"
+   },
+   "Video": {
+      "message": "ビデオ"
+   },
+   "WebFramework": {
+      "message": "Web フレームワーク"
+   },
+   "WebMail": {
+      "message": "Web メール"
+   },
+   "WebServer": {
+      "message": "Web サーバー"
+   },
+   "WebServerExtensions": {
+      "message": "Web サーバー拡張"
+   },
+   "Webcams": {
+      "message": "ウェブカメラ"
+   },
+   "WebsiteBuilder": {
+      "message": "ウェブサイトビルダー"
+   },
+   "WebsiteOptimization": {
+      "message": "ウェブサイト最適化"
+   },
+   "Widgets": {
+      "message": "ウィジェット"
+   },
+   "Wiki": {
+      "message": "ウィキ"
+   },
+   "WordPressPlugins": {
+      "message": "WordPress プラグイン"
+   },
+   "agreeTerms": {
+      "message": "このボタンをクリックすると、次の内容に同意したことになります："
+   },
+   "agreeTermsLink": {
+      "message": "利用規約。"
+   },
+   "analyzingWebsite": {
+      "message": "ウェブサイトを分析しています..."
+   },
+   "appDesc": {
+      "message": "ウェブサイトで使われているものを発見しましょう。フレームワーク、分析ツール、Wordpressプラグイン、フォントなど、あらゆるものを確認できます。"
+   },
+   "appName": {
+      "message": "WhatRuns"
+   },
+   "cookieContent": {
+      "message": "WhatRuns は、あなたが訪問するウェブサイトのソースコードを読み取り、使用されている技術を検出します。私たちはあなたのデータを広告、プロファイリング、または個人識別に使用しません。詳しくは私たちの"
+   },
+   "eCommerce": {
+      "message": "E コマース"
+   },
+   "emailPlaceholder": {
+      "message": "メール"
+   },
+   "haveAccount": {
+      "message": "既にアカウントをお持ちですか？ "
+   },
+   "noAccount": {
+      "message": "アカウントをお持ちでないですか？"
+   },
+   "passwordPlaceholder": {
+      "message": "パスワード"
+   },
+   "privacyPolicy": {
+      "message": "プライバシーポリシー。"
+   },
+   "serverError0": {
+      "message": "おっと！サーバーをアップグレード中です。数分後に戻ってきてください。"
+   },
+   "serverError1": {
+      "message": "WhatRuns はメンテナンス中です💁‍♀️ 数分後に再度お試しください。"
+   },
+   "serverError2": {
+      "message": "あなたは WhatRuns に夢中のようです 🤒 少し休んで、また後で戻ってきてください。"
+   },
+   "serverError3": {
+      "message": "少し休憩しましょう！😾 冗談です。拡張機能の正常な動作のために必要なサービスを更新しています。"
+   },
+   "serverError4": {
+      "message": "おっと！サーバーをアップグレード中です。数分後に戻ってきてください。"
+   },
+   "shareWhatruns": {
+      "message": "WhatRuns を共有する "
+   },
+   "signInButton": {
+      "message": "サインイン"
+   },
+   "signInHeading": {
+      "message": "フォローするにはサインインしてください"
+   },
+   "signUpButton": {
+      "message": "サインアップ"
+   },
+   "signUpHere": {
+      "message": "こちらで登録"
+   }
+}

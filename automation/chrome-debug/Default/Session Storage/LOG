@@ -1,3 +1,33 @@
 2026/03/12-22:00:17.706 5d11c Reusing MANIFEST /Users/macbook/Documents/Coding/AutoVeo/automation/chrome-debug/Default/Session Storage/MANIFEST-000001
 2026/03/12-22:00:17.707 5d11c Recovering log #3
 2026/03/12-22:00:17.707 5d11c Reusing old log /Users/macbook/Documents/Coding/AutoVeo/automation/chrome-debug/Default/Session Storage/000003.log 
+2026/03/13-10:14:47.690 5d11f Level-0 table #5: started
+2026/03/13-10:14:47.697 5d11f Level-0 table #5: 37563 bytes OK
+2026/03/13-10:14:47.701 5d11f Delete type=0 #3
+2026/03/13-17:03:00.253 5d11f Level-0 table #7: started
+2026/03/13-17:03:00.266 5d11f Level-0 table #7: 32475 bytes OK
+2026/03/13-17:03:00.268 5d11f Delete type=0 #4
+2026/03/14-16:30:16.125 5d11f Level-0 table #9: started
+2026/03/14-16:30:16.132 5d11f Level-0 table #9: 34400 bytes OK
+2026/03/14-16:30:16.139 5d11f Delete type=0 #6
+2026/03/14-16:33:29.258 5d11f Level-0 table #11: started
+2026/03/14-16:33:29.263 5d11f Level-0 table #11: 12805 bytes OK
+2026/03/14-16:33:29.269 5d11f Delete type=0 #8
+2026/03/14-16:37:30.370 5d11f Level-0 table #13: started
+2026/03/14-16:37:30.376 5d11f Level-0 table #13: 11857 bytes OK
+2026/03/14-16:37:30.379 5d11f Delete type=0 #10
+2026/03/14-16:37:33.398 5d11f Level-0 table #15: started
+2026/03/14-16:37:33.401 5d11f Level-0 table #15: 11864 bytes OK
+2026/03/14-16:37:33.405 5d11f Delete type=0 #12
+2026/03/14-16:37:33.406 5d11f Compacting 4@0 + 1@1 files
+2026/03/14-16:37:33.410 5d11f Generated table #16@0: 249 keys, 40920 bytes
+2026/03/14-16:37:33.410 5d11f Compacted 4@0 + 1@1 files => 40920 bytes
+2026/03/14-16:37:33.411 5d11f compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/14-16:37:33.411 5d11f Delete type=2 #15
+2026/03/14-16:37:33.411 5d11f Delete type=2 #7
+2026/03/14-16:37:33.411 5d11f Delete type=2 #13
+2026/03/14-16:37:33.411 5d11f Delete type=2 #11
+2026/03/14-16:37:33.411 5d11f Delete type=2 #9
+2026/03/14-21:04:03.783 5d11f Level-0 table #18: started
+2026/03/14-21:04:03.790 5d11f Level-0 table #18: 17004 bytes OK
+2026/03/14-21:04:03.798 5d11f Delete type=0 #14

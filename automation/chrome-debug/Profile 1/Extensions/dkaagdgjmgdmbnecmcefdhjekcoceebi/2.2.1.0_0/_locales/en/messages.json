@@ -1,0 +1,374 @@
+{
+   "ab_test_modal_sorry_features_below_are_not_ready": {
+      "message": "Sorry, features below are not ready yet"
+   },
+   "ab_test_modal_you_can_still_purchase_pp_pro_with_other_features": {
+      "message": "You can still buy PerfectPixel PRO subscription that enables all other features with button below"
+   },
+   "add_button": {
+      "message": "Add"
+   },
+   "add_new_layer": {
+      "message": "Add new"
+   },
+   "add_new_layer_top": {
+      "message": "Add new"
+   },
+   "add_new_layer_upgrade_to_pro": {
+      "message": "Upgrade to PRO to add new layer"
+   },
+   "add_url": {
+      "message": "Add url"
+   },
+   "allow_animation_collapse": {
+      "message": "Enable panel collapse animation"
+   },
+   "allow_position_change_when_locked": {
+      "message": "Allow position, opacity, scale, rotate change when an overlay is locked or hidden"
+   },
+   "animation": {
+      "message": "Animation"
+   },
+   "app_icon": {
+      "message": "Icon"
+   },
+   "appearance": {
+      "message": "Appearance"
+   },
+   "application": {
+      "message": "Application"
+   },
+   "are_you_sure_want_to_cancel_subscription": {
+      "message": "Are you sure want to cancel your subscription? You will be able to use PRO features until"
+   },
+   "are_you_sure_you_want_to_delete_layer": {
+      "message": "Are you sure you want to delete the layer?"
+   },
+   "ask_permissions_block1": {
+      "message": "PerfectPixel Add-on tracks anonymized usage information of panel UI with help of Google Analytics and Yandex.Metrika. It helps us to improve the add-on. 3rd party websites usage data isn't tracked."
+   },
+   "ask_permissions_block2": {
+      "message": "You can always change your mind on the Settings page which can be accessed with the top right menu."
+   },
+   "ask_permissions_block3": {
+      "message": "Do you want to allow us to gather that information?"
+   },
+   "ask_permissions_no_btn": {
+      "message": "No"
+   },
+   "ask_permissions_yes_btn": {
+      "message": "Yes"
+   },
+   "auto_scale": {
+      "message": "A new layer default Scale depends on display PixelRatio"
+   },
+   "behavior": {
+      "message": "Behavior"
+   },
+   "cancel_button": {
+      "message": "Cancel"
+   },
+   "cancel_subscription": {
+      "message": "Cancel Subscription"
+   },
+   "custom_css_code": {
+      "message": "Custom CSS Code"
+   },
+   "debug": {
+      "message": "Debug"
+   },
+   "design": {
+      "message": "Design"
+   },
+   "disable_add_first_layer_helping_screen": {
+      "message": "Disable “Add your first layer” helping screen"
+   },
+   "disable_panel_snapping": {
+      "message": "Disable panel snapping to edge of window"
+   },
+   "disable_supported_by_ad": {
+      "message": "Disable"
+   },
+   "drop_layer": {
+      "message": "Drop image to upload"
+   },
+   "email_address": {
+      "message": "Email Address"
+   },
+   "enable_confirmation_message": {
+      "message": "Enable confirmation messages\u003Cbr/>A confirmation message will appear when you attempt to delete the layer."
+   },
+   "enable_debug_mode": {
+      "message": "Enable DEBUG mode\u003Cbr/>For PerfectPixel extension itself debugging"
+   },
+   "enable_hotkeys": {
+      "message": "Enable Hotkeys\u003Cbr/>\u003Cbr/>Hotkeys list:\u003Cbr/> Alt + S - Show/Hide overlay\u003Cbr/> Alt + C - Lock/Unlock overlay\u003Cbr/> Alt + H - Show/Hide whole control panel\u003Cbr/> =  - Increase opacity\u003Cbr/> -  - Decrease opacity\u003Cbr/> ↑  - Move overlay up\u003Cbr/> ↓  - Move overlay down\u003Cbr/> ← - Move overlay left\u003Cbr/> → - Move overlay right\u003Cbr/> Shift + ↑, ↓, ←, → - Move overlay with 10x speed\u003Cbr/>\u003Cbr/>"
+   },
+   "enable_layer_rotation": {
+      "message": "Enable layer rotation"
+   },
+   "enable_mousewheel_opacity": {
+      "message": "Enable mousewheel opacity change"
+   },
+   "error_image_not_found": {
+      "message": "No image found"
+   },
+   "error_invalid_url": {
+      "message": "Incorrect URL"
+   },
+   "extension_description": {
+      "message": "This extension helps develop your websites with pixel perfect accuracy!"
+   },
+   "extension_name": {
+      "message": "PerfectPixel by WellDoneCode (pixel perfect)"
+   },
+   "extension_name_short": {
+      "message": "PerfectPixel"
+   },
+   "file_scheme_access_not_allowed": {
+      "message": "For using PerfectPixel on local pages you have to check 'Allow access to file' URLs checkbox for PerfectPixel plugin on chrome://extensions page"
+   },
+   "first_add_new_layer": {
+      "message": "Add your first layer!"
+   },
+   "first_drop_layer": {
+      "message": "or drop images to upload"
+   },
+   "first_or": {
+      "message": "or"
+   },
+   "first_paste_from_clipboard": {
+      "message": "paste from clipboard"
+   },
+   "general": {
+      "message": "General"
+   },
+   "help": {
+      "message": "Help"
+   },
+   "hide": {
+      "message": "Hide"
+   },
+   "hide_restore_purchase": {
+      "message": "Hide \"Log in\""
+   },
+   "input_is_not_valid_email": {
+      "message": "The input is not valid e-mail"
+   },
+   "invert_colors": {
+      "message": "Invert"
+   },
+   "is_centered": {
+      "message": "A new layer is centered by default"
+   },
+   "is_inverted": {
+      "message": "A new layer is inverted by default"
+   },
+   "is_locked": {
+      "message": "A new layer is locked by default"
+   },
+   "is_visible": {
+      "message": "A new layer is visible by default"
+   },
+   "layer_change_title_hint": {
+      "message": "Double click to add or change the title"
+   },
+   "layer_load_error": {
+      "message": "Error"
+   },
+   "layers": {
+      "message": "Layers"
+   },
+   "loading": {
+      "message": "Loading"
+   },
+   "lock": {
+      "message": "Lock"
+   },
+   "log_in": {
+      "message": "Log in"
+   },
+   "login_failed_ensure_email_and_password_are_correct": {
+      "message": "Login failed. Please ensure email and password are correct"
+   },
+   "logout": {
+      "message": "Logout"
+   },
+   "menu_close": {
+      "message": "Close"
+   },
+   "menu_paste_from_clipboard": {
+      "message": "Paste from clipboard"
+   },
+   "menu_paste_from_url": {
+      "message": "Paste from URL"
+   },
+   "menu_report_bug": {
+      "message": "Report bug"
+   },
+   "menu_settings": {
+      "message": "Settings"
+   },
+   "menu_support_request": {
+      "message": "Support request"
+   },
+   "menu_upload_image": {
+      "message": "Upload image"
+   },
+   "month": {
+      "message": " / month"
+   },
+   "more_features_coming": {
+      "message": "More features coming!"
+   },
+   "mouse_and_keyboard": {
+      "message": "Mouse and keyboard"
+   },
+   "new_layer_behavior": {
+      "message": "New layer behavior"
+   },
+   "nothing_found": {
+      "message": "No matches were found"
+   },
+   "opacity": {
+      "message": "Opacity"
+   },
+   "origin": {
+      "message": "Origin"
+   },
+   "panel_css_class": {
+      "message": "chromeperfectpixel-locale-en"
+   },
+   "password": {
+      "message": "Password"
+   },
+   "perfectpixel_pro_annual_plan": {
+      "message": "Annual plan, cancel anytime"
+   },
+   "perfectpixel_pro_features_0": {
+      "message": "Unlimited layers per domain"
+   },
+   "perfectpixel_pro_features_1": {
+      "message": "Rotate layers"
+   },
+   "perfectpixel_pro_features_2": {
+      "message": "No ads, clean interface"
+   },
+   "perfectpixel_pro_features_3": {
+      "message": "Custom UI appearance"
+   },
+   "perfectpixel_pro_features_4": {
+      "message": "Priority support"
+   },
+   "perfectpixel_pro_features_additional_cloud_sync": {
+      "message": "Cloud sync between browsers"
+   },
+   "perfectpixel_pro_upgrade_header": {
+      "message": "Unlock PRO Features with PerfectPixel"
+   },
+   "perfectpixel_rating_on_chrome_web_store": {
+      "message": "rating on Chrome Web Store"
+   },
+   "place_to_current_scroll_position": {
+      "message": "Place to current scroll position"
+   },
+   "please_input_your_email": {
+      "message": "Please input your email"
+   },
+   "please_input_your_password": {
+      "message": "Please input your password"
+   },
+   "pro_subscription_only": {
+      "message": "PRO subscription only"
+   },
+   "remember_panel_state": {
+      "message": "Remember panel state\u003Cbr/>When enabled panel will be re-opened when you browse to another page or reload current if it was opened before that."
+   },
+   "reset": {
+      "message": "Reset"
+   },
+   "restart_subscription": {
+      "message": "Restart Subscription"
+   },
+   "restore_purchase": {
+      "message": "Log in"
+   },
+   "scale": {
+      "message": "Scale"
+   },
+   "search": {
+      "message": "Search"
+   },
+   "send_anonymous_statistics_to_developers": {
+      "message": "Send anonymous statistics to developers"
+   },
+   "settings": {
+      "message": "Settings"
+   },
+   "show": {
+      "message": "Show"
+   },
+   "statistics": {
+      "message": "Statistics"
+   },
+   "subscription": {
+      "message": "subscription"
+   },
+   "subscription_expires_on": {
+      "message": "Your subscription expires on"
+   },
+   "subscription_expires_tomorrow": {
+      "message": "Your subscription expires tomorrow"
+   },
+   "supported_by": {
+      "message": "Supported by"
+   },
+   "supported_by_ad": {
+      "message": "Supported by Ads"
+   },
+   "supported_by_disable_link": {
+      "message": "Disable ads"
+   },
+   "supported_by_disable_tooltip": {
+      "message": "In the extension options page"
+   },
+   "toggle_collapsed_mode": {
+      "message": "Double click to toggle Collapsed mode"
+   },
+   "toggle_collapsed_mode_single": {
+      "message": "Click to toggle Collapsed mode"
+   },
+   "uninvert_colors": {
+      "message": "Invert back"
+   },
+   "unlock": {
+      "message": "Unlock"
+   },
+   "update_license_key": {
+      "message": "Update license key"
+   },
+   "update_subscription": {
+      "message": "Update subscription"
+   },
+   "upgrade_to_pro": {
+      "message": "Upgrade to PRO"
+   },
+   "upgrade_to_pro_for": {
+      "message": "Upgrade to PRO for "
+   },
+   "upgrade_to_pro_survey_url": {
+      "message": "https://forms.gle/VxcuKuXwJaJ6jGuo7"
+   },
+   "you_are_able_to_use_pro_features_until": {
+      "message": "You are able to use PRO features until"
+   },
+   "you_are_pro": {
+      "message": "You're PRO! 👍"
+   },
+   "your_subscription_is_active": {
+      "message": "Your subscription is active."
+   },
+   "your_subscription_is_canceled": {
+      "message": "Your subscription is canceled."
+   }
+}

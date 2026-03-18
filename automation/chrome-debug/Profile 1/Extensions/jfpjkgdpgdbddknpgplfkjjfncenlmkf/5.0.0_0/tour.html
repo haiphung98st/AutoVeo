@@ -1,0 +1,382 @@
+<!doctype html><html lang="en"><head><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap" rel="stylesheet"/></head><style>html {
+      width: 98vw;
+      height: 98vh;
+    }
+
+    body {
+      width: 100%;
+      height: 100%;
+    }
+
+    #main {
+      display: flex;
+      flex-direction: column;
+      height: 99vh;
+      width: 99vw;
+      overflow: hidden;
+      color: white;
+      overflow: hidden;
+      box-sizing: border-box;
+      font-weight: 500;
+      color: white;
+      backdrop-filter: blur(4px);
+    }
+
+    .animation {
+      animation-duration: 3s;
+      animation-name: slide;
+      animation-duration: 2s;
+    }
+
+    @keyframes slide {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    .sx-btn {
+      padding: 5px;
+      font-size: 15px;
+      cursor: pointer;
+      border: 2px solid rgba(255, 255, 255);
+      color: rgba(255, 255, 255, 1);
+      border-radius: 22px;
+      outline: none;
+      -webkit-user-select: none;
+      user-select: none;
+      background-color: transparent;
+    }
+
+    .skip-btn-container {
+      display: flex;
+      align-self: flex-end;
+      margin-top: 3.5rem;
+      padding-right: 3rem;
+      flex: 0.1;
+    }
+
+    #skip-button {
+      width: 96px;
+      height: 32px;
+    }
+
+    .sx-cards-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-self: center;
+      flex: 0.75;
+    }
+    .sx-card {
+      width: 53vh;
+      height: 33vh;
+      display: flex;
+      margin-right: 1rem;
+      border-radius: 10px;
+      background-color: white;
+    }
+
+    .sx-card-img {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+    }
+    #card-img {
+      width: 144px;
+      height: 144px;
+      border-radius: 50%;
+      border: 2px solid #ffffff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .sx-content-box {
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+      width: 100%;
+    }
+
+    .card-contents {
+      display: flex;
+      flex-direction: column;
+    }
+    .sx-title {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 22px;
+      letter-spacing: 0em;
+      text-align: left;
+      font-family: Raleway;
+      color: black;
+      margin: 0;
+    }
+
+    .sx-description {
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 22px;
+      opacity: 0.6;
+      font-family: Raleway;
+      color: black;
+      margin: 0;
+    }
+
+    .tripple-dots-container {
+      display: inline-flex;
+      opacity: 1;
+      justify-content: center;
+      align-items: center;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      color: #ffffff;
+      background-color: #5b6476;
+      transition: all 0.3s linear;
+      cursor: pointer;
+    }
+    .tripple-dots {
+      margin-right: 2px;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background-color: #ffffff;
+    }
+
+    .sx-camoptions-img {
+      width: 100px;
+      height: 24px;
+    }
+
+    .cam-options-container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      height: 6rem;
+      width: 50%;
+    }
+
+    .cam-options-item {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      padding: 0.5rem;
+    }
+
+    .item-img {
+      width: 12px;
+      height: 12px;
+      margin-right: 20px;
+    }
+
+    .cam-1x {
+      width: 7px;
+      height: 7px;
+    }
+
+    .cam-2x {
+      width: 10px;
+      height: 10px;
+    }
+    .cam-3x {
+      width: 14px;
+      height: 14px;
+    }
+    .active-img {
+      margin: 1.5rem 1rem;
+      width: 100px;
+      height: 27px;
+    }
+
+    .sx-connecting-arrow {
+      position: absolute;
+      top: 50%;
+      left: 0.5%;
+      height: 30vh;
+      padding: 1rem;
+    }
+
+    .sx-nav-buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-left: 8rem;
+    }
+
+    .sx-bottom-container {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      width: 100%;
+      position: fixed;
+      bottom: 2vh;
+      flex: 0.25;
+    }
+
+    .nav-btns {
+      margin-right: 0.5rem;
+      width: 135px;
+      height: 35px;
+    }
+
+    .active-btn {
+      background-color: white;
+      color: black;
+    }
+
+    .disabled-btn {
+      opacity: 0.3;
+      cursor: not-allowed;
+    }
+
+    .recording-btn {
+      color: #387cff;
+    }
+
+    .sx-cam-bubble {
+      width: 180px;
+      height: 200px;
+    }
+
+    #cam-controls {
+      bottom: 0;
+      left: 30%;
+    }
+
+    .sx-tools {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-right: 1rem;
+    }
+    .active-tools {
+      border-radius: 32px;
+      border: 2px solid #c2d7ff;
+      padding: 0.5rem;
+    }
+    .sx-toolbox {
+      margin-right: 0.5rem;
+    }
+
+    .page-container {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      align-items: center;
+    }
+
+    #faceonly-img {
+      margin-top: 3rem;
+      width: 58vh;
+      height: 58vh;
+      position: relative;
+    }
+
+    .faceonly-contents {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+    .sx-tour-arrow {
+      position: absolute;
+      bottom: 39%;
+      right: 37%;
+      height: 25vh;
+    }
+    #faceonly-card {
+      position: relative;
+      bottom: 7%;
+      left: 8.1%;
+      width: 37vh;
+      height: 21vh;
+    }
+    .paint-description {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      flex: 0.7;
+    }
+    .paint-item-container {
+      display: flex;
+      flex-direction: column;
+      margin-right: 1rem;
+    }
+
+    .item-spacing {
+      margin-bottom: 1rem;
+    }
+
+    @media screen and (min-width: 1000px) and (max-width: 1280px) {
+      .sx-card {
+        width: 50vh;
+        height: 24vh;
+      }
+      #faceonly-card {
+        width: 28vh;
+        height: 15vh;
+      }
+      #card-cambubble {
+        bottom: 41%;
+        left: 11%;
+      }
+    }
+
+    @media screen and (max-width: 1400px) {
+      .sx-card {
+        width: 53vh;
+        height: 33vh;
+      }
+
+      .sx-cam-bubble {
+        width: 150px;
+        height: 200px;
+      }
+
+      .sx-card-img {
+        padding: 0.8rem;
+      }
+
+      .sx-content-box {
+        padding: 0.8rem;
+      }
+
+      #faceonly-card {
+        width: 40vh;
+        height: 30vh;
+      }
+    }
+
+    @media screen and (max-width: 1250px) {
+      .sx-card {
+        width: 53vh;
+        height: 36vh;
+      }
+
+      .sx-title {
+        font-size: 14px;
+      }
+      .sx-description {
+        font-size: 12px;
+        line-height: 18px;
+      }
+      .sx-card-img {
+        padding: 0.6rem;
+      }
+
+      .sx-content-box {
+        padding: 0.6rem;
+      }
+
+      .cam-options-item {
+        padding: 0.4rem;
+      }
+    }</style><body><div id="main"></div><script src="tour.bundle.js"></script></body></html>

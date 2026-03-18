@@ -1,0 +1,24 @@
+{
+   "action": {
+      "default_icon": {
+         "19": "assets/icon_19.png",
+         "38": "assets/icon_38.png"
+      },
+      "default_title": "Grid Ruler"
+   },
+   "background": {
+      "service_worker": "src/chrome/background.js"
+   },
+   "description": "Create grids and measure their distance easily.",
+   "icons": {
+      "128": "assets/icon_128.png",
+      "16": "assets/icon_16.png",
+      "48": "assets/icon_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnuMX7ll+XUfKpd/bwQ1Rvt1OinVm5Gg1P3S7T2nMt1ycYQAjtGqpQTTsPnFLF8RolGyEJYgGxHaliNDEg7rjriab4MRRt9Ibjkg35yKcRmvxV82V0X6r8y+CFO3n8mC5+neMYwo41qCCCHoUvjXiR0JLh+VeMWj/tYlG3EH07+nNeiL/ZlF7cOixVteUplW9f8WX+hxnFt5HMr72vxOXGFAbAj3bFAmrlnygxxTmdTeBpNgMp4ImTRPxsKLah2r4IQcp2vykmdnImU4znoD6KJfjAOmYBjlftgo/6MwG7Rf8nPx20zBGoKwevIQYHRAcvSdji1X63o6yi5F2gQmXgQIDAQAB",
+   "manifest_version": 3,
+   "name": "Grid Ruler",
+   "permissions": [ "activeTab", "scripting" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.3.0"
+}

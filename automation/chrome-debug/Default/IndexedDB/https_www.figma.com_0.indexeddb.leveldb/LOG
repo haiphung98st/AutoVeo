@@ -1,0 +1,4 @@
+2026/03/14-20:58:56.585 5cedb Reusing MANIFEST /Users/macbook/Documents/Coding/AutoVeo/automation/chrome-debug/Default/IndexedDB/https_www.figma.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/14-20:58:56.585 5cedb Recovering log #4
+2026/03/14-20:58:56.586 5cedb Reusing old log /Users/macbook/Documents/Coding/AutoVeo/automation/chrome-debug/Default/IndexedDB/https_www.figma.com_0.indexeddb.leveldb/000004.log 
+2026/03/14-20:58:57.005 5cee8 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

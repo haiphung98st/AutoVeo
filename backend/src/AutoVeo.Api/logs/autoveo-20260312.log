@@ -1015,3 +1015,7 @@ System.Exception: Script exited 0 but no valid [RESULT] path found in output.
 2026-03-12 22:08:44.191 +07:00 [ERR] Failed to generate video for render "2c103cab-0db4-4c60-8c76-c65c4718c528"
 System.Exception: Script exited 0 but no valid [RESULT] path found in output.
    at AutoVeo.Infrastructure.BackgroundJobs.Veo3GenerationWorker.ProcessSingleRenderAsync(Guid renderId, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/BackgroundJobs/Workers.cs:line 281
+2026-03-12 22:10:08.433 +07:00 [INF] Node script completed for "6a73f98c-41d4-4b0b-b510-b3d3a6c23054". Exit code: 0
+2026-03-12 22:10:08.437 +07:00 [ERR] Failed to generate video for render "6a73f98c-41d4-4b0b-b510-b3d3a6c23054"
+System.Exception: Script exited 0 but no valid [RESULT] path found in output.
+   at AutoVeo.Infrastructure.BackgroundJobs.Veo3GenerationWorker.ProcessSingleRenderAsync(Guid renderId, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/BackgroundJobs/Workers.cs:line 281

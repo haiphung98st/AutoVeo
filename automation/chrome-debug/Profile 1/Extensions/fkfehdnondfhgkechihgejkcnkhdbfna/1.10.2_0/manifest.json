@@ -1,0 +1,39 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "images/m128.png",
+         "16": "images/m16.png",
+         "32": "images/m32.png",
+         "48": "images/m48.png"
+      },
+      "default_popup": "src/popup/index.html",
+      "default_title": "Moqups is a visual collaboration tool that combines whiteboard, diagram, and design features."
+   },
+   "background": {
+      "service_worker": "src/background/service_worker.js",
+      "type": "module"
+   },
+   "content_scripts": [ {
+      "js": [ "src/content/use-screenshot.js" ],
+      "matches": [ "*://app.moqups.com/*" ],
+      "run_at": "document_idle"
+   } ],
+   "description": "Capture screenshots, and create projects with Moqups",
+   "externally_connectable": {
+      "matches": [ "*://app.moqups.com/*" ]
+   },
+   "host_permissions": [ "https://api.moqups.com/*", "https://app.moqups.com/*" ],
+   "icons": {
+      "128": "images/m128.png",
+      "16": "images/m16.png",
+      "32": "images/m32.png",
+      "48": "images/m48.png"
+   },
+   "incognito": "split",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0BnGi30pLnj3yJx78CApqAnvZ2AArkkgK9UrPgvseVAWRz0FnfbMuyt167wZ+JblDycySyXsQGl2c+WkowdQh0O2WMw40aaA1t2Vg8TITBY0DxGYMIkz2twj6gkcaxmRAo4fvLCJeL430XtiAxnogQWDW9VfKdDmNvQW0TqAvSwrxdOuZwf0ZQSM9/7dO6T9z32/4MI8pDL8unblEwL7WzBGabrRwmJVeJMQlyrDAVNSml6LswfAxDtjAek4VxLMPnIF6W6Q6eCjxv6xtz2hpwN7+YACTUVh1jSYoZMARwgtjE/sTtjwTFNpx2UMXkY337i4paENppAgQAfNFwFm+wIDAQAB",
+   "manifest_version": 3,
+   "name": "Moqups",
+   "permissions": [ "storage", "activeTab", "scripting" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.10.2"
+}

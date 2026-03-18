@@ -1,0 +1,365 @@
+{
+   "add_button": {
+      "message": "追加"
+   },
+   "add_new_layer": {
+      "message": "新規追加"
+   },
+   "add_new_layer_top": {
+      "message": "新規追加"
+   },
+   "add_new_layer_upgrade_to_pro": {
+      "message": "新しいレイヤーを追加するにはPROにアップグレードしてください"
+   },
+   "add_url": {
+      "message": "URLから追加"
+   },
+   "allow_animation_collapse": {
+      "message": "パネル折りたたみアニメーションを有効にする"
+   },
+   "allow_position_change_when_locked": {
+      "message": "オーバーレイがロックまたは非表示の場合、位置、不透明度、拡大縮小、回転の変更を許可"
+   },
+   "animation": {
+      "message": "アニメーション"
+   },
+   "app_icon": {
+      "message": "アイコン"
+   },
+   "appearance": {
+      "message": "外観"
+   },
+   "application": {
+      "message": "申し込み"
+   },
+   "are_you_sure_want_to_cancel_subscription": {
+      "message": "サブスクリプションをキャンセルしてもよろしいですか？ までPRO機能を使用できます"
+   },
+   "are_you_sure_you_want_to_delete_layer": {
+      "message": "レイヤーを削除してよろしいですか？"
+   },
+   "ask_permissions_block1": {
+      "message": "PerfectPixelアドオンはパネルUIの使用法の、匿名化された情報を Google Analytics と Yandex.Metrika. を使用して取得します。これはアドオンの改善のために使われます。外部サイトの使用に関するデータは取得しておりません。"
+   },
+   "ask_permissions_block2": {
+      "message": "この設定はいつでも右上のメニューから変更することができます。"
+   },
+   "ask_permissions_block3": {
+      "message": "こうした情報を私たちが収集することに同意いただけますか？"
+   },
+   "ask_permissions_no_btn": {
+      "message": "いいえ"
+   },
+   "ask_permissions_yes_btn": {
+      "message": "はい"
+   },
+   "auto_scale": {
+      "message": "ディスプレイのピクセル比に合わせて自動でサイズを合わせる"
+   },
+   "behavior": {
+      "message": "動作"
+   },
+   "cancel_button": {
+      "message": "キャンセル"
+   },
+   "cancel_subscription": {
+      "message": "サブスクリプションをキャンセル"
+   },
+   "custom_css_code": {
+      "message": "CSSをカスタムする"
+   },
+   "debug": {
+      "message": "デバッグ"
+   },
+   "design": {
+      "message": "デザイン"
+   },
+   "disable_add_first_layer_helping_screen": {
+      "message": "\"最初のレイヤーの追加\"画面を無効にします"
+   },
+   "disable_panel_snapping": {
+      "message": "パネルのウィンドウの端への吸着を無効にする"
+   },
+   "disable_supported_by_ad": {
+      "message": "無効にする"
+   },
+   "drop_layer": {
+      "message": "画像をドロップしてアップロード"
+   },
+   "email_address": {
+      "message": "電子メールアドレス"
+   },
+   "enable_confirmation_message": {
+      "message": "確認画面を有効にする\u003Cbr/>レイヤーを削除するときに確認画面が出るようにします。"
+   },
+   "enable_debug_mode": {
+      "message": "デバッグモードを有効にする\u003Cbr/>PerfectPixel拡張機能自体のデバッグ用"
+   },
+   "enable_hotkeys": {
+      "message": "ショートカットキーを有効にする\u003Cbr/>\u003Cbr/>ショートカットキーのリスト:\u003Cbr/> Alt + S - オーバーレイ画像を 表示する/隠す\u003Cbr/> Alt + C - オーバーレイ画像を ロックする/ロック解除\u003Cbr/> Alt + H - PerfectPixelのパネルを 表示する/隠す \u003Cbr/> =  - 透過度を上げる\u003Cbr/> -  - 透過度を下げる\u003Cbr/> ↑  - 上に移動\u003Cbr/> ↓  - 下に移動\u003Cbr/> ← -左に移動\u003Cbr/> → - 右に移動\u003Cbr/> Shift + ↑, ↓, ←, → - 10pxずつ各方向に移動\u003Cbr/>\u003Cbr/>"
+   },
+   "enable_layer_rotation": {
+      "message": "レイヤーの回転を有効にする"
+   },
+   "enable_mousewheel_opacity": {
+      "message": "マウスホイールによる透過度の操作を有効にする"
+   },
+   "error_image_not_found": {
+      "message": "画像がみつかりません"
+   },
+   "error_invalid_url": {
+      "message": "URLが正しくありません"
+   },
+   "extension_description": {
+      "message": "この拡張機能は、ピクセル単位の精度でWebサイトを開発するのに役立ちます！"
+   },
+   "extension_name": {
+      "message": "PerfectPixel by WellDoneCode (pixel perfect)"
+   },
+   "extension_name_short": {
+      "message": "PerfectPixel"
+   },
+   "file_scheme_access_not_allowed": {
+      "message": "ローカルページでPerfectPixelを使用するには、PerfectPixelプラグインの[ファイルへのアクセスを許可する]チェックボックスをオンにする必要があります。"
+   },
+   "first_add_new_layer": {
+      "message": "最初のレイヤーを追加してください！"
+   },
+   "first_drop_layer": {
+      "message": "または複数の画像をドロップしてアップロード"
+   },
+   "first_or": {
+      "message": "または"
+   },
+   "first_paste_from_clipboard": {
+      "message": "クリップボードから貼り付け"
+   },
+   "general": {
+      "message": "一般"
+   },
+   "help": {
+      "message": "助けて"
+   },
+   "hide": {
+      "message": "隠す"
+   },
+   "hide_restore_purchase": {
+      "message": "「ログイン」を非表示"
+   },
+   "input_is_not_valid_email": {
+      "message": "入力は有効な電子メールではありません"
+   },
+   "invert_colors": {
+      "message": "色の反転"
+   },
+   "is_centered": {
+      "message": "新しいレイヤーはデフォルトで中央寄せする"
+   },
+   "is_inverted": {
+      "message": "新しいレイヤーはデフォルトで反転させる"
+   },
+   "is_locked": {
+      "message": "新しいレイヤーはデフォルトでロックする"
+   },
+   "is_visible": {
+      "message": "新しいレイヤーはデフォルトで表示する"
+   },
+   "layer_change_title_hint": {
+      "message": "ダブルクリックしてタイトルを追加または変更します"
+   },
+   "layer_load_error": {
+      "message": "エラー"
+   },
+   "layers": {
+      "message": "レイヤー"
+   },
+   "loading": {
+      "message": "読み込み中"
+   },
+   "lock": {
+      "message": "ロック"
+   },
+   "log_in": {
+      "message": "ログインする"
+   },
+   "login_failed_ensure_email_and_password_are_correct": {
+      "message": "ログインに失敗しました。 メールアドレスとパスワードが正しいことを確認してください"
+   },
+   "logout": {
+      "message": "ログアウト"
+   },
+   "menu_close": {
+      "message": "閉じる"
+   },
+   "menu_paste_from_clipboard": {
+      "message": "クリップボードから貼り付け"
+   },
+   "menu_paste_from_url": {
+      "message": "URLから貼り付け"
+   },
+   "menu_report_bug": {
+      "message": "バグを報告する"
+   },
+   "menu_settings": {
+      "message": "設定"
+   },
+   "menu_support_request": {
+      "message": "サポートリクエスト"
+   },
+   "menu_upload_image": {
+      "message": "画像をアップロード"
+   },
+   "month": {
+      "message": " / month"
+   },
+   "more_features_coming": {
+      "message": "より多くの機能が登場！"
+   },
+   "mouse_and_keyboard": {
+      "message": "マウスとキーボード操作"
+   },
+   "new_layer_behavior": {
+      "message": "新しいレイヤーの挙動"
+   },
+   "nothing_found": {
+      "message": "検索結果がありません。"
+   },
+   "opacity": {
+      "message": "透明度"
+   },
+   "origin": {
+      "message": "レイヤーの配置"
+   },
+   "panel_css_class": {
+      "message": "chromeperfectpixel-locale-en"
+   },
+   "password": {
+      "message": "パスワード"
+   },
+   "perfectpixel_pro_annual_plan": {
+      "message": "年間プラン、いつでも解約可能"
+   },
+   "perfectpixel_pro_features_0": {
+      "message": "ドメインごとのレイヤー数無制限"
+   },
+   "perfectpixel_pro_features_1": {
+      "message": "レイヤーの回転"
+   },
+   "perfectpixel_pro_features_2": {
+      "message": "広告なし、クリーンなインターフェース"
+   },
+   "perfectpixel_pro_features_3": {
+      "message": "UI のカスタマイズが可能"
+   },
+   "perfectpixel_pro_features_4": {
+      "message": "優先サポート"
+   },
+   "perfectpixel_pro_features_additional_cloud_sync": {
+      "message": "ブラウザ間のクラウド同期"
+   },
+   "perfectpixel_pro_upgrade_header": {
+      "message": "PerfectPixel の PRO 機能をアンロック"
+   },
+   "perfectpixel_rating_on_chrome_web_store": {
+      "message": "Chrome Web Store での評価"
+   },
+   "place_to_current_scroll_position": {
+      "message": "現在のスクロール位置まで移動させる"
+   },
+   "please_input_your_email": {
+      "message": "メールアドレスを入力してください"
+   },
+   "please_input_your_password": {
+      "message": "パスワードを入力してください"
+   },
+   "pro_subscription_only": {
+      "message": "PROサブスクリプションのみ"
+   },
+   "remember_panel_state": {
+      "message": "パネルの状態を記憶する\u003Cbr/>有効にすると、別のページに遷移したときにパネルが再び開きます。また、それ以前に開かれていた場合は現在のパネルをリロードします。"
+   },
+   "reset": {
+      "message": "リセット"
+   },
+   "restart_subscription": {
+      "message": "サブスクリプションを再開"
+   },
+   "restore_purchase": {
+      "message": "ログイン"
+   },
+   "scale": {
+      "message": "拡大"
+   },
+   "search": {
+      "message": "検索"
+   },
+   "send_anonymous_statistics_to_developers": {
+      "message": "匿名の統計を開発者に送信する"
+   },
+   "settings": {
+      "message": "設定"
+   },
+   "show": {
+      "message": "表示する"
+   },
+   "statistics": {
+      "message": "統計"
+   },
+   "subscription": {
+      "message": "サブスクリプション"
+   },
+   "subscription_expires_on": {
+      "message": "サブスクリプションは期限切れになります"
+   },
+   "subscription_expires_tomorrow": {
+      "message": "サブスクリプションは明日期限切れになります"
+   },
+   "supported_by": {
+      "message": "Supported by"
+   },
+   "supported_by_ad": {
+      "message": "広告を表示して支援する"
+   },
+   "supported_by_disable_link": {
+      "message": "広告を消しますか"
+   },
+   "supported_by_disable_tooltip": {
+      "message": "拡張機能の設定のページ"
+   },
+   "toggle_collapsed_mode": {
+      "message": "ダブルクリックで折りたたみモードを切り替える"
+   },
+   "toggle_collapsed_mode_single": {
+      "message": "クリックで折りたたみモードを切り替える"
+   },
+   "uninvert_colors": {
+      "message": "元の色に戻す"
+   },
+   "unlock": {
+      "message": "ロック解除"
+   },
+   "update_license_key": {
+      "message": "ライセンスキーを更新"
+   },
+   "update_subscription": {
+      "message": "サブスクリプションを更新"
+   },
+   "upgrade_to_pro": {
+      "message": "PROへのアップグレード"
+   },
+   "upgrade_to_pro_for": {
+      "message": "Upgrade to PRO for "
+   },
+   "you_are_able_to_use_pro_features_until": {
+      "message": "あなたはまでPRO機能を使用することができます"
+   },
+   "you_are_pro": {
+      "message": "あなたはプロです！ 👍"
+   },
+   "your_subscription_is_active": {
+      "message": "サブスクリプションはアクティブです"
+   },
+   "your_subscription_is_canceled": {
+      "message": "サブスクリプションがキャンセルされました"
+   }
+}

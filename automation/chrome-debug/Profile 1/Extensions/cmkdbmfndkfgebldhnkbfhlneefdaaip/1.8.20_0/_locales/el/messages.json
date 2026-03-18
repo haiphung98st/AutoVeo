@@ -1,0 +1,281 @@
+{
+   "AIandMachineLearning": {
+      "message": "ΤΝ & μηχανική μάθηση"
+   },
+   "Advertising": {
+      "message": "Διαφήμιση"
+   },
+   "AffiliateMarketing": {
+      "message": "Affiliate μάρκετινγκ"
+   },
+   "AffiliateNetworks": {
+      "message": "Affiliate δίκτυα"
+   },
+   "Analytics": {
+      "message": "Ανάλυση"
+   },
+   "Blogs": {
+      "message": "Ιστολόγια"
+   },
+   "BookingManagement": {
+      "message": "Διαχείριση κρατήσεων"
+   },
+   "BrowserFingerprinting": {
+      "message": "Αποτύπωμα περιηγητή"
+   },
+   "BuildCISystems": {
+      "message": "Συστήματα CI"
+   },
+   "BuyNowPayLater": {
+      "message": "Αγορές τώρα, πληρωμή αργότερα"
+   },
+   "CDN": {
+      "message": "CDN"
+   },
+   "CMS": {
+      "message": "Σύστημα Διαχείρισης Περιεχομένου"
+   },
+   "CRM": {
+      "message": "CRM"
+   },
+   "Cache": {
+      "message": "Κρυφή μνήμη"
+   },
+   "Captcha": {
+      "message": "Captcha"
+   },
+   "ChatWidgets": {
+      "message": "Widgets συνομιλίας"
+   },
+   "CommentsandReviews": {
+      "message": "Σχόλια & Κριτικές"
+   },
+   "Communication": {
+      "message": "Επικοινωνία"
+   },
+   "ControlSystems": {
+      "message": "Συστήματα ελέγχου"
+   },
+   "CookieandConsent": {
+      "message": "Cookies & συναίνεση"
+   },
+   "Database": {
+      "message": "Βάση Δεδομένων"
+   },
+   "Databases": {
+      "message": "Βάσεις δεδομένων"
+   },
+   "DevTools": {
+      "message": "Εργαλεία προγραμματιστή"
+   },
+   "DocumentManagementSystems": {
+      "message": "Συστήματα διαχείρισης εγγράφων"
+   },
+   "Documentation": {
+      "message": "Τεκμηρίωση"
+   },
+   "Editors": {
+      "message": "Επεξεργαστές"
+   },
+   "FeedReaders": {
+      "message": "Αναγνώστες ροών"
+   },
+   "FinanceandAccounting": {
+      "message": "Οικονομικά & Λογιστική"
+   },
+   "Font": {
+      "message": "Γραμματοσειρά"
+   },
+   "Gallery": {
+      "message": "Γκαλερί"
+   },
+   "Gaming": {
+      "message": "Παιχνίδια"
+   },
+   "HTMLFramework": {
+      "message": "HTML πλαίσιο"
+   },
+   "Hosting": {
+      "message": "Φιλοξενία"
+   },
+   "IssueTracker": {
+      "message": "Καταγραφή Θεμάτων"
+   },
+   "JavascriptLibraries": {
+      "message": "Βιβλιοθήκες JavaScript"
+   },
+   "LMS": {
+      "message": "LMS"
+   },
+   "Logistics": {
+      "message": "Logística"
+   },
+   "Maps": {
+      "message": "Χάρτες"
+   },
+   "MediaServer": {
+      "message": "Διακομιστής μέσων"
+   },
+   "MessageBoard": {
+      "message": "Πίνακας Μηνυμάτων"
+   },
+   "Miscellaneous": {
+      "message": "Διάφορα"
+   },
+   "MobileFrameworks": {
+      "message": "Πλαίσια κινητής"
+   },
+   "Monitoring": {
+      "message": "Παρακολούθηση"
+   },
+   "NetworkDevice": {
+      "message": "Συσκευή δικτύου"
+   },
+   "NetworkStorage": {
+      "message": "Δικτυακή αποθήκευση"
+   },
+   "NoCodePlatforms": {
+      "message": "Πλατφόρμες χωρίς κώδικα"
+   },
+   "OperatingSystem": {
+      "message": "Λειτουργικό σύστημα"
+   },
+   "PageBuilders": {
+      "message": "Κατασκευαστές σελίδων"
+   },
+   "Payments": {
+      "message": "Πληρωμές"
+   },
+   "Paywalls": {
+      "message": "Πληρωμένοι τοίχοι"
+   },
+   "Printers": {
+      "message": "Εκτυπωτές"
+   },
+   "ProgrammingLanguage": {
+      "message": "Γλώσσα προγραμματισμού"
+   },
+   "RemoteAccess": {
+      "message": "Απομακρυσμένη πρόσβαση"
+   },
+   "RichTextEditors": {
+      "message": "Επεξεργαστές πλούσιου κειμένου"
+   },
+   "SalesandMarketing": {
+      "message": "Πωλήσεις & Μάρκετινγκ"
+   },
+   "SearchEngine": {
+      "message": "Μηχανή αναζήτησης"
+   },
+   "Security": {
+      "message": "Ασφάλεια"
+   },
+   "StatusPages": {
+      "message": "Σελίδες κατάστασης"
+   },
+   "TagManagers": {
+      "message": "Διαχειριστές ετικετών"
+   },
+   "UIandGraphics": {
+      "message": "Διεπαφή & Γραφικά"
+   },
+   "Video": {
+      "message": "Βίντεο"
+   },
+   "WebFramework": {
+      "message": "Πλαίσιο web"
+   },
+   "WebMail": {
+      "message": "Webmail"
+   },
+   "WebServer": {
+      "message": "Web διακομιστής"
+   },
+   "WebServerExtensions": {
+      "message": "Επεκτάσεις web διακομιστή"
+   },
+   "Webcams": {
+      "message": "Webcams"
+   },
+   "WebsiteBuilder": {
+      "message": "Κατασκευαστής ιστότοπου"
+   },
+   "WebsiteOptimization": {
+      "message": "Βελτιστοποίηση ιστοσελίδας"
+   },
+   "Widgets": {
+      "message": "Μικροεφαρμογές"
+   },
+   "Wiki": {
+      "message": "Wiki"
+   },
+   "WordPressPlugins": {
+      "message": "Plugins WordPress"
+   },
+   "agreeTerms": {
+      "message": "Κάνοντας κλικ, συμφωνείτε με τους "
+   },
+   "agreeTermsLink": {
+      "message": "όρους χρήσης."
+   },
+   "analyzingWebsite": {
+      "message": "Ανάλυση ιστοσελίδας..."
+   },
+   "appDesc": {
+      "message": "Ανακαλύψτε τι ‘τρέχει’ σε μια ιστοσελίδα. Frameworks, εργαλεία ανάλυσης, πρόσθετα WordPress, γραμματοσειρές – ό,τι χρειάζεστε."
+   },
+   "appName": {
+      "message": "WhatRuns"
+   },
+   "cookieContent": {
+      "message": "Το WhatRuns διαβάζει τον πηγαίο κώδικα των ιστότοπων που επισκέπτεστε για να εντοπίσει τεχνολογίες. Δεν χρησιμοποιούμε τα δεδομένα σας για διαφημίσεις, προφίλ ή προσωπική ταυτοποίηση. Διαβάστε περισσότερα στο "
+   },
+   "eCommerce": {
+      "message": "Ηλεκτρονικό εμπόριο"
+   },
+   "emailPlaceholder": {
+      "message": "Email"
+   },
+   "haveAccount": {
+      "message": "Έχετε ήδη λογαριασμό;"
+   },
+   "noAccount": {
+      "message": "Δεν έχετε λογαριασμό;"
+   },
+   "passwordPlaceholder": {
+      "message": "Κωδικός πρόσβασης"
+   },
+   "privacyPolicy": {
+      "message": "πολιτική απορρήτου."
+   },
+   "serverError0": {
+      "message": "Ουπς! 🙈 Αναβαθμίζουμε τον διακομιστή – δοκιμάστε ξανά σε λίγα λεπτά."
+   },
+   "serverError1": {
+      "message": "Το WhatRuns βρίσκεται σε συντήρηση 💁‍♀️ Δοκιμάστε ξανά σε 1–2 λεπτά."
+   },
+   "serverError2": {
+      "message": "Πιθανόν να είστε εθισμένοι στο WhatRuns 🤒 Για την υγεία σας, παίρνετε ένα διάλειμμα. Ξαναελέγξτε αργότερα. (Πραγματικά? Αναβάθμιση διακομιστή.)"
+   },
+   "serverError3": {
+      "message": "Κάντε ένα διάλλειμα! 😾 Μόνο πλάκα. Λάθος μας. Ενημερώνουμε υπηρεσίες ώστε η επέκταση να λειτουργεί σωστά."
+   },
+   "serverError4": {
+      "message": "Ουπς! 🙈 Αναβαθμίζουμε τον διακομιστή – δοκιμάστε ξανά σε λίγα λεπτά."
+   },
+   "shareWhatruns": {
+      "message": "Κοινοποίηση του WhatRuns "
+   },
+   "signInButton": {
+      "message": "Σύνδεση"
+   },
+   "signInHeading": {
+      "message": "Συνδεθείτε για να ακολουθήσετε"
+   },
+   "signUpButton": {
+      "message": "Εγγραφή"
+   },
+   "signUpHere": {
+      "message": "Εγγραφείτε εδώ"
+   }
+}

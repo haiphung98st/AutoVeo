@@ -1,0 +1,281 @@
+{
+   "AIandMachineLearning": {
+      "message": "人工智慧與機器學習"
+   },
+   "Advertising": {
+      "message": "廣告"
+   },
+   "AffiliateMarketing": {
+      "message": "聯盟行銷"
+   },
+   "AffiliateNetworks": {
+      "message": "聯盟網路"
+   },
+   "Analytics": {
+      "message": "分析"
+   },
+   "Blogs": {
+      "message": "部落格"
+   },
+   "BookingManagement": {
+      "message": "預訂管理"
+   },
+   "BrowserFingerprinting": {
+      "message": "瀏覽器指紋"
+   },
+   "BuildCISystems": {
+      "message": "CI 系統"
+   },
+   "BuyNowPayLater": {
+      "message": "先買後付"
+   },
+   "CDN": {
+      "message": "CDN"
+   },
+   "CMS": {
+      "message": "CMS"
+   },
+   "CRM": {
+      "message": "CRM"
+   },
+   "Cache": {
+      "message": "快取"
+   },
+   "Captcha": {
+      "message": "驗證碼"
+   },
+   "ChatWidgets": {
+      "message": "聊天小工具"
+   },
+   "CommentsandReviews": {
+      "message": "評論與評分"
+   },
+   "Communication": {
+      "message": "通訊"
+   },
+   "ControlSystems": {
+      "message": "控制系統"
+   },
+   "CookieandConsent": {
+      "message": "Cookie 與同意"
+   },
+   "Database": {
+      "message": "資料庫"
+   },
+   "Databases": {
+      "message": "資料庫"
+   },
+   "DevTools": {
+      "message": "開發工具"
+   },
+   "DocumentManagementSystems": {
+      "message": "文件管理系統"
+   },
+   "Documentation": {
+      "message": "文件"
+   },
+   "Editors": {
+      "message": "編輯器"
+   },
+   "FeedReaders": {
+      "message": "RSS 閱讀器"
+   },
+   "FinanceandAccounting": {
+      "message": "財務與會計"
+   },
+   "Font": {
+      "message": "字型"
+   },
+   "Gallery": {
+      "message": "圖庫"
+   },
+   "Gaming": {
+      "message": "遊戲"
+   },
+   "HTMLFramework": {
+      "message": "HTML 框架"
+   },
+   "Hosting": {
+      "message": "主機"
+   },
+   "IssueTracker": {
+      "message": "問題追蹤"
+   },
+   "JavascriptLibraries": {
+      "message": "Javascript 函式庫"
+   },
+   "LMS": {
+      "message": "學習管理系統"
+   },
+   "Logistics": {
+      "message": "物流"
+   },
+   "Maps": {
+      "message": "地圖"
+   },
+   "MediaServer": {
+      "message": "媒體伺服器"
+   },
+   "MessageBoard": {
+      "message": "論壇"
+   },
+   "Miscellaneous": {
+      "message": "其他"
+   },
+   "MobileFrameworks": {
+      "message": "行動框架"
+   },
+   "Monitoring": {
+      "message": "監控"
+   },
+   "NetworkDevice": {
+      "message": "網路設備"
+   },
+   "NetworkStorage": {
+      "message": "網路儲存"
+   },
+   "NoCodePlatforms": {
+      "message": "無程式碼平台"
+   },
+   "OperatingSystem": {
+      "message": "作業系統"
+   },
+   "PageBuilders": {
+      "message": "頁面編輯器"
+   },
+   "Payments": {
+      "message": "支付"
+   },
+   "Paywalls": {
+      "message": "付費牆"
+   },
+   "Printers": {
+      "message": "印表機"
+   },
+   "ProgrammingLanguage": {
+      "message": "程式語言"
+   },
+   "RemoteAccess": {
+      "message": "遠端存取"
+   },
+   "RichTextEditors": {
+      "message": "文字編輯器"
+   },
+   "SalesandMarketing": {
+      "message": "銷售與行銷"
+   },
+   "SearchEngine": {
+      "message": "搜尋引擎"
+   },
+   "Security": {
+      "message": "安全"
+   },
+   "StatusPages": {
+      "message": "狀態頁面"
+   },
+   "TagManagers": {
+      "message": "標籤管理工具"
+   },
+   "UIandGraphics": {
+      "message": "UI 與圖形"
+   },
+   "Video": {
+      "message": "影片"
+   },
+   "WebFramework": {
+      "message": "Web 框架"
+   },
+   "WebMail": {
+      "message": "Web 郵件"
+   },
+   "WebServer": {
+      "message": "網頁伺服器"
+   },
+   "WebServerExtensions": {
+      "message": "伺服器擴充功能"
+   },
+   "Webcams": {
+      "message": "網路攝影機"
+   },
+   "WebsiteBuilder": {
+      "message": "網站建置工具"
+   },
+   "WebsiteOptimization": {
+      "message": "網站最佳化"
+   },
+   "Widgets": {
+      "message": "小工具"
+   },
+   "Wiki": {
+      "message": "Wiki"
+   },
+   "WordPressPlugins": {
+      "message": "WordPress 外掛"
+   },
+   "agreeTerms": {
+      "message": "點擊此按鈕即表示您同意 "
+   },
+   "agreeTermsLink": {
+      "message": "服務條款。"
+   },
+   "analyzingWebsite": {
+      "message": "正在分析網站..."
+   },
+   "appDesc": {
+      "message": "找出網站正在使用哪些技術。框架、分析工具、Wordpress 外掛、字型等。"
+   },
+   "appName": {
+      "message": "WhatRuns"
+   },
+   "cookieContent": {
+      "message": "WhatRuns 會讀取您造訪的網站原始碼以偵測所用技術。我們不會將您的資料用於廣告、建檔或個人識別。詳細內容請參閱我們的 "
+   },
+   "eCommerce": {
+      "message": "電子商務"
+   },
+   "emailPlaceholder": {
+      "message": "電子郵件"
+   },
+   "haveAccount": {
+      "message": "已經有帳號了？ "
+   },
+   "noAccount": {
+      "message": "還沒有帳號？"
+   },
+   "passwordPlaceholder": {
+      "message": "密碼"
+   },
+   "privacyPolicy": {
+      "message": "隱私權政策。"
+   },
+   "serverError0": {
+      "message": "糟糕！被你發現了 🙈 我們正在秘密更新伺服器。請稍後幾分鐘。"
+   },
+   "serverError1": {
+      "message": "WhatRuns 目前正在維護 💁‍♀️ 請稍後再試。"
+   },
+   "serverError2": {
+      "message": "看來你已經上癮於 WhatRuns 🤒 我們關心你的健康，讓你休息一下。請稍後再回來。（其實是伺服器更新中）。"
+   },
+   "serverError3": {
+      "message": "休息一下吧！ 😾 開玩笑的，這是我們的錯。我們正在更新必要的服務以讓這個酷炫的擴充功能正常運作。"
+   },
+   "serverError4": {
+      "message": "糟糕！被你發現了 🙈 我們正在秘密更新伺服器。請稍後幾分鐘。"
+   },
+   "shareWhatruns": {
+      "message": "分享 WhatRuns "
+   },
+   "signInButton": {
+      "message": "登入"
+   },
+   "signInHeading": {
+      "message": "登入以追蹤"
+   },
+   "signUpButton": {
+      "message": "註冊"
+   },
+   "signUpHere": {
+      "message": "在這裡註冊"
+   }
+}

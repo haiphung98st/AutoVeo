@@ -1,0 +1,281 @@
+{
+   "AIandMachineLearning": {
+      "message": "Штучний інтелект і машинне навчання"
+   },
+   "Advertising": {
+      "message": "Реклама"
+   },
+   "AffiliateMarketing": {
+      "message": "Партнерський маркетинг"
+   },
+   "AffiliateNetworks": {
+      "message": "Партнерські мережі"
+   },
+   "Analytics": {
+      "message": "Аналітика"
+   },
+   "Blogs": {
+      "message": "Блоги"
+   },
+   "BookingManagement": {
+      "message": "Управління бронюванням"
+   },
+   "BrowserFingerprinting": {
+      "message": "Відбиток браузера"
+   },
+   "BuildCISystems": {
+      "message": "CI-системи"
+   },
+   "BuyNowPayLater": {
+      "message": "Купуй зараз — плати пізніше"
+   },
+   "CDN": {
+      "message": "CDN"
+   },
+   "CMS": {
+      "message": "CMS"
+   },
+   "CRM": {
+      "message": "CRM"
+   },
+   "Cache": {
+      "message": "Кеш"
+   },
+   "Captcha": {
+      "message": "Captcha"
+   },
+   "ChatWidgets": {
+      "message": "Чат-віджети"
+   },
+   "CommentsandReviews": {
+      "message": "Коментарі та відгуки"
+   },
+   "Communication": {
+      "message": "Комунікація"
+   },
+   "ControlSystems": {
+      "message": "Системи керування"
+   },
+   "CookieandConsent": {
+      "message": "Файли cookie та згода"
+   },
+   "Database": {
+      "message": "База даних"
+   },
+   "Databases": {
+      "message": "Бази даних"
+   },
+   "DevTools": {
+      "message": "Інструменти розробника"
+   },
+   "DocumentManagementSystems": {
+      "message": "Системи управління документами"
+   },
+   "Documentation": {
+      "message": "Документація"
+   },
+   "Editors": {
+      "message": "Редактори"
+   },
+   "FeedReaders": {
+      "message": "Читачі RSS"
+   },
+   "FinanceandAccounting": {
+      "message": "Фінанси та бухгалтерія"
+   },
+   "Font": {
+      "message": "Шрифт"
+   },
+   "Gallery": {
+      "message": "Галерея"
+   },
+   "Gaming": {
+      "message": "Ігри"
+   },
+   "HTMLFramework": {
+      "message": "HTML-фреймворк"
+   },
+   "Hosting": {
+      "message": "Хостинг"
+   },
+   "IssueTracker": {
+      "message": "Трекер помилок"
+   },
+   "JavascriptLibraries": {
+      "message": "Javascript-бібліотеки"
+   },
+   "LMS": {
+      "message": "Система управління навчанням"
+   },
+   "Logistics": {
+      "message": "Логістика"
+   },
+   "Maps": {
+      "message": "Карти"
+   },
+   "MediaServer": {
+      "message": "Медіасервер"
+   },
+   "MessageBoard": {
+      "message": "Форум"
+   },
+   "Miscellaneous": {
+      "message": "Різне"
+   },
+   "MobileFrameworks": {
+      "message": "Мобільні фреймворки"
+   },
+   "Monitoring": {
+      "message": "Моніторинг"
+   },
+   "NetworkDevice": {
+      "message": "Мережевий пристрій"
+   },
+   "NetworkStorage": {
+      "message": "Мережеве сховище"
+   },
+   "NoCodePlatforms": {
+      "message": "No-code платформи"
+   },
+   "OperatingSystem": {
+      "message": "Операційна система"
+   },
+   "PageBuilders": {
+      "message": "Конструктори сторінок"
+   },
+   "Payments": {
+      "message": "Платежі"
+   },
+   "Paywalls": {
+      "message": "Платний доступ"
+   },
+   "Printers": {
+      "message": "Принтери"
+   },
+   "ProgrammingLanguage": {
+      "message": "Мова програмування"
+   },
+   "RemoteAccess": {
+      "message": "Віддалений доступ"
+   },
+   "RichTextEditors": {
+      "message": "Редактори форматованого тексту"
+   },
+   "SalesandMarketing": {
+      "message": "Продажі та маркетинг"
+   },
+   "SearchEngine": {
+      "message": "Пошукова система"
+   },
+   "Security": {
+      "message": "Безпека"
+   },
+   "StatusPages": {
+      "message": "Сторінки статусу"
+   },
+   "TagManagers": {
+      "message": "Менеджери тегів"
+   },
+   "UIandGraphics": {
+      "message": "UI та графіка"
+   },
+   "Video": {
+      "message": "Відео"
+   },
+   "WebFramework": {
+      "message": "Вебфреймворк"
+   },
+   "WebMail": {
+      "message": "Вебпошта"
+   },
+   "WebServer": {
+      "message": "Вебсервер"
+   },
+   "WebServerExtensions": {
+      "message": "Розширення вебсервера"
+   },
+   "Webcams": {
+      "message": "Вебкамери"
+   },
+   "WebsiteBuilder": {
+      "message": "Конструктор сайтів"
+   },
+   "WebsiteOptimization": {
+      "message": "Оптимізація вебсайтів"
+   },
+   "Widgets": {
+      "message": "Віджети"
+   },
+   "Wiki": {
+      "message": "Вікі"
+   },
+   "WordPressPlugins": {
+      "message": "Плагіни WordPress"
+   },
+   "agreeTerms": {
+      "message": "Натискаючи цю кнопку, ви погоджуєтеся з "
+   },
+   "agreeTermsLink": {
+      "message": "умовами використання."
+   },
+   "analyzingWebsite": {
+      "message": "Аналіз вебсайту..."
+   },
+   "appDesc": {
+      "message": "Дізнайтеся, які технології використовує вебсайт. Фреймворки, аналітика, плагіни Wordpress, шрифти — все, що завгодно."
+   },
+   "appName": {
+      "message": "WhatRuns"
+   },
+   "cookieContent": {
+      "message": "WhatRuns читає вихідний код вебсайтів, які ви відвідуєте, щоб виявити технології. Ми не використовуємо ваші дані для реклами, профілювання чи особистої ідентифікації. Читайте більше в нашій "
+   },
+   "eCommerce": {
+      "message": "Електронна комерція"
+   },
+   "emailPlaceholder": {
+      "message": "Електронна пошта"
+   },
+   "haveAccount": {
+      "message": "Вже маєте обліковий запис? "
+   },
+   "noAccount": {
+      "message": "Ще не маєте облікового запису?"
+   },
+   "passwordPlaceholder": {
+      "message": "Пароль"
+   },
+   "privacyPolicy": {
+      "message": "політиці конфіденційності."
+   },
+   "serverError0": {
+      "message": "Ой! Нас спіймали 🙈 Ми таємно оновлюємо сервер. Залиште нас на кілька хвилин, добре?"
+   },
+   "serverError1": {
+      "message": "WhatRuns зараз на технічному обслуговуванні 💁‍♀️ Спробуйте ще раз через хвилинку."
+   },
+   "serverError2": {
+      "message": "Здається, ви залежні від WhatRuns 🤒 Ми дбаємо про ваше здоров’я й хочемо дати вам трохи перепочинку. Будь ласка, перевірте пізніше. (Серйозно, це оновлення сервера)."
+   },
+   "serverError3": {
+      "message": "Трохи відпочиньте! 😾 Жартуємо. Це наша помилка. Ми оновлюємо сервіси, необхідні для роботи цього крутого розширення."
+   },
+   "serverError4": {
+      "message": "Ой! Нас спіймали 🙈 Ми таємно оновлюємо сервер. Залиште нас на кілька хвилин, добре?"
+   },
+   "shareWhatruns": {
+      "message": "Поділитися WhatRuns "
+   },
+   "signInButton": {
+      "message": "Увійти"
+   },
+   "signInHeading": {
+      "message": "Увійдіть, щоб підписатися"
+   },
+   "signUpButton": {
+      "message": "Зареєструватися"
+   },
+   "signUpHere": {
+      "message": "Зареєструйтеся тут"
+   }
+}

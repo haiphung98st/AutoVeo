@@ -1,0 +1,6 @@
+2026/03/14-20:38:42.019 5ced8 Reusing MANIFEST /Users/macbook/Documents/Coding/AutoVeo/automation/chrome-debug/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/14-20:38:42.019 5ced8 Recovering log #4
+2026/03/14-20:38:42.020 5ced8 Reusing old log /Users/macbook/Documents/Coding/AutoVeo/automation/chrome-debug/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000004.log 
+2026/03/14-20:39:11.894 5cedb Level-0 table #8: started
+2026/03/14-20:39:11.932 5cedb Level-0 table #8: 3164421 bytes OK
+2026/03/14-20:39:11.935 5cedb Delete type=0 #4

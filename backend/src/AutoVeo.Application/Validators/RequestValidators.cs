@@ -41,7 +41,7 @@ public class GeneratePromptRequestValidator : AbstractValidator<GeneratePromptRe
 {
     private static readonly string[] ValidStyles = 
         { "Cinematic", "Anime", "Realistic", "Abstract", "Neon Cyberpunk", "Retro", "Minimalist" };
-    private static readonly string[] ValidDurations = { "5s", "10s", "20s" };
+    private static readonly string[] ValidDurations = { "8s" };
     private static readonly string[] ValidPlatforms = { "TikTok", "YouTube Shorts" };
 
     public GeneratePromptRequestValidator()

@@ -1,0 +1,281 @@
+{
+   "AIandMachineLearning": {
+      "message": "IA e aprendizado de máquina"
+   },
+   "Advertising": {
+      "message": "Publicidade"
+   },
+   "AffiliateMarketing": {
+      "message": "Marketing de afiliados"
+   },
+   "AffiliateNetworks": {
+      "message": "Redes de afiliados"
+   },
+   "Analytics": {
+      "message": "Análise"
+   },
+   "Blogs": {
+      "message": "Blogs"
+   },
+   "BookingManagement": {
+      "message": "Gerenciamento de reservas"
+   },
+   "BrowserFingerprinting": {
+      "message": "Impressão digital do navegador"
+   },
+   "BuildCISystems": {
+      "message": "Sistemas de CI"
+   },
+   "BuyNowPayLater": {
+      "message": "Compre agora, pague depois"
+   },
+   "CDN": {
+      "message": "CDN"
+   },
+   "CMS": {
+      "message": "CMS"
+   },
+   "CRM": {
+      "message": "CRM"
+   },
+   "Cache": {
+      "message": "Cache"
+   },
+   "Captcha": {
+      "message": "Captcha"
+   },
+   "ChatWidgets": {
+      "message": "Widgets de chat"
+   },
+   "CommentsandReviews": {
+      "message": "Comentários e avaliações"
+   },
+   "Communication": {
+      "message": "Comunicação"
+   },
+   "ControlSystems": {
+      "message": "Sistemas de controle"
+   },
+   "CookieandConsent": {
+      "message": "Cookies e consentimento"
+   },
+   "Database": {
+      "message": "Banco de dados"
+   },
+   "Databases": {
+      "message": "Bancos de dados"
+   },
+   "DevTools": {
+      "message": "Ferramentas de desenvolvimento"
+   },
+   "DocumentManagementSystems": {
+      "message": "Sistemas de gerenciamento de documentos"
+   },
+   "Documentation": {
+      "message": "Documentação"
+   },
+   "Editors": {
+      "message": "Editores"
+   },
+   "FeedReaders": {
+      "message": "Leitores de feeds"
+   },
+   "FinanceandAccounting": {
+      "message": "Finanças e contabilidade"
+   },
+   "Font": {
+      "message": "Fonte"
+   },
+   "Gallery": {
+      "message": "Galeria"
+   },
+   "Gaming": {
+      "message": "Jogos"
+   },
+   "HTMLFramework": {
+      "message": "Framework HTML"
+   },
+   "Hosting": {
+      "message": "Hospedagem"
+   },
+   "IssueTracker": {
+      "message": "Rastreador de problemas"
+   },
+   "JavascriptLibraries": {
+      "message": "Bibliotecas JavaScript"
+   },
+   "LMS": {
+      "message": "LMS"
+   },
+   "Logistics": {
+      "message": "Logística"
+   },
+   "Maps": {
+      "message": "Mapas"
+   },
+   "MediaServer": {
+      "message": "Servidor de mídia"
+   },
+   "MessageBoard": {
+      "message": "Fórum"
+   },
+   "Miscellaneous": {
+      "message": "Diversos"
+   },
+   "MobileFrameworks": {
+      "message": "Frameworks móveis"
+   },
+   "Monitoring": {
+      "message": "Monitoramento"
+   },
+   "NetworkDevice": {
+      "message": "Dispositivo de rede"
+   },
+   "NetworkStorage": {
+      "message": "Armazenamento em rede"
+   },
+   "NoCodePlatforms": {
+      "message": "Plataformas no-code"
+   },
+   "OperatingSystem": {
+      "message": "Sistema Operacional"
+   },
+   "PageBuilders": {
+      "message": "Construtores de páginas"
+   },
+   "Payments": {
+      "message": "Pagamentos"
+   },
+   "Paywalls": {
+      "message": "Paywalls"
+   },
+   "Printers": {
+      "message": "Impressoras"
+   },
+   "ProgrammingLanguage": {
+      "message": "Linguagem de programação"
+   },
+   "RemoteAccess": {
+      "message": "Acesso remoto"
+   },
+   "RichTextEditors": {
+      "message": "Editores de texto rico"
+   },
+   "SalesandMarketing": {
+      "message": "Vendas e marketing"
+   },
+   "SearchEngine": {
+      "message": "Mecanismo de busca"
+   },
+   "Security": {
+      "message": "Segurança"
+   },
+   "StatusPages": {
+      "message": "Páginas de status"
+   },
+   "TagManagers": {
+      "message": "Gerenciadores de tags"
+   },
+   "UIandGraphics": {
+      "message": "UI e Gráficos"
+   },
+   "Video": {
+      "message": "Vídeo"
+   },
+   "WebFramework": {
+      "message": "Framework Web"
+   },
+   "WebMail": {
+      "message": "Webmail"
+   },
+   "WebServer": {
+      "message": "Servidor Web"
+   },
+   "WebServerExtensions": {
+      "message": "Extensões de servidor Web"
+   },
+   "Webcams": {
+      "message": "Webcams"
+   },
+   "WebsiteBuilder": {
+      "message": "Construtor de sites"
+   },
+   "WebsiteOptimization": {
+      "message": "Otimização de sites"
+   },
+   "Widgets": {
+      "message": "Widgets"
+   },
+   "Wiki": {
+      "message": "Wiki"
+   },
+   "WordPressPlugins": {
+      "message": "Plugins do WordPress"
+   },
+   "agreeTerms": {
+      "message": "Ao clicar neste botão, você concorda com nossos "
+   },
+   "agreeTermsLink": {
+      "message": "termos de serviço."
+   },
+   "analyzingWebsite": {
+      "message": "Analisando o site..."
+   },
+   "appDesc": {
+      "message": "Descubra o que está por trás de um site. Frameworks, ferramentas de análise, plugins do WordPress, fontes – você escolhe."
+   },
+   "appName": {
+      "message": "WhatRuns"
+   },
+   "cookieContent": {
+      "message": "O WhatRuns lê o código-fonte dos sites que você visita para detectar tecnologias. Não usamos seus dados para publicidade, criação de perfis ou identificação pessoal. Leia mais em nossa "
+   },
+   "eCommerce": {
+      "message": "eCommerce"
+   },
+   "emailPlaceholder": {
+      "message": "E-mail"
+   },
+   "haveAccount": {
+      "message": "Já tem uma conta?"
+   },
+   "noAccount": {
+      "message": "Não tem uma conta?"
+   },
+   "passwordPlaceholder": {
+      "message": "Senha"
+   },
+   "privacyPolicy": {
+      "message": " política de privacidade."
+   },
+   "serverError0": {
+      "message": "Ops! 🙈 Estamos atualizando nossos servidores em segredo. Espere alguns minutos e tente novamente."
+   },
+   "serverError1": {
+      "message": "O WhatRuns está em manutenção 💁‍♀️ Tente novamente em alguns minutos."
+   },
+   "serverError2": {
+      "message": "Achamos que você está viciado em WhatRuns 🤒 Para o seu bem-estar, vamos dar uma pausa de algumas horas. Volte mais tarde. (Na verdade é atualização de servidor)."
+   },
+   "serverError3": {
+      "message": "Dê um tempo! 😾 Brincadeira. Foi nossa falha. Estamos atualizando serviços necessários para manter esta extensão funcionando."
+   },
+   "serverError4": {
+      "message": "Ops! 🙈 Estamos atualizando nossos servidores em segredo. Espere alguns minutos e tente novamente."
+   },
+   "shareWhatruns": {
+      "message": "Compartilhar WhatRuns "
+   },
+   "signInButton": {
+      "message": "Entrar"
+   },
+   "signInHeading": {
+      "message": "Entrar para seguir"
+   },
+   "signUpButton": {
+      "message": "Cadastrar"
+   },
+   "signUpHere": {
+      "message": "Cadastre-se aqui"
+   }
+}

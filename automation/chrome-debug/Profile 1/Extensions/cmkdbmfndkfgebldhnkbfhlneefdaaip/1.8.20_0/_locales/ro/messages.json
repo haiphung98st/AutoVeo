@@ -1,0 +1,281 @@
+{
+   "AIandMachineLearning": {
+      "message": "IA și Machine Learning"
+   },
+   "Advertising": {
+      "message": "Publicitate"
+   },
+   "AffiliateMarketing": {
+      "message": "Marketing Afiliat"
+   },
+   "AffiliateNetworks": {
+      "message": "Rețele Afiliate"
+   },
+   "Analytics": {
+      "message": "Analiză"
+   },
+   "Blogs": {
+      "message": "Bloguri"
+   },
+   "BookingManagement": {
+      "message": "Management Rezervări"
+   },
+   "BrowserFingerprinting": {
+      "message": "Amprentare Browser"
+   },
+   "BuildCISystems": {
+      "message": "Sisteme CI"
+   },
+   "BuyNowPayLater": {
+      "message": "Cumpără acum, plătește mai târziu"
+   },
+   "CDN": {
+      "message": "CDN"
+   },
+   "CMS": {
+      "message": "CMS"
+   },
+   "CRM": {
+      "message": "CRM"
+   },
+   "Cache": {
+      "message": "Cache"
+   },
+   "Captcha": {
+      "message": "Captcha"
+   },
+   "ChatWidgets": {
+      "message": "Widget-uri Chat"
+   },
+   "CommentsandReviews": {
+      "message": "Comentarii și Recenzii"
+   },
+   "Communication": {
+      "message": "Comunicare"
+   },
+   "ControlSystems": {
+      "message": "Sisteme de Control"
+   },
+   "CookieandConsent": {
+      "message": "Cookie și Consimțământ"
+   },
+   "Database": {
+      "message": "Bază de date"
+   },
+   "Databases": {
+      "message": "Baze de date"
+   },
+   "DevTools": {
+      "message": "Unelte de Dezvoltare"
+   },
+   "DocumentManagementSystems": {
+      "message": "Sisteme de Management Documente"
+   },
+   "Documentation": {
+      "message": "Documentație"
+   },
+   "Editors": {
+      "message": "Editoare"
+   },
+   "FeedReaders": {
+      "message": "Cititoare de Feed"
+   },
+   "FinanceandAccounting": {
+      "message": "Finanțe și Contabilitate"
+   },
+   "Font": {
+      "message": "Font"
+   },
+   "Gallery": {
+      "message": "Galerie"
+   },
+   "Gaming": {
+      "message": "Gaming"
+   },
+   "HTMLFramework": {
+      "message": "Framework HTML"
+   },
+   "Hosting": {
+      "message": "Găzduire"
+   },
+   "IssueTracker": {
+      "message": "Urmărire probleme"
+   },
+   "JavascriptLibraries": {
+      "message": "Biblioteci Javascript"
+   },
+   "LMS": {
+      "message": "LMS"
+   },
+   "Logistics": {
+      "message": "Logistică"
+   },
+   "Maps": {
+      "message": "Hărți"
+   },
+   "MediaServer": {
+      "message": "Server Media"
+   },
+   "MessageBoard": {
+      "message": "Forum"
+   },
+   "Miscellaneous": {
+      "message": "Diverse"
+   },
+   "MobileFrameworks": {
+      "message": "Framework-uri Mobile"
+   },
+   "Monitoring": {
+      "message": "Monitorizare"
+   },
+   "NetworkDevice": {
+      "message": "Dispozitiv de rețea"
+   },
+   "NetworkStorage": {
+      "message": "Stocare de Rețea"
+   },
+   "NoCodePlatforms": {
+      "message": "Platforme No Code"
+   },
+   "OperatingSystem": {
+      "message": "Sistem de Operare"
+   },
+   "PageBuilders": {
+      "message": "Constructori de Pagini"
+   },
+   "Payments": {
+      "message": "Plăți"
+   },
+   "Paywalls": {
+      "message": "Paywalls"
+   },
+   "Printers": {
+      "message": "Imprimante"
+   },
+   "ProgrammingLanguage": {
+      "message": "Limbaj de Programare"
+   },
+   "RemoteAccess": {
+      "message": "Acces de la distanță"
+   },
+   "RichTextEditors": {
+      "message": "Editoare de text îmbogățit"
+   },
+   "SalesandMarketing": {
+      "message": "Vânzări și Marketing"
+   },
+   "SearchEngine": {
+      "message": "Motor de Căutare"
+   },
+   "Security": {
+      "message": "Securitate"
+   },
+   "StatusPages": {
+      "message": "Pagini de Status"
+   },
+   "TagManagers": {
+      "message": "Manageri de Tag-uri"
+   },
+   "UIandGraphics": {
+      "message": "UI și Grafică"
+   },
+   "Video": {
+      "message": "Video"
+   },
+   "WebFramework": {
+      "message": "Framework Web"
+   },
+   "WebMail": {
+      "message": "Web Mail"
+   },
+   "WebServer": {
+      "message": "Server Web"
+   },
+   "WebServerExtensions": {
+      "message": "Extensii Server Web"
+   },
+   "Webcams": {
+      "message": "Webcam-uri"
+   },
+   "WebsiteBuilder": {
+      "message": "Constructor Site"
+   },
+   "WebsiteOptimization": {
+      "message": "Optimizare Site"
+   },
+   "Widgets": {
+      "message": "Widget-uri"
+   },
+   "Wiki": {
+      "message": "Wiki"
+   },
+   "WordPressPlugins": {
+      "message": "Pluginuri WordPress"
+   },
+   "agreeTerms": {
+      "message": "Făcând clic pe acest buton, ești de acord cu "
+   },
+   "agreeTermsLink": {
+      "message": "termenii noștri de serviciu."
+   },
+   "analyzingWebsite": {
+      "message": "Analizăm site-ul..."
+   },
+   "appDesc": {
+      "message": "Descoperă ce rulează un site. Framework-uri, instrumente de analiză, pluginuri Wordpress, fonturi - orice."
+   },
+   "appName": {
+      "message": "WhatRuns"
+   },
+   "cookieContent": {
+      "message": "WhatRuns citește codul sursă al site-urilor pe care le vizitezi pentru a detecta tehnologii. Nu folosim datele tale pentru publicitate, profilare sau identificare personală. Citește mai multe în "
+   },
+   "eCommerce": {
+      "message": "eCommerce"
+   },
+   "emailPlaceholder": {
+      "message": "Email"
+   },
+   "haveAccount": {
+      "message": "Ai deja un cont? "
+   },
+   "noAccount": {
+      "message": "Nu ai un cont?"
+   },
+   "passwordPlaceholder": {
+      "message": "Parolă"
+   },
+   "privacyPolicy": {
+      "message": " politica de confidențialitate."
+   },
+   "serverError0": {
+      "message": "Ups! 🙈 Facem o actualizare de server. Revino în câteva minute."
+   },
+   "serverError1": {
+      "message": "WhatRuns este în mentenanță 💁‍♀️  Încearcă din nou peste un minut sau două."
+   },
+   "serverError2": {
+      "message": "Se pare că ești dependent de WhatRuns 🤒  Ia o pauză și revino mai târziu. (Serios, actualizare de server)."
+   },
+   "serverError3": {
+      "message": "O mică pauză! 😾 Glumim. Noi facem update la serviciile necesare pentru ca extensia să funcționeze."
+   },
+   "serverError4": {
+      "message": "Ups! 🙈 Facem o actualizare de server. Revino în câteva minute."
+   },
+   "shareWhatruns": {
+      "message": "Distribuie ce rulează "
+   },
+   "signInButton": {
+      "message": "Conectare"
+   },
+   "signInHeading": {
+      "message": "Conectează-te pentru a urmări"
+   },
+   "signUpButton": {
+      "message": "Înregistrare"
+   },
+   "signUpHere": {
+      "message": "Înregistrează-te aici"
+   }
+}

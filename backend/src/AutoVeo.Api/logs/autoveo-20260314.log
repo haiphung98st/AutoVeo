@@ -1,0 +1,546 @@
+2026-03-14 15:35:20.206 +07:00 [INF] TrendCrawlerWorker: Starting scheduled crawl...
+2026-03-14 15:35:20.387 +07:00 [INF] Crawling YouTube trends for region Global
+2026-03-14 15:35:20.773 +07:00 [INF] Collected 20 YouTube trends for region Global
+2026-03-14 15:35:20.815 +07:00 [INF] Saved 20 trends from YouTube (Global)
+2026-03-14 15:35:20.815 +07:00 [INF] Crawling YouTube trends for region United States
+2026-03-14 15:35:20.884 +07:00 [ERR] YouTube API error: "BadRequest" - {
+  "error": {
+    "code": 400,
+    "message": "The \u003ccode\u003eregionCode\u003c/code\u003e parameter specifies an invalid region code.",
+    "errors": [
+      {
+        "message": "The \u003ccode\u003eregionCode\u003c/code\u003e parameter specifies an invalid region code.",
+        "domain": "youtube.parameter",
+        "reason": "invalidRegionCode",
+        "location": "regionCode",
+        "locationType": "parameter"
+      }
+    ]
+  }
+}
+
+2026-03-14 15:35:20.890 +07:00 [ERR] Failed to collect YouTube trends for region United States
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.YouTubeTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 44
+2026-03-14 15:35:20.911 +07:00 [INF] Saved 0 trends from YouTube (United States)
+2026-03-14 15:35:20.913 +07:00 [INF] Crawling YouTube trends for region Vietnam
+2026-03-14 15:35:20.976 +07:00 [ERR] YouTube API error: "BadRequest" - {
+  "error": {
+    "code": 400,
+    "message": "The \u003ccode\u003eregionCode\u003c/code\u003e parameter specifies an invalid region code.",
+    "errors": [
+      {
+        "message": "The \u003ccode\u003eregionCode\u003c/code\u003e parameter specifies an invalid region code.",
+        "domain": "youtube.parameter",
+        "reason": "invalidRegionCode",
+        "location": "regionCode",
+        "locationType": "parameter"
+      }
+    ]
+  }
+}
+
+2026-03-14 15:35:20.976 +07:00 [ERR] Failed to collect YouTube trends for region Vietnam
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.YouTubeTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 44
+2026-03-14 15:35:20.977 +07:00 [INF] Saved 0 trends from YouTube (Vietnam)
+2026-03-14 15:35:20.977 +07:00 [INF] Crawling TikTok trends for region Global
+2026-03-14 15:35:22.980 +07:00 [INF] Fetching TikTok trends from Tikwm for region: Global
+2026-03-14 15:35:23.384 +07:00 [INF] Collected 0 TikTok trends from Tikwm for region Global
+2026-03-14 15:35:23.386 +07:00 [INF] Saved 0 trends from TikTok (Global)
+2026-03-14 15:35:23.386 +07:00 [INF] Crawling TikTok trends for region United States
+2026-03-14 15:35:25.388 +07:00 [INF] Fetching TikTok trends from Tikwm for region: United States
+2026-03-14 15:35:30.166 +07:00 [INF] Collected 10 TikTok trends from Tikwm for region United States
+2026-03-14 15:35:30.173 +07:00 [INF] Saved 10 trends from TikTok (United States)
+2026-03-14 15:35:30.173 +07:00 [INF] Crawling TikTok trends for region Vietnam
+2026-03-14 15:35:32.175 +07:00 [INF] Fetching TikTok trends from Tikwm for region: Vietnam
+2026-03-14 15:35:37.465 +07:00 [INF] Collected 18 TikTok trends from Tikwm for region Vietnam
+2026-03-14 15:35:37.475 +07:00 [INF] Saved 18 trends from TikTok (Vietnam)
+2026-03-14 15:35:37.475 +07:00 [INF] Crawling Google Trends trends for region Global
+2026-03-14 15:35:38.136 +07:00 [INF] Collected 10 Google Trends for region Global
+2026-03-14 15:35:38.139 +07:00 [INF] Saved 10 trends from Google Trends (Global)
+2026-03-14 15:35:38.139 +07:00 [INF] Crawling Google Trends trends for region United States
+2026-03-14 15:35:38.274 +07:00 [ERR] Failed to collect Google Trends for region United States
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at AutoVeo.Infrastructure.External.GoogleTrendsCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 256
+2026-03-14 15:35:38.275 +07:00 [INF] Saved 0 trends from Google Trends (United States)
+2026-03-14 15:35:38.275 +07:00 [INF] Crawling Google Trends trends for region Vietnam
+2026-03-14 15:35:38.411 +07:00 [ERR] Failed to collect Google Trends for region Vietnam
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at AutoVeo.Infrastructure.External.GoogleTrendsCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 256
+2026-03-14 15:35:38.411 +07:00 [INF] Saved 0 trends from Google Trends (Vietnam)
+2026-03-14 15:35:38.413 +07:00 [INF] TrendCrawlerWorker: Waiting 60 minutes for next crawl...
+2026-03-14 16:35:42.318 +07:00 [INF] TrendCrawlerWorker: Starting scheduled crawl...
+2026-03-14 16:35:42.383 +07:00 [INF] Crawling YouTube trends for region Global
+2026-03-14 16:35:42.999 +07:00 [INF] Collected 20 YouTube trends for region Global
+2026-03-14 16:35:43.032 +07:00 [INF] Saved 20 trends from YouTube (Global)
+2026-03-14 16:35:43.033 +07:00 [INF] Crawling YouTube trends for region United States
+2026-03-14 16:35:43.129 +07:00 [ERR] YouTube API error: "BadRequest" - {
+  "error": {
+    "code": 400,
+    "message": "The \u003ccode\u003eregionCode\u003c/code\u003e parameter specifies an invalid region code.",
+    "errors": [
+      {
+        "message": "The \u003ccode\u003eregionCode\u003c/code\u003e parameter specifies an invalid region code.",
+        "domain": "youtube.parameter",
+        "reason": "invalidRegionCode",
+        "location": "regionCode",
+        "locationType": "parameter"
+      }
+    ]
+  }
+}
+
+2026-03-14 16:35:43.132 +07:00 [ERR] Failed to collect YouTube trends for region United States
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.YouTubeTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 44
+2026-03-14 16:35:43.136 +07:00 [INF] Saved 0 trends from YouTube (United States)
+2026-03-14 16:35:43.136 +07:00 [INF] Crawling YouTube trends for region Vietnam
+2026-03-14 16:35:43.231 +07:00 [ERR] YouTube API error: "BadRequest" - {
+  "error": {
+    "code": 400,
+    "message": "The \u003ccode\u003eregionCode\u003c/code\u003e parameter specifies an invalid region code.",
+    "errors": [
+      {
+        "message": "The \u003ccode\u003eregionCode\u003c/code\u003e parameter specifies an invalid region code.",
+        "domain": "youtube.parameter",
+        "reason": "invalidRegionCode",
+        "location": "regionCode",
+        "locationType": "parameter"
+      }
+    ]
+  }
+}
+
+2026-03-14 16:35:43.231 +07:00 [ERR] Failed to collect YouTube trends for region Vietnam
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.YouTubeTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 44
+2026-03-14 16:35:43.233 +07:00 [INF] Saved 0 trends from YouTube (Vietnam)
+2026-03-14 16:35:43.233 +07:00 [INF] Crawling TikTok trends for region Global
+2026-03-14 16:35:45.235 +07:00 [INF] Fetching TikTok trends from Tikwm for region: Global
+2026-03-14 16:35:45.675 +07:00 [INF] Collected 0 TikTok trends from Tikwm for region Global
+2026-03-14 16:35:45.683 +07:00 [INF] Saved 0 trends from TikTok (Global)
+2026-03-14 16:35:45.684 +07:00 [INF] Crawling TikTok trends for region United States
+2026-03-14 16:35:47.684 +07:00 [INF] Fetching TikTok trends from Tikwm for region: United States
+2026-03-14 16:35:52.479 +07:00 [INF] Collected 20 TikTok trends from Tikwm for region United States
+2026-03-14 16:35:52.490 +07:00 [INF] Saved 20 trends from TikTok (United States)
+2026-03-14 16:35:52.490 +07:00 [INF] Crawling TikTok trends for region Vietnam
+2026-03-14 16:35:54.492 +07:00 [INF] Fetching TikTok trends from Tikwm for region: Vietnam
+2026-03-14 16:35:59.300 +07:00 [INF] Collected 12 TikTok trends from Tikwm for region Vietnam
+2026-03-14 16:35:59.324 +07:00 [INF] Saved 12 trends from TikTok (Vietnam)
+2026-03-14 16:35:59.325 +07:00 [INF] Crawling Google Trends trends for region Global
+2026-03-14 16:35:59.956 +07:00 [INF] Collected 10 Google Trends for region Global
+2026-03-14 16:35:59.963 +07:00 [INF] Saved 10 trends from Google Trends (Global)
+2026-03-14 16:35:59.964 +07:00 [INF] Crawling Google Trends trends for region United States
+2026-03-14 16:36:00.117 +07:00 [ERR] Failed to collect Google Trends for region United States
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at AutoVeo.Infrastructure.External.GoogleTrendsCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 256
+2026-03-14 16:36:00.119 +07:00 [INF] Saved 0 trends from Google Trends (United States)
+2026-03-14 16:36:00.119 +07:00 [INF] Crawling Google Trends trends for region Vietnam
+2026-03-14 16:36:00.249 +07:00 [ERR] Failed to collect Google Trends for region Vietnam
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at AutoVeo.Infrastructure.External.GoogleTrendsCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 256
+2026-03-14 16:36:00.251 +07:00 [INF] Saved 0 trends from Google Trends (Vietnam)
+2026-03-14 16:36:00.258 +07:00 [INF] TrendCrawlerWorker: Waiting 60 minutes for next crawl...
+2026-03-14 18:43:56.225 +07:00 [INF] TrendCrawlerWorker: Starting scheduled crawl...
+2026-03-14 18:43:56.275 +07:00 [INF] Crawling YouTube trends for region Global
+2026-03-14 18:43:56.622 +07:00 [INF] Collected 20 YouTube trends for region Global
+2026-03-14 18:43:56.641 +07:00 [INF] Saved 20 trends from YouTube (Global)
+2026-03-14 18:43:56.641 +07:00 [INF] Crawling YouTube trends for region United States
+2026-03-14 18:43:56.713 +07:00 [ERR] YouTube API error: "BadRequest" - {
+  "error": {
+    "code": 400,
+    "message": "The \u003ccode\u003eregionCode\u003c/code\u003e parameter specifies an invalid region code.",
+    "errors": [
+      {
+        "message": "The \u003ccode\u003eregionCode\u003c/code\u003e parameter specifies an invalid region code.",
+        "domain": "youtube.parameter",
+        "reason": "invalidRegionCode",
+        "location": "regionCode",
+        "locationType": "parameter"
+      }
+    ]
+  }
+}
+
+2026-03-14 18:43:56.716 +07:00 [ERR] Failed to collect YouTube trends for region United States
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.YouTubeTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 44
+2026-03-14 18:43:56.719 +07:00 [INF] Saved 0 trends from YouTube (United States)
+2026-03-14 18:43:56.719 +07:00 [INF] Crawling YouTube trends for region Vietnam
+2026-03-14 18:43:56.787 +07:00 [ERR] YouTube API error: "BadRequest" - {
+  "error": {
+    "code": 400,
+    "message": "The \u003ccode\u003eregionCode\u003c/code\u003e parameter specifies an invalid region code.",
+    "errors": [
+      {
+        "message": "The \u003ccode\u003eregionCode\u003c/code\u003e parameter specifies an invalid region code.",
+        "domain": "youtube.parameter",
+        "reason": "invalidRegionCode",
+        "location": "regionCode",
+        "locationType": "parameter"
+      }
+    ]
+  }
+}
+
+2026-03-14 18:43:56.787 +07:00 [ERR] Failed to collect YouTube trends for region Vietnam
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.YouTubeTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 44
+2026-03-14 18:43:56.788 +07:00 [INF] Saved 0 trends from YouTube (Vietnam)
+2026-03-14 18:43:56.788 +07:00 [INF] Crawling TikTok trends for region Global
+2026-03-14 18:43:58.791 +07:00 [INF] Fetching TikTok trends from Tikwm for region: Global
+2026-03-14 18:43:59.146 +07:00 [INF] Collected 0 TikTok trends from Tikwm for region Global
+2026-03-14 18:43:59.147 +07:00 [INF] Saved 0 trends from TikTok (Global)
+2026-03-14 18:43:59.147 +07:00 [INF] Crawling TikTok trends for region United States
+2026-03-14 18:44:01.147 +07:00 [INF] Fetching TikTok trends from Tikwm for region: United States
+2026-03-14 18:44:05.883 +07:00 [INF] Collected 20 TikTok trends from Tikwm for region United States
+2026-03-14 18:44:05.898 +07:00 [INF] Saved 20 trends from TikTok (United States)
+2026-03-14 18:44:05.898 +07:00 [INF] Crawling TikTok trends for region Vietnam
+2026-03-14 18:44:07.899 +07:00 [INF] Fetching TikTok trends from Tikwm for region: Vietnam
+2026-03-14 18:44:13.044 +07:00 [INF] Collected 14 TikTok trends from Tikwm for region Vietnam
+2026-03-14 18:44:13.053 +07:00 [INF] Saved 14 trends from TikTok (Vietnam)
+2026-03-14 18:44:13.053 +07:00 [INF] Crawling Google Trends trends for region Global
+2026-03-14 18:44:13.950 +07:00 [INF] Collected 10 Google Trends for region Global
+2026-03-14 18:44:13.955 +07:00 [INF] Saved 10 trends from Google Trends (Global)
+2026-03-14 18:44:13.955 +07:00 [INF] Crawling Google Trends trends for region United States
+2026-03-14 18:44:14.110 +07:00 [ERR] Failed to collect Google Trends for region United States
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at AutoVeo.Infrastructure.External.GoogleTrendsCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 256
+2026-03-14 18:44:14.112 +07:00 [INF] Saved 0 trends from Google Trends (United States)
+2026-03-14 18:44:14.112 +07:00 [INF] Crawling Google Trends trends for region Vietnam
+2026-03-14 18:44:14.249 +07:00 [ERR] Failed to collect Google Trends for region Vietnam
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at AutoVeo.Infrastructure.External.GoogleTrendsCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 256
+2026-03-14 18:44:14.250 +07:00 [INF] Saved 0 trends from Google Trends (Vietnam)
+2026-03-14 18:44:14.251 +07:00 [INF] TrendCrawlerWorker: Waiting 60 minutes for next crawl...
+2026-03-14 19:44:14.133 +07:00 [INF] TrendCrawlerWorker: Starting scheduled crawl...
+2026-03-14 19:44:14.143 +07:00 [INF] Crawling YouTube trends for region Global
+2026-03-14 19:44:14.526 +07:00 [INF] Collected 20 YouTube trends for region Global
+2026-03-14 19:44:14.539 +07:00 [INF] Saved 20 trends from YouTube (Global)
+2026-03-14 19:44:14.539 +07:00 [INF] Crawling YouTube trends for region United States
+2026-03-14 19:44:14.626 +07:00 [ERR] YouTube API error: "BadRequest" - {
+  "error": {
+    "code": 400,
+    "message": "The \u003ccode\u003eregionCode\u003c/code\u003e parameter specifies an invalid region code.",
+    "errors": [
+      {
+        "message": "The \u003ccode\u003eregionCode\u003c/code\u003e parameter specifies an invalid region code.",
+        "domain": "youtube.parameter",
+        "reason": "invalidRegionCode",
+        "location": "regionCode",
+        "locationType": "parameter"
+      }
+    ]
+  }
+}
+
+2026-03-14 19:44:14.631 +07:00 [ERR] Failed to collect YouTube trends for region United States
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.YouTubeTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 44
+2026-03-14 19:44:14.634 +07:00 [INF] Saved 0 trends from YouTube (United States)
+2026-03-14 19:44:14.634 +07:00 [INF] Crawling YouTube trends for region Vietnam
+2026-03-14 19:44:14.717 +07:00 [ERR] YouTube API error: "BadRequest" - {
+  "error": {
+    "code": 400,
+    "message": "The \u003ccode\u003eregionCode\u003c/code\u003e parameter specifies an invalid region code.",
+    "errors": [
+      {
+        "message": "The \u003ccode\u003eregionCode\u003c/code\u003e parameter specifies an invalid region code.",
+        "domain": "youtube.parameter",
+        "reason": "invalidRegionCode",
+        "location": "regionCode",
+        "locationType": "parameter"
+      }
+    ]
+  }
+}
+
+2026-03-14 19:44:14.717 +07:00 [ERR] Failed to collect YouTube trends for region Vietnam
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.YouTubeTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 44
+2026-03-14 19:44:14.717 +07:00 [INF] Saved 0 trends from YouTube (Vietnam)
+2026-03-14 19:44:14.718 +07:00 [INF] Crawling TikTok trends for region Global
+2026-03-14 19:44:16.719 +07:00 [INF] Fetching TikTok trends from Tikwm for region: Global
+2026-03-14 19:44:17.143 +07:00 [INF] Collected 0 TikTok trends from Tikwm for region Global
+2026-03-14 19:44:17.143 +07:00 [INF] Saved 0 trends from TikTok (Global)
+2026-03-14 19:44:17.144 +07:00 [INF] Crawling TikTok trends for region United States
+2026-03-14 19:44:19.145 +07:00 [INF] Fetching TikTok trends from Tikwm for region: United States
+2026-03-14 19:44:24.342 +07:00 [INF] Collected 20 TikTok trends from Tikwm for region United States
+2026-03-14 19:44:24.355 +07:00 [INF] Saved 20 trends from TikTok (United States)
+2026-03-14 19:44:24.355 +07:00 [INF] Crawling TikTok trends for region Vietnam
+2026-03-14 19:44:26.355 +07:00 [INF] Fetching TikTok trends from Tikwm for region: Vietnam
+2026-03-14 19:44:31.341 +07:00 [INF] Collected 13 TikTok trends from Tikwm for region Vietnam
+2026-03-14 19:44:31.351 +07:00 [INF] Saved 13 trends from TikTok (Vietnam)
+2026-03-14 19:44:31.352 +07:00 [INF] Crawling Google Trends trends for region Global
+2026-03-14 19:44:32.164 +07:00 [INF] Collected 10 Google Trends for region Global
+2026-03-14 19:44:32.174 +07:00 [INF] Saved 10 trends from Google Trends (Global)
+2026-03-14 19:44:32.174 +07:00 [INF] Crawling Google Trends trends for region United States
+2026-03-14 19:44:32.332 +07:00 [ERR] Failed to collect Google Trends for region United States
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at AutoVeo.Infrastructure.External.GoogleTrendsCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 256
+2026-03-14 19:44:32.333 +07:00 [INF] Saved 0 trends from Google Trends (United States)
+2026-03-14 19:44:32.333 +07:00 [INF] Crawling Google Trends trends for region Vietnam
+2026-03-14 19:44:32.477 +07:00 [ERR] Failed to collect Google Trends for region Vietnam
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at AutoVeo.Infrastructure.External.GoogleTrendsCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 256
+2026-03-14 19:44:32.478 +07:00 [INF] Saved 0 trends from Google Trends (Vietnam)
+2026-03-14 19:44:32.479 +07:00 [INF] TrendCrawlerWorker: Waiting 60 minutes for next crawl...
+2026-03-14 20:44:32.328 +07:00 [INF] TrendCrawlerWorker: Starting scheduled crawl...
+2026-03-14 20:44:32.340 +07:00 [INF] Crawling YouTube trends for region Global
+2026-03-14 20:44:32.848 +07:00 [INF] Collected 20 YouTube trends for region Global
+2026-03-14 20:44:32.865 +07:00 [INF] Saved 20 trends from YouTube (Global)
+2026-03-14 20:44:32.865 +07:00 [INF] Crawling YouTube trends for region United States
+2026-03-14 20:44:32.952 +07:00 [ERR] YouTube API error: "BadRequest" - {
+  "error": {
+    "code": 400,
+    "message": "The \u003ccode\u003eregionCode\u003c/code\u003e parameter specifies an invalid region code.",
+    "errors": [
+      {
+        "message": "The \u003ccode\u003eregionCode\u003c/code\u003e parameter specifies an invalid region code.",
+        "domain": "youtube.parameter",
+        "reason": "invalidRegionCode",
+        "location": "regionCode",
+        "locationType": "parameter"
+      }
+    ]
+  }
+}
+
+2026-03-14 20:44:32.955 +07:00 [ERR] Failed to collect YouTube trends for region United States
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.YouTubeTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 44
+2026-03-14 20:44:32.958 +07:00 [INF] Saved 0 trends from YouTube (United States)
+2026-03-14 20:44:32.958 +07:00 [INF] Crawling YouTube trends for region Vietnam
+2026-03-14 20:44:33.041 +07:00 [ERR] YouTube API error: "BadRequest" - {
+  "error": {
+    "code": 400,
+    "message": "The \u003ccode\u003eregionCode\u003c/code\u003e parameter specifies an invalid region code.",
+    "errors": [
+      {
+        "message": "The \u003ccode\u003eregionCode\u003c/code\u003e parameter specifies an invalid region code.",
+        "domain": "youtube.parameter",
+        "reason": "invalidRegionCode",
+        "location": "regionCode",
+        "locationType": "parameter"
+      }
+    ]
+  }
+}
+
+2026-03-14 20:44:33.041 +07:00 [ERR] Failed to collect YouTube trends for region Vietnam
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.YouTubeTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 44
+2026-03-14 20:44:33.041 +07:00 [INF] Saved 0 trends from YouTube (Vietnam)
+2026-03-14 20:44:33.043 +07:00 [INF] Crawling TikTok trends for region Global
+2026-03-14 20:44:35.044 +07:00 [INF] Fetching TikTok trends from Tikwm for region: Global
+2026-03-14 20:44:35.421 +07:00 [INF] Collected 0 TikTok trends from Tikwm for region Global
+2026-03-14 20:44:35.422 +07:00 [INF] Saved 0 trends from TikTok (Global)
+2026-03-14 20:44:35.422 +07:00 [INF] Crawling TikTok trends for region United States
+2026-03-14 20:44:37.430 +07:00 [INF] Fetching TikTok trends from Tikwm for region: United States
+2026-03-14 20:44:42.317 +07:00 [INF] Collected 12 TikTok trends from Tikwm for region United States
+2026-03-14 20:44:42.326 +07:00 [INF] Saved 12 trends from TikTok (United States)
+2026-03-14 20:44:42.327 +07:00 [INF] Crawling TikTok trends for region Vietnam
+2026-03-14 20:44:44.328 +07:00 [INF] Fetching TikTok trends from Tikwm for region: Vietnam
+2026-03-14 20:44:49.077 +07:00 [INF] Collected 2 TikTok trends from Tikwm for region Vietnam
+2026-03-14 20:44:49.080 +07:00 [INF] Saved 2 trends from TikTok (Vietnam)
+2026-03-14 20:44:49.081 +07:00 [INF] Crawling Google Trends trends for region Global
+2026-03-14 20:44:49.769 +07:00 [INF] Collected 10 Google Trends for region Global
+2026-03-14 20:44:49.773 +07:00 [INF] Saved 10 trends from Google Trends (Global)
+2026-03-14 20:44:49.773 +07:00 [INF] Crawling Google Trends trends for region United States
+2026-03-14 20:44:49.910 +07:00 [ERR] Failed to collect Google Trends for region United States
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at AutoVeo.Infrastructure.External.GoogleTrendsCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 256
+2026-03-14 20:44:49.912 +07:00 [INF] Saved 0 trends from Google Trends (United States)
+2026-03-14 20:44:49.912 +07:00 [INF] Crawling Google Trends trends for region Vietnam
+2026-03-14 20:44:50.057 +07:00 [ERR] Failed to collect Google Trends for region Vietnam
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at AutoVeo.Infrastructure.External.GoogleTrendsCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 256
+2026-03-14 20:44:50.057 +07:00 [INF] Saved 0 trends from Google Trends (Vietnam)
+2026-03-14 20:44:50.058 +07:00 [INF] TrendCrawlerWorker: Waiting 60 minutes for next crawl...
+2026-03-14 21:44:49.914 +07:00 [INF] TrendCrawlerWorker: Starting scheduled crawl...
+2026-03-14 21:44:49.955 +07:00 [INF] Crawling YouTube trends for region Global
+2026-03-14 21:44:50.488 +07:00 [INF] Collected 20 YouTube trends for region Global
+2026-03-14 21:44:50.519 +07:00 [INF] Saved 20 trends from YouTube (Global)
+2026-03-14 21:44:50.519 +07:00 [INF] Crawling YouTube trends for region United States
+2026-03-14 21:44:50.607 +07:00 [ERR] YouTube API error: "BadRequest" - {
+  "error": {
+    "code": 400,
+    "message": "The \u003ccode\u003eregionCode\u003c/code\u003e parameter specifies an invalid region code.",
+    "errors": [
+      {
+        "message": "The \u003ccode\u003eregionCode\u003c/code\u003e parameter specifies an invalid region code.",
+        "domain": "youtube.parameter",
+        "reason": "invalidRegionCode",
+        "location": "regionCode",
+        "locationType": "parameter"
+      }
+    ]
+  }
+}
+
+2026-03-14 21:44:50.612 +07:00 [ERR] Failed to collect YouTube trends for region United States
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.YouTubeTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 44
+2026-03-14 21:44:50.615 +07:00 [INF] Saved 0 trends from YouTube (United States)
+2026-03-14 21:44:50.615 +07:00 [INF] Crawling YouTube trends for region Vietnam
+2026-03-14 21:44:50.694 +07:00 [ERR] YouTube API error: "BadRequest" - {
+  "error": {
+    "code": 400,
+    "message": "The \u003ccode\u003eregionCode\u003c/code\u003e parameter specifies an invalid region code.",
+    "errors": [
+      {
+        "message": "The \u003ccode\u003eregionCode\u003c/code\u003e parameter specifies an invalid region code.",
+        "domain": "youtube.parameter",
+        "reason": "invalidRegionCode",
+        "location": "regionCode",
+        "locationType": "parameter"
+      }
+    ]
+  }
+}
+
+2026-03-14 21:44:50.694 +07:00 [ERR] Failed to collect YouTube trends for region Vietnam
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.YouTubeTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 44
+2026-03-14 21:44:50.695 +07:00 [INF] Saved 0 trends from YouTube (Vietnam)
+2026-03-14 21:44:50.696 +07:00 [INF] Crawling TikTok trends for region Global
+2026-03-14 21:44:52.697 +07:00 [INF] Fetching TikTok trends from Tikwm for region: Global
+2026-03-14 21:44:53.070 +07:00 [INF] Collected 0 TikTok trends from Tikwm for region Global
+2026-03-14 21:44:53.071 +07:00 [INF] Saved 0 trends from TikTok (Global)
+2026-03-14 21:44:53.071 +07:00 [INF] Crawling TikTok trends for region United States
+2026-03-14 21:44:55.073 +07:00 [INF] Fetching TikTok trends from Tikwm for region: United States
+2026-03-14 21:44:59.548 +07:00 [INF] Collected 20 TikTok trends from Tikwm for region United States
+2026-03-14 21:44:59.572 +07:00 [INF] Saved 20 trends from TikTok (United States)
+2026-03-14 21:44:59.572 +07:00 [INF] Crawling TikTok trends for region Vietnam
+2026-03-14 21:45:01.574 +07:00 [INF] Fetching TikTok trends from Tikwm for region: Vietnam
+2026-03-14 21:45:06.965 +07:00 [INF] Collected 11 TikTok trends from Tikwm for region Vietnam
+2026-03-14 21:45:06.985 +07:00 [INF] Saved 11 trends from TikTok (Vietnam)
+2026-03-14 21:45:06.986 +07:00 [INF] Crawling Google Trends trends for region Global
+2026-03-14 21:45:07.533 +07:00 [INF] Collected 10 Google Trends for region Global
+2026-03-14 21:45:07.538 +07:00 [INF] Saved 10 trends from Google Trends (Global)
+2026-03-14 21:45:07.538 +07:00 [INF] Crawling Google Trends trends for region United States
+2026-03-14 21:45:07.656 +07:00 [ERR] Failed to collect Google Trends for region United States
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at AutoVeo.Infrastructure.External.GoogleTrendsCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 256
+2026-03-14 21:45:07.657 +07:00 [INF] Saved 0 trends from Google Trends (United States)
+2026-03-14 21:45:07.657 +07:00 [INF] Crawling Google Trends trends for region Vietnam
+2026-03-14 21:45:07.804 +07:00 [ERR] Failed to collect Google Trends for region Vietnam
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at AutoVeo.Infrastructure.External.GoogleTrendsCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 256
+2026-03-14 21:45:07.805 +07:00 [INF] Saved 0 trends from Google Trends (Vietnam)
+2026-03-14 21:45:07.806 +07:00 [INF] TrendCrawlerWorker: Waiting 60 minutes for next crawl...
+2026-03-14 22:45:07.660 +07:00 [INF] TrendCrawlerWorker: Starting scheduled crawl...
+2026-03-14 22:45:07.712 +07:00 [INF] Crawling YouTube trends for region Global
+2026-03-14 22:45:08.097 +07:00 [INF] Collected 20 YouTube trends for region Global
+2026-03-14 22:45:08.131 +07:00 [INF] Saved 20 trends from YouTube (Global)
+2026-03-14 22:45:08.131 +07:00 [INF] Crawling YouTube trends for region United States
+2026-03-14 22:45:08.203 +07:00 [ERR] YouTube API error: "BadRequest" - {
+  "error": {
+    "code": 400,
+    "message": "The \u003ccode\u003eregionCode\u003c/code\u003e parameter specifies an invalid region code.",
+    "errors": [
+      {
+        "message": "The \u003ccode\u003eregionCode\u003c/code\u003e parameter specifies an invalid region code.",
+        "domain": "youtube.parameter",
+        "reason": "invalidRegionCode",
+        "location": "regionCode",
+        "locationType": "parameter"
+      }
+    ]
+  }
+}
+
+2026-03-14 22:45:08.207 +07:00 [ERR] Failed to collect YouTube trends for region United States
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.YouTubeTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 44
+2026-03-14 22:45:08.210 +07:00 [INF] Saved 0 trends from YouTube (United States)
+2026-03-14 22:45:08.210 +07:00 [INF] Crawling YouTube trends for region Vietnam
+2026-03-14 22:45:08.282 +07:00 [ERR] YouTube API error: "BadRequest" - {
+  "error": {
+    "code": 400,
+    "message": "The \u003ccode\u003eregionCode\u003c/code\u003e parameter specifies an invalid region code.",
+    "errors": [
+      {
+        "message": "The \u003ccode\u003eregionCode\u003c/code\u003e parameter specifies an invalid region code.",
+        "domain": "youtube.parameter",
+        "reason": "invalidRegionCode",
+        "location": "regionCode",
+        "locationType": "parameter"
+      }
+    ]
+  }
+}
+
+2026-03-14 22:45:08.282 +07:00 [ERR] Failed to collect YouTube trends for region Vietnam
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at AutoVeo.Infrastructure.External.YouTubeTrendCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 44
+2026-03-14 22:45:08.282 +07:00 [INF] Saved 0 trends from YouTube (Vietnam)
+2026-03-14 22:45:08.283 +07:00 [INF] Crawling TikTok trends for region Global
+2026-03-14 22:45:10.285 +07:00 [INF] Fetching TikTok trends from Tikwm for region: Global
+2026-03-14 22:45:10.690 +07:00 [INF] Collected 0 TikTok trends from Tikwm for region Global
+2026-03-14 22:45:10.691 +07:00 [INF] Saved 0 trends from TikTok (Global)
+2026-03-14 22:45:10.691 +07:00 [INF] Crawling TikTok trends for region United States
+2026-03-14 22:45:12.692 +07:00 [INF] Fetching TikTok trends from Tikwm for region: United States
+2026-03-14 22:45:18.268 +07:00 [INF] Collected 20 TikTok trends from Tikwm for region United States
+2026-03-14 22:45:18.293 +07:00 [INF] Saved 20 trends from TikTok (United States)
+2026-03-14 22:45:18.293 +07:00 [INF] Crawling TikTok trends for region Vietnam
+2026-03-14 22:45:20.295 +07:00 [INF] Fetching TikTok trends from Tikwm for region: Vietnam
+2026-03-14 22:45:25.594 +07:00 [INF] Collected 17 TikTok trends from Tikwm for region Vietnam
+2026-03-14 22:45:25.607 +07:00 [INF] Saved 17 trends from TikTok (Vietnam)
+2026-03-14 22:45:25.608 +07:00 [INF] Crawling Google Trends trends for region Global
+2026-03-14 22:45:26.475 +07:00 [INF] Collected 10 Google Trends for region Global
+2026-03-14 22:45:26.482 +07:00 [INF] Saved 10 trends from Google Trends (Global)
+2026-03-14 22:45:26.482 +07:00 [INF] Crawling Google Trends trends for region United States
+2026-03-14 22:45:26.607 +07:00 [ERR] Failed to collect Google Trends for region United States
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at AutoVeo.Infrastructure.External.GoogleTrendsCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 256
+2026-03-14 22:45:26.610 +07:00 [INF] Saved 0 trends from Google Trends (United States)
+2026-03-14 22:45:26.611 +07:00 [INF] Crawling Google Trends trends for region Vietnam
+2026-03-14 22:45:26.719 +07:00 [ERR] Failed to collect Google Trends for region Vietnam
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at AutoVeo.Infrastructure.External.GoogleTrendsCollector.CollectAsync(String region, CancellationToken ct) in /Users/macbook/Documents/Coding/AutoVeo/backend/src/AutoVeo.Infrastructure/External/TrendCollectors.cs:line 256
+2026-03-14 22:45:26.720 +07:00 [INF] Saved 0 trends from Google Trends (Vietnam)
+2026-03-14 22:45:26.721 +07:00 [INF] TrendCrawlerWorker: Waiting 60 minutes for next crawl...

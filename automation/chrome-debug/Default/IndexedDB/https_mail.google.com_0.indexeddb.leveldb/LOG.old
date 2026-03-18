@@ -1,0 +1,6 @@
+2026/03/14-19:58:51.168 5cedb Creating DB /Users/macbook/Documents/Coding/AutoVeo/automation/chrome-debug/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb since it was missing.
+2026/03/14-19:58:51.173 5cedb Reusing MANIFEST /Users/macbook/Documents/Coding/AutoVeo/automation/chrome-debug/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/14-20:22:04.992 5cedb Level-0 table #5: started
+2026/03/14-20:22:04.994 5cedb Level-0 table #5: 2908 bytes OK
+2026/03/14-20:22:05.001 5cedb Delete type=0 #3
+2026/03/14-20:22:05.002 5cedb Manual compaction at level-0 from (begin) .. (end); will stop at (end)

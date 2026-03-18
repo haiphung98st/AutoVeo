@@ -1,0 +1,281 @@
+{
+   "AIandMachineLearning": {
+      "message": "AI and Machine Learning"
+   },
+   "Advertising": {
+      "message": "Advertising"
+   },
+   "AffiliateMarketing": {
+      "message": "Affiliate Marketing"
+   },
+   "AffiliateNetworks": {
+      "message": "Affiliate Networks"
+   },
+   "Analytics": {
+      "message": "Analytics"
+   },
+   "Blogs": {
+      "message": "Blogs"
+   },
+   "BookingManagement": {
+      "message": "Booking Management"
+   },
+   "BrowserFingerprinting": {
+      "message": "Browser Fingerprinting"
+   },
+   "BuildCISystems": {
+      "message": "Build CI Systems"
+   },
+   "BuyNowPayLater": {
+      "message": "Buy Now Pay Later"
+   },
+   "CDN": {
+      "message": "CDN"
+   },
+   "CMS": {
+      "message": "CMS"
+   },
+   "CRM": {
+      "message": "CRM"
+   },
+   "Cache": {
+      "message": "Cache"
+   },
+   "Captcha": {
+      "message": "Captcha"
+   },
+   "ChatWidgets": {
+      "message": "Chat Widgets"
+   },
+   "CommentsandReviews": {
+      "message": "Comments and Reviews"
+   },
+   "Communication": {
+      "message": "Communication"
+   },
+   "ControlSystems": {
+      "message": "Control Systems"
+   },
+   "CookieandConsent": {
+      "message": "Cookie and Consent"
+   },
+   "Database": {
+      "message": "Database"
+   },
+   "Databases": {
+      "message": "Databases"
+   },
+   "DevTools": {
+      "message": "Dev Tools"
+   },
+   "DocumentManagementSystems": {
+      "message": "Document Management Systems"
+   },
+   "Documentation": {
+      "message": "Documentation"
+   },
+   "Editors": {
+      "message": "Editors"
+   },
+   "FeedReaders": {
+      "message": "Feed Readers"
+   },
+   "FinanceandAccounting": {
+      "message": "Finance and Accounting"
+   },
+   "Font": {
+      "message": "Font"
+   },
+   "Gallery": {
+      "message": "Gallery"
+   },
+   "Gaming": {
+      "message": "Gaming"
+   },
+   "HTMLFramework": {
+      "message": "HTML Framework"
+   },
+   "Hosting": {
+      "message": "Hosting"
+   },
+   "IssueTracker": {
+      "message": "Issue Tracker"
+   },
+   "JavascriptLibraries": {
+      "message": "Javascript Libraries"
+   },
+   "LMS": {
+      "message": "LMS"
+   },
+   "Logistics": {
+      "message": "Logistics"
+   },
+   "Maps": {
+      "message": "Maps"
+   },
+   "MediaServer": {
+      "message": "Media Server"
+   },
+   "MessageBoard": {
+      "message": "Message Board"
+   },
+   "Miscellaneous": {
+      "message": "Miscellaneous"
+   },
+   "MobileFrameworks": {
+      "message": "Mobile Frameworks"
+   },
+   "Monitoring": {
+      "message": "Monitoring"
+   },
+   "NetworkDevice": {
+      "message": "Network Device"
+   },
+   "NetworkStorage": {
+      "message": "Network Storage"
+   },
+   "NoCodePlatforms": {
+      "message": "No Code Platforms"
+   },
+   "OperatingSystem": {
+      "message": "Operating System"
+   },
+   "PageBuilders": {
+      "message": "Page Builders"
+   },
+   "Payments": {
+      "message": "Payments"
+   },
+   "Paywalls": {
+      "message": "Paywalls"
+   },
+   "Printers": {
+      "message": "Printers"
+   },
+   "ProgrammingLanguage": {
+      "message": "Programming Language"
+   },
+   "RemoteAccess": {
+      "message": "Remote Access"
+   },
+   "RichTextEditors": {
+      "message": "Rich Text Editors"
+   },
+   "SalesandMarketing": {
+      "message": "Sales and Marketing"
+   },
+   "SearchEngine": {
+      "message": "Search Engine"
+   },
+   "Security": {
+      "message": "Security"
+   },
+   "StatusPages": {
+      "message": "Status Pages"
+   },
+   "TagManagers": {
+      "message": "Tag Managers"
+   },
+   "UIandGraphics": {
+      "message": "UI and Graphics"
+   },
+   "Video": {
+      "message": "Video"
+   },
+   "WebFramework": {
+      "message": "Web Framework"
+   },
+   "WebMail": {
+      "message": "Web Mail"
+   },
+   "WebServer": {
+      "message": "Web Server"
+   },
+   "WebServerExtensions": {
+      "message": "Web Server Extensions"
+   },
+   "Webcams": {
+      "message": "Webcams"
+   },
+   "WebsiteBuilder": {
+      "message": "Website Builder"
+   },
+   "WebsiteOptimization": {
+      "message": "Website Optimization"
+   },
+   "Widgets": {
+      "message": "Widgets"
+   },
+   "Wiki": {
+      "message": "Wiki"
+   },
+   "WordPressPlugins": {
+      "message": "WordPress Plugins"
+   },
+   "agreeTerms": {
+      "message": "By clicking this button, you agree to our "
+   },
+   "agreeTermsLink": {
+      "message": "terms of service."
+   },
+   "analyzingWebsite": {
+      "message": "Analyzing the website...."
+   },
+   "appDesc": {
+      "message": "Discover what runs a website. Frameworks, Analytics Tools, Wordpress Plugins, Fonts - you name it."
+   },
+   "appName": {
+      "message": "WhatRuns"
+   },
+   "cookieContent": {
+      "message": "WhatRuns reads the source code of the websites you visit to detect technologies. We do not use your data for advertising, profiling, or personal identification. Read more in our "
+   },
+   "eCommerce": {
+      "message": "eCommerce"
+   },
+   "emailPlaceholder": {
+      "message": "Email"
+   },
+   "haveAccount": {
+      "message": "Already have an account? "
+   },
+   "noAccount": {
+      "message": "Don’t have an account?"
+   },
+   "passwordPlaceholder": {
+      "message": "Password"
+   },
+   "privacyPolicy": {
+      "message": " Privacy Policy."
+   },
+   "serverError0": {
+      "message": "Uh oh! Caught in the act 🙈  We've been secretly doing a server upgrade. Leave us alone for a few minutes, will you?"
+   },
+   "serverError1": {
+      "message": "What runs WhatRuns is going through a server maintenance 💁‍♀️  Can you try again in a minute or two?"
+   },
+   "serverError2": {
+      "message": "We believe you are addicted to WhatRuns 🤒  We care about your health and we want to give you a few hours of break. Please check back later. (Seriously? Server upgrade)."
+   },
+   "serverError3": {
+      "message": "Give it a rest! 😾 Just joking. Our bad. We’re updating services that is required to keep this supercool extension running."
+   },
+   "serverError4": {
+      "message": "Uh oh! Caught in the act 🙈  We've been secretly doing a server upgrade. Leave us alone for a few minutes, will you?"
+   },
+   "shareWhatruns": {
+      "message": "Share what runs "
+   },
+   "signInButton": {
+      "message": "Sign in"
+   },
+   "signInHeading": {
+      "message": "Sign in to follow"
+   },
+   "signUpButton": {
+      "message": "Sign up"
+   },
+   "signUpHere": {
+      "message": "Sign up here"
+   }
+}

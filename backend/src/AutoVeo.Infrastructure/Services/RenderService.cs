@@ -40,7 +40,7 @@ public class RenderService : IRenderService
             {
                 UserId = userId,
                 PromptText = request.PromptText,
-                Duration = "10s",
+                Duration = "8s",
                 PlatformTarget = "TikTok"
             };
             _db.GeneratedPrompts.Add(adhocPrompt);

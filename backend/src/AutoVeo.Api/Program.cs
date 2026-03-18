@@ -117,6 +117,11 @@ builder.Services.AddHttpClient<IVeo3Connector, Veo3Connector>(client =>
 builder.Services.AddHttpClient<YouTubeTrendCollector>();
 builder.Services.AddHttpClient<TikTokTrendCollector>();
 builder.Services.AddHttpClient<GoogleTrendsCollector>();
+builder.Services.AddHttpClient<IAIService, GeminiService>(client =>
+{
+    client.Timeout = TimeSpan.FromSeconds(30);
+});
+
 builder.Services.AddScoped<ITrendCollector, YouTubeTrendCollector>();
 builder.Services.AddScoped<ITrendCollector, TikTokTrendCollector>();
 builder.Services.AddScoped<ITrendCollector, GoogleTrendsCollector>();

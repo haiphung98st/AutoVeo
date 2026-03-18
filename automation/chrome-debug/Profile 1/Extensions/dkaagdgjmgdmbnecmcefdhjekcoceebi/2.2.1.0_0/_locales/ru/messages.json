@@ -1,0 +1,374 @@
+{
+   "ab_test_modal_sorry_features_below_are_not_ready": {
+      "message": "Извините, некоторое функции пока не доступны"
+   },
+   "ab_test_modal_you_can_still_purchase_pp_pro_with_other_features": {
+      "message": "Вы можете купить подписку PerfectPixel PRO со всеми остальными функциями, с помощью кнопки внизу"
+   },
+   "add_button": {
+      "message": "Добавить"
+   },
+   "add_new_layer": {
+      "message": "Добавить слой"
+   },
+   "add_new_layer_top": {
+      "message": "Добавить"
+   },
+   "add_new_layer_upgrade_to_pro": {
+      "message": "Обновить до PRO чтобы добавить новый слой"
+   },
+   "add_url": {
+      "message": "Вставьте ссылку"
+   },
+   "allow_animation_collapse": {
+      "message": "Включить анимацию схлопывания панели"
+   },
+   "allow_position_change_when_locked": {
+      "message": "Разрешить изменение позиции, прозрачности, масштаба и поворот слоя когда он заблокирован или невидим"
+   },
+   "animation": {
+      "message": "Анимация"
+   },
+   "app_icon": {
+      "message": "Иконка"
+   },
+   "appearance": {
+      "message": "Внешний вид"
+   },
+   "application": {
+      "message": "Приложение"
+   },
+   "are_you_sure_want_to_cancel_subscription": {
+      "message": "Вы действительно хотите отменить Подписку? Вы сможете пользоваться PRO фичами до"
+   },
+   "are_you_sure_you_want_to_delete_layer": {
+      "message": "Вы уверены, что хотите удалить этот слой?"
+   },
+   "ask_permissions_block1": {
+      "message": "PerfectPixel собирает информацию об использовании интерфейса расширения с помощью Google Analytics и Yandex.Metrika. Эта информация помогает нам совершенствовать PerfectPixel. Мы не собираем никакую информацию со страниц, на которых запускается расширение."
+   },
+   "ask_permissions_block2": {
+      "message": "Вы всегда можете изменить ваше решение на странице Настройки, ссылка на которую есть в меню в правом верхнем углу панели."
+   },
+   "ask_permissions_block3": {
+      "message": "Вы хотите разрешить нам собирать данную информацию?"
+   },
+   "ask_permissions_no_btn": {
+      "message": "Нет"
+   },
+   "ask_permissions_yes_btn": {
+      "message": "Да"
+   },
+   "auto_scale": {
+      "message": "Автоматически масштабировать в зависимости от PixelRatio дисплея"
+   },
+   "behavior": {
+      "message": "Поведение"
+   },
+   "cancel_button": {
+      "message": "Отмена"
+   },
+   "cancel_subscription": {
+      "message": "Отменить Подписку"
+   },
+   "custom_css_code": {
+      "message": "Кастомный код CSS"
+   },
+   "debug": {
+      "message": "Отладка"
+   },
+   "design": {
+      "message": "Дизайн"
+   },
+   "disable_add_first_layer_helping_screen": {
+      "message": "Отключить приветственный экран “Добавьте первый слой”"
+   },
+   "disable_panel_snapping": {
+      "message": "Отключить прилипание панели к краю окна"
+   },
+   "disable_supported_by_ad": {
+      "message": "Отключить"
+   },
+   "drop_layer": {
+      "message": "Перетащите изображения для загрузки"
+   },
+   "email_address": {
+      "message": "Адрес электронной почты"
+   },
+   "enable_confirmation_message": {
+      "message": "Спрашивать при удалении\u003Cbr/>При удалении слоя будет появляться окно с запросом на подтверждение."
+   },
+   "enable_debug_mode": {
+      "message": "Включить режим отладки\u003Cbr/>Для отладки самого расширения PerfectPixel"
+   },
+   "enable_hotkeys": {
+      "message": "Включить горячие клавиши\u003Cbr/>\u003Cbr/>Список горячих клавиш:\u003Cbr/> Alt + S - Показать/Скрыть слой\u003Cbr/> Alt + C - Заблокировать/Разблокировать слой\u003Cbr/> Alt + H - Показать/Скрыть панель управления целиком\u003Cbr/> =  - Увеличить непрозрачность\u003Cbr/> -  - Уменьшить непрозрачность\u003Cbr/> ↑  - Переместить слой вверх\u003Cbr/> ↓  - Переместить слой вниз\u003Cbr/> ← - Переместить слой вправо\u003Cbr/> → - Переместить слой влево\u003Cbr/> Shift + ↑, ↓, ←, → - Перемесить слой с 10-кратной скоростью\u003Cbr/>\u003Cbr/>"
+   },
+   "enable_layer_rotation": {
+      "message": "Включить поворот слоя"
+   },
+   "enable_mousewheel_opacity": {
+      "message": "Включить изменение прозрачности колесом мыши"
+   },
+   "error_image_not_found": {
+      "message": "Невозможно найти изображение"
+   },
+   "error_invalid_url": {
+      "message": "Неправильный URL!"
+   },
+   "extension_description": {
+      "message": "Это расширение помогает Вам разрабатывать сайт с попиксельной точностью (pixel perfect)!"
+   },
+   "extension_name": {
+      "message": "PerfectPixel by WellDoneCode (pixel perfect)"
+   },
+   "extension_name_short": {
+      "message": "PerfectPixel"
+   },
+   "file_scheme_access_not_allowed": {
+      "message": "Для использования PerfectPixel на локальных страницах вам необходимо поставить галочку \"Разрешить открывать локальные файлы по ссылкам\n\" на странице chrome://extensions"
+   },
+   "first_add_new_layer": {
+      "message": "Добавьте ваш первый слой!"
+   },
+   "first_drop_layer": {
+      "message": "или перетащите изображения"
+   },
+   "first_or": {
+      "message": "или"
+   },
+   "first_paste_from_clipboard": {
+      "message": "вставьте из буфера обмена"
+   },
+   "general": {
+      "message": "Общие настройки"
+   },
+   "help": {
+      "message": "Помощь"
+   },
+   "hide": {
+      "message": "Скрыть"
+   },
+   "hide_restore_purchase": {
+      "message": "Закрыть \"Логин\""
+   },
+   "input_is_not_valid_email": {
+      "message": "Введен некорректный адрес электронной почты"
+   },
+   "invert_colors": {
+      "message": "Инверсия"
+   },
+   "is_centered": {
+      "message": "Новый слой центрирован по умолчанию"
+   },
+   "is_inverted": {
+      "message": "Новый слой инвертирован по умолчанию"
+   },
+   "is_locked": {
+      "message": "Новый слой заблокирован по умолчанию"
+   },
+   "is_visible": {
+      "message": "Новый слой виден по умолчанию"
+   },
+   "layer_change_title_hint": {
+      "message": "Сделайте двойной клик, чтобы добавить или изменить заголовок слоя"
+   },
+   "layer_load_error": {
+      "message": "Ошибка"
+   },
+   "layers": {
+      "message": "Слои"
+   },
+   "loading": {
+      "message": "Загрузка"
+   },
+   "lock": {
+      "message": "Заблокировать"
+   },
+   "log_in": {
+      "message": "Войти"
+   },
+   "login_failed_ensure_email_and_password_are_correct": {
+      "message": "Вход не удался. Пожалуйста убедитесь что имя и пароль верны"
+   },
+   "logout": {
+      "message": "Выход"
+   },
+   "menu_close": {
+      "message": "Закрыть"
+   },
+   "menu_paste_from_clipboard": {
+      "message": "Вставить из буфера обмена"
+   },
+   "menu_paste_from_url": {
+      "message": "Вставить с URL"
+   },
+   "menu_report_bug": {
+      "message": "Сообщить об ошибке"
+   },
+   "menu_settings": {
+      "message": "Настройки"
+   },
+   "menu_support_request": {
+      "message": "Поддержка"
+   },
+   "menu_upload_image": {
+      "message": "Загрузить"
+   },
+   "month": {
+      "message": " / месяц"
+   },
+   "more_features_coming": {
+      "message": "Больше новых функций с будущем!"
+   },
+   "mouse_and_keyboard": {
+      "message": "Мышь и клавиатура"
+   },
+   "new_layer_behavior": {
+      "message": "Поведение нового слоя"
+   },
+   "nothing_found": {
+      "message": "Ничего не найдено"
+   },
+   "opacity": {
+      "message": "Прозрачность"
+   },
+   "origin": {
+      "message": "Положение"
+   },
+   "panel_css_class": {
+      "message": "chromeperfectpixel-locale-ru"
+   },
+   "password": {
+      "message": "Пароль"
+   },
+   "perfectpixel_pro_annual_plan": {
+      "message": "Годовой план, отмена в любое время"
+   },
+   "perfectpixel_pro_features_0": {
+      "message": "Неограниченное количество слоёв на домен"
+   },
+   "perfectpixel_pro_features_1": {
+      "message": "Поворот слоёв"
+   },
+   "perfectpixel_pro_features_2": {
+      "message": "Без рекламы, чистый интерфейс"
+   },
+   "perfectpixel_pro_features_3": {
+      "message": "Настраиваемый интерфейс"
+   },
+   "perfectpixel_pro_features_4": {
+      "message": "Приоритетная поддержка"
+   },
+   "perfectpixel_pro_features_additional_cloud_sync": {
+      "message": "Облачная синхронизация между браузерами"
+   },
+   "perfectpixel_pro_upgrade_header": {
+      "message": "Разблокируйте PRO-функции PerfectPixel"
+   },
+   "perfectpixel_rating_on_chrome_web_store": {
+      "message": "оценка в Chrome Web Store"
+   },
+   "place_to_current_scroll_position": {
+      "message": "Поместить на текущую позицию прокрутки"
+   },
+   "please_input_your_email": {
+      "message": "Пожалуйста введите адрес электронной почты"
+   },
+   "please_input_your_password": {
+      "message": "Пожалуйста введите пароль"
+   },
+   "pro_subscription_only": {
+      "message": "Только для PRO подписки"
+   },
+   "remember_panel_state": {
+      "message": "Запоминать состояние панели\u003Cbr/>Если включено, панель будет автоматически открываться при переходе на другую страницу или при перезагрузке текущей."
+   },
+   "reset": {
+      "message": "Сброс"
+   },
+   "restart_subscription": {
+      "message": "Возобновить Подписку"
+   },
+   "restore_purchase": {
+      "message": "Логин"
+   },
+   "scale": {
+      "message": "Масштаб"
+   },
+   "search": {
+      "message": "Поиск"
+   },
+   "send_anonymous_statistics_to_developers": {
+      "message": "Отсылать анонимную статистику разработчикам"
+   },
+   "settings": {
+      "message": "Настройки"
+   },
+   "show": {
+      "message": "Показать"
+   },
+   "statistics": {
+      "message": "Статистика"
+   },
+   "subscription": {
+      "message": "подписка"
+   },
+   "subscription_expires_on": {
+      "message": "Ваша подписка истекает"
+   },
+   "subscription_expires_tomorrow": {
+      "message": "Ваша подписка истекает завтра"
+   },
+   "supported_by": {
+      "message": "При поддержке"
+   },
+   "supported_by_ad": {
+      "message": "Реклама спонсора"
+   },
+   "supported_by_disable_link": {
+      "message": "Отключить рекламу"
+   },
+   "supported_by_disable_tooltip": {
+      "message": "На странице Настройки"
+   },
+   "toggle_collapsed_mode": {
+      "message": "Двойной клик для перехода в Мини-режим"
+   },
+   "toggle_collapsed_mode_single": {
+      "message": "Перейти в Мини-режим"
+   },
+   "uninvert_colors": {
+      "message": "Без инверсии"
+   },
+   "unlock": {
+      "message": "Разблокировать"
+   },
+   "update_license_key": {
+      "message": "Обновить лицензионный ключ"
+   },
+   "update_subscription": {
+      "message": "Обновить подписку"
+   },
+   "upgrade_to_pro": {
+      "message": "Обновить до PRO"
+   },
+   "upgrade_to_pro_for": {
+      "message": "Обновить до PRO за "
+   },
+   "upgrade_to_pro_survey_url": {
+      "message": "https://forms.gle/CB6PqEC65YtqTVtk8"
+   },
+   "you_are_able_to_use_pro_features_until": {
+      "message": "Вы можете пользоваться PRO фичами до"
+   },
+   "you_are_pro": {
+      "message": "Вы PRO! 👍"
+   },
+   "your_subscription_is_active": {
+      "message": "Ваша Подписка активна."
+   },
+   "your_subscription_is_canceled": {
+      "message": "Ваша Подписка отменена."
+   }
+}

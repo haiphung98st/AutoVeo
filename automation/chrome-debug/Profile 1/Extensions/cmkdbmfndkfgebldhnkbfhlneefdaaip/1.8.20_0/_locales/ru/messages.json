@@ -1,0 +1,281 @@
+{
+   "AIandMachineLearning": {
+      "message": "ИИ и машинное обучение"
+   },
+   "Advertising": {
+      "message": "Реклама"
+   },
+   "AffiliateMarketing": {
+      "message": "Партнёрский маркетинг"
+   },
+   "AffiliateNetworks": {
+      "message": "Партнёрские сети"
+   },
+   "Analytics": {
+      "message": "Аналитика"
+   },
+   "Blogs": {
+      "message": "Блоги"
+   },
+   "BookingManagement": {
+      "message": "Управление бронированием"
+   },
+   "BrowserFingerprinting": {
+      "message": "Отпечаток браузера"
+   },
+   "BuildCISystems": {
+      "message": "CI-системы"
+   },
+   "BuyNowPayLater": {
+      "message": "Купи сейчас, плати потом"
+   },
+   "CDN": {
+      "message": "CDN"
+   },
+   "CMS": {
+      "message": "CMS"
+   },
+   "CRM": {
+      "message": "CRM"
+   },
+   "Cache": {
+      "message": "Кэш"
+   },
+   "Captcha": {
+      "message": "Капча"
+   },
+   "ChatWidgets": {
+      "message": "Виджеты чата"
+   },
+   "CommentsandReviews": {
+      "message": "Комментарии и отзывы"
+   },
+   "Communication": {
+      "message": "Коммуникации"
+   },
+   "ControlSystems": {
+      "message": "Системы управления"
+   },
+   "CookieandConsent": {
+      "message": "Cookie и согласие"
+   },
+   "Database": {
+      "message": "База данных"
+   },
+   "Databases": {
+      "message": "Базы данных"
+   },
+   "DevTools": {
+      "message": "Инструменты разработчика"
+   },
+   "DocumentManagementSystems": {
+      "message": "Системы управления документами"
+   },
+   "Documentation": {
+      "message": "Документация"
+   },
+   "Editors": {
+      "message": "Редакторы"
+   },
+   "FeedReaders": {
+      "message": "RSS-ридеры"
+   },
+   "FinanceandAccounting": {
+      "message": "Финансы и бухгалтерия"
+   },
+   "Font": {
+      "message": "Шрифт"
+   },
+   "Gallery": {
+      "message": "Галерея"
+   },
+   "Gaming": {
+      "message": "Игры"
+   },
+   "HTMLFramework": {
+      "message": "HTML-фреймворк"
+   },
+   "Hosting": {
+      "message": "Хостинг"
+   },
+   "IssueTracker": {
+      "message": "Трекер задач"
+   },
+   "JavascriptLibraries": {
+      "message": "Библиотеки JavaScript"
+   },
+   "LMS": {
+      "message": "LMS"
+   },
+   "Logistics": {
+      "message": "Логистика"
+   },
+   "Maps": {
+      "message": "Карты"
+   },
+   "MediaServer": {
+      "message": "Медиасервер"
+   },
+   "MessageBoard": {
+      "message": "Форум"
+   },
+   "Miscellaneous": {
+      "message": "Разное"
+   },
+   "MobileFrameworks": {
+      "message": "Мобильные фреймворки"
+   },
+   "Monitoring": {
+      "message": "Мониторинг"
+   },
+   "NetworkDevice": {
+      "message": "Сетевое устройство"
+   },
+   "NetworkStorage": {
+      "message": "Сетевое хранилище"
+   },
+   "NoCodePlatforms": {
+      "message": "No-code платформы"
+   },
+   "OperatingSystem": {
+      "message": "Операционная система"
+   },
+   "PageBuilders": {
+      "message": "Конструкторы страниц"
+   },
+   "Payments": {
+      "message": "Платежи"
+   },
+   "Paywalls": {
+      "message": "Платные доступы"
+   },
+   "Printers": {
+      "message": "Принтеры"
+   },
+   "ProgrammingLanguage": {
+      "message": "Язык программирования"
+   },
+   "RemoteAccess": {
+      "message": "Удалённый доступ"
+   },
+   "RichTextEditors": {
+      "message": "Редакторы форматированного текста"
+   },
+   "SalesandMarketing": {
+      "message": "Продажи и маркетинг"
+   },
+   "SearchEngine": {
+      "message": "Поисковая система"
+   },
+   "Security": {
+      "message": "Безопасность"
+   },
+   "StatusPages": {
+      "message": "Страницы статуса"
+   },
+   "TagManagers": {
+      "message": "Менеджеры тегов"
+   },
+   "UIandGraphics": {
+      "message": "UI и графика"
+   },
+   "Video": {
+      "message": "Видео"
+   },
+   "WebFramework": {
+      "message": "Веб-фреймворк"
+   },
+   "WebMail": {
+      "message": "Веб-почта"
+   },
+   "WebServer": {
+      "message": "Веб-сервер"
+   },
+   "WebServerExtensions": {
+      "message": "Расширения веб-сервера"
+   },
+   "Webcams": {
+      "message": "Веб-камеры"
+   },
+   "WebsiteBuilder": {
+      "message": "Конструктор сайтов"
+   },
+   "WebsiteOptimization": {
+      "message": "Оптимизация сайтов"
+   },
+   "Widgets": {
+      "message": "Виджеты"
+   },
+   "Wiki": {
+      "message": "Вики"
+   },
+   "WordPressPlugins": {
+      "message": "Плагины WordPress"
+   },
+   "agreeTerms": {
+      "message": "Нажимая эту кнопку, вы соглашаетесь с нашими "
+   },
+   "agreeTermsLink": {
+      "message": "условиями использования."
+   },
+   "analyzingWebsite": {
+      "message": "Анализ сайта..."
+   },
+   "appDesc": {
+      "message": "Узнайте, что работает на сайте. Фреймворки, инструменты аналитики, плагины WordPress, шрифты — всё, что угодно."
+   },
+   "appName": {
+      "message": "WhatRuns"
+   },
+   "cookieContent": {
+      "message": "WhatRuns читает исходный код сайтов, которые вы посещаете, чтобы обнаружить используемые технологии. Мы не используем ваши данные для рекламы, профилирования или личной идентификации. Подробнее читайте в нашей "
+   },
+   "eCommerce": {
+      "message": "Электронная коммерция"
+   },
+   "emailPlaceholder": {
+      "message": "Эл. почта"
+   },
+   "haveAccount": {
+      "message": "Уже есть аккаунт?"
+   },
+   "noAccount": {
+      "message": "Нет аккаунта?"
+   },
+   "passwordPlaceholder": {
+      "message": "Пароль"
+   },
+   "privacyPolicy": {
+      "message": " политике конфиденциальности."
+   },
+   "serverError0": {
+      "message": "Ой! 🙈 Мы тайно обновляем сервер. Подождите несколько минут и попробуйте снова."
+   },
+   "serverError1": {
+      "message": "WhatRuns сейчас на обслуживании 💁‍♀️ Попробуйте ещё раз через минуту или две."
+   },
+   "serverError2": {
+      "message": "Кажется, вы зависимы от WhatRuns 🤒 Мы заботимся о вашем здоровье и хотим дать вам несколько часов отдыха. Проверьте позже. (На самом деле — обновление сервера)."
+   },
+   "serverError3": {
+      "message": "Сделайте паузу! 😾 Шутка. Это наша ошибка. Мы обновляем сервисы, необходимые для работы расширения."
+   },
+   "serverError4": {
+      "message": "Ой! 🙈 Мы тайно обновляем сервер. Подождите несколько минут и попробуйте снова."
+   },
+   "shareWhatruns": {
+      "message": "Поделиться WhatRuns "
+   },
+   "signInButton": {
+      "message": "Войти"
+   },
+   "signInHeading": {
+      "message": "Войдите, чтобы подписаться"
+   },
+   "signUpButton": {
+      "message": "Регистрация"
+   },
+   "signUpHere": {
+      "message": "Зарегистрироваться здесь"
+   }
+}

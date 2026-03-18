@@ -30,6 +30,15 @@ public class PromptsController : ControllerBase
         return StatusCode(201, ApiResponse<PromptResponse>.Ok(result, "Prompt generated"));
     }
 
+    /// <summary>Generate a consistent series of video prompts</summary>
+    [HttpPost("generate-series")]
+    public async Task<ActionResult<ApiResponse<SeriesPromptResponse>>> GenerateSeries([FromBody] GenerateConsistentSeriesRequest request)
+    {
+        var userId = GetUserId();
+        var result = await _promptService.GenerateConsistentSeriesAsync(userId, request);
+        return StatusCode(201, ApiResponse<SeriesPromptResponse>.Ok(result, "Series generated"));
+    }
+
     /// <summary>Get user's prompt history</summary>
     [HttpGet]
     public async Task<ActionResult<ApiResponse<List<PromptResponse>>>> GetPrompts(

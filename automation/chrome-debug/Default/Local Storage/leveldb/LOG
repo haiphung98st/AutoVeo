@@ -1,3 +1,39 @@
 2026/03/12-22:00:11.633 5d11c Reusing MANIFEST /Users/macbook/Documents/Coding/AutoVeo/automation/chrome-debug/Default/Local Storage/leveldb/MANIFEST-000001
 2026/03/12-22:00:11.635 5d11c Recovering log #3
 2026/03/12-22:00:11.635 5d11c Reusing old log /Users/macbook/Documents/Coding/AutoVeo/automation/chrome-debug/Default/Local Storage/leveldb/000003.log 
+2026/03/13-09:57:53.039 5d11f Level-0 table #5: started
+2026/03/13-09:57:53.043 5d11f Level-0 table #5: 34468 bytes OK
+2026/03/13-09:57:53.046 5d11f Delete type=0 #3
+2026/03/13-16:28:54.799 5d11f Level-0 table #7: started
+2026/03/13-16:28:54.806 5d11f Level-0 table #7: 26811 bytes OK
+2026/03/13-16:28:54.836 5d11f Delete type=0 #4
+2026/03/14-15:11:15.537 5d11c Level-0 table #9: started
+2026/03/14-15:11:15.542 5d11c Level-0 table #9: 50457 bytes OK
+2026/03/14-15:11:15.549 5d11c Delete type=0 #6
+2026/03/14-16:18:31.941 5d11f Level-0 table #11: started
+2026/03/14-16:18:31.946 5d11f Level-0 table #11: 38423 bytes OK
+2026/03/14-16:18:31.956 5d11f Delete type=0 #8
+2026/03/14-16:28:49.405 5d11f Level-0 table #13: started
+2026/03/14-16:28:49.409 5d11f Level-0 table #13: 43393 bytes OK
+2026/03/14-16:28:49.411 5d11f Delete type=0 #10
+2026/03/14-16:28:55.242 5d11f Level-0 table #15: started
+2026/03/14-16:28:55.249 5d11f Level-0 table #15: 30540 bytes OK
+2026/03/14-16:28:55.253 5d11f Delete type=0 #12
+2026/03/14-16:28:55.256 5d11f Compacting 4@0 + 1@1 files
+2026/03/14-16:28:55.261 5d11f Generated table #16@0: 323 keys, 77203 bytes
+2026/03/14-16:28:55.261 5d11f Compacted 4@0 + 1@1 files => 77203 bytes
+2026/03/14-16:28:55.262 5d11f compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/14-16:28:55.263 5d11f Delete type=2 #15
+2026/03/14-16:28:55.263 5d11f Delete type=2 #7
+2026/03/14-16:28:55.263 5d11f Delete type=2 #13
+2026/03/14-16:28:55.263 5d11f Delete type=2 #11
+2026/03/14-16:28:55.263 5d11f Delete type=2 #9
+2026/03/14-16:30:52.775 5d11f Level-0 table #18: started
+2026/03/14-16:30:52.790 5d11f Level-0 table #18: 409447 bytes OK
+2026/03/14-16:30:52.879 5d11f Delete type=0 #14
+2026/03/14-18:15:48.998 5d11f Level-0 table #20: started
+2026/03/14-18:15:49.006 5d11f Level-0 table #20: 33438 bytes OK
+2026/03/14-18:15:49.011 5d11f Delete type=0 #17
+2026/03/14-21:34:32.832 5d11f Level-0 table #22: started
+2026/03/14-21:34:32.844 5d11f Level-0 table #22: 18178 bytes OK
+2026/03/14-21:34:32.898 5d11f Delete type=0 #19

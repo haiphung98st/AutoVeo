@@ -81,7 +81,7 @@ CREATE TABLE GeneratedPrompts (
     Theme NVARCHAR(500) NULL,
     PromptStyleId INT NULL,
     SceneDetail NVARCHAR(2000) NULL,
-    Duration NVARCHAR(20) NOT NULL DEFAULT '10s',
+    Duration NVARCHAR(20) NOT NULL DEFAULT '8s',
     PlatformTarget NVARCHAR(50) NOT NULL DEFAULT 'TikTok',
     PromptText NVARCHAR(MAX) NOT NULL,
     SourceTrendId UNIQUEIDENTIFIER NULL,

@@ -9,6 +9,8 @@ import type {
     TrendSummaryDto,
     GeneratePromptRequest,
     PromptResponse,
+    GenerateConsistentSeriesRequest,
+    SeriesPromptResponse,
     SubmitRenderRequest,
     RenderStatusResponse,
     VideoDto,
@@ -48,6 +50,9 @@ export const trendsApi = {
 export const promptsApi = {
     generate: (data: GeneratePromptRequest) =>
         apiClient.post<PromptResponse>("/prompts/generate", data),
+
+    generateSeries: (data: GenerateConsistentSeriesRequest) =>
+        apiClient.post<SeriesPromptResponse>("/prompts/generate-series", data),
 
     getAll: (page = 1, pageSize = 20) =>
         apiClient.get<PromptResponse[]>("/prompts", { page, pageSize }),

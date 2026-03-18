@@ -1,0 +1,40 @@
+
+body {
+	width: 290px;  
+	font: 16px Roboto,sans-serif;
+	 
+	margin: 0px;
+	}
+ul{
+	padding: 0px 0px; 
+	width: 100%;
+	}
+ul li {
+	color: #000; 
+	cursor: pointer;
+	display: inline-flex; 
+	padding:0px 25px;
+	width: 100%;
+	}
+h3 {
+	width: 250px; 
+	text-align: center;
+	}
+.element:hover {
+	background-color: orange;
+	}
+li {
+	margin: auto;
+	}
+span {
+	text-align: center;
+	}
+#teaser {
+  margin: 65px;
+  padding: 8px 20px;
+  background-color: orange;
+  border-radius: 10px;
+  font-size: 17px;
+  text-decoration: none;
+  color: black;
+ }

@@ -1,0 +1,33 @@
+<!doctype html><html><head><style>body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(255, 255, 255, 0.95);
+      }
+
+      #clapboard-cam-only-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        justify-content: center;
+        width: 100%;
+      }
+
+      #clapboard-cam-feed-wrap {
+        width: 65%;
+        border: 5px solid #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        margin-bottom: 16px;
+      }
+
+      #clapboard-cam-webpage-preview {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transform: scaleX(-1);
+      }</style><script defer="defer" src="cameraOnly.bundle.js"></script></head><body><div id="clapboard-cam-only-wrap"><div id="clapboard-cam-feed-wrap"><video id="clapboard-cam-webpage-preview" muted></video></div></div></body></html>

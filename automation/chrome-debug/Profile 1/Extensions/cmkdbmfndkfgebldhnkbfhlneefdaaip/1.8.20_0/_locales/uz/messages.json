@@ -1,0 +1,281 @@
+{
+   "AIandMachineLearning": {
+      "message": "Sun’iy intellekt va mashinaviy o‘qitish"
+   },
+   "Advertising": {
+      "message": "Reklama"
+   },
+   "AffiliateMarketing": {
+      "message": "Hamkorlik marketingi"
+   },
+   "AffiliateNetworks": {
+      "message": "Hamkorlik tarmoqlari"
+   },
+   "Analytics": {
+      "message": "Analitika"
+   },
+   "Blogs": {
+      "message": "Bloglar"
+   },
+   "BookingManagement": {
+      "message": "Buyurtmalar boshqaruvi"
+   },
+   "BrowserFingerprinting": {
+      "message": "Brauzer barmoq izi"
+   },
+   "BuildCISystems": {
+      "message": "CI tizimlari"
+   },
+   "BuyNowPayLater": {
+      "message": "Hozir sotib oling, keyin to‘lang"
+   },
+   "CDN": {
+      "message": "CDN"
+   },
+   "CMS": {
+      "message": "CMS"
+   },
+   "CRM": {
+      "message": "CRM"
+   },
+   "Cache": {
+      "message": "Keshlash"
+   },
+   "Captcha": {
+      "message": "Captcha"
+   },
+   "ChatWidgets": {
+      "message": "Chat vidjetlari"
+   },
+   "CommentsandReviews": {
+      "message": "Sharhlar va izohlar"
+   },
+   "Communication": {
+      "message": "Aloqa"
+   },
+   "ControlSystems": {
+      "message": "Boshqaruv tizimlari"
+   },
+   "CookieandConsent": {
+      "message": "Cookie va rozilik"
+   },
+   "Database": {
+      "message": "Ma’lumotlar bazasi"
+   },
+   "Databases": {
+      "message": "Ma’lumotlar bazalari"
+   },
+   "DevTools": {
+      "message": "Dasturchi vositalari"
+   },
+   "DocumentManagementSystems": {
+      "message": "Hujjat boshqaruv tizimlari"
+   },
+   "Documentation": {
+      "message": "Hujjatlar"
+   },
+   "Editors": {
+      "message": "Muharrirlar"
+   },
+   "FeedReaders": {
+      "message": "Oqim o‘quvchilari"
+   },
+   "FinanceandAccounting": {
+      "message": "Moliya va buxgalteriya"
+   },
+   "Font": {
+      "message": "Shrift"
+   },
+   "Gallery": {
+      "message": "Galereya"
+   },
+   "Gaming": {
+      "message": "O‘yinlar"
+   },
+   "HTMLFramework": {
+      "message": "HTML freyvmork"
+   },
+   "Hosting": {
+      "message": "Hosting"
+   },
+   "IssueTracker": {
+      "message": "Xatolik kuzatuvchi"
+   },
+   "JavascriptLibraries": {
+      "message": "Javascript kutubxonalari"
+   },
+   "LMS": {
+      "message": "O‘quv boshqaruv tizimi"
+   },
+   "Logistics": {
+      "message": "Logistika"
+   },
+   "Maps": {
+      "message": "Xaritalar"
+   },
+   "MediaServer": {
+      "message": "Media server"
+   },
+   "MessageBoard": {
+      "message": "Forum"
+   },
+   "Miscellaneous": {
+      "message": "Turli xil"
+   },
+   "MobileFrameworks": {
+      "message": "Mobil freyvmorklar"
+   },
+   "Monitoring": {
+      "message": "Monitoring"
+   },
+   "NetworkDevice": {
+      "message": "Tarmoq qurilmasi"
+   },
+   "NetworkStorage": {
+      "message": "Tarmoq xotirasi"
+   },
+   "NoCodePlatforms": {
+      "message": "Kod yozmasdan platformalar"
+   },
+   "OperatingSystem": {
+      "message": "Operatsion tizim"
+   },
+   "PageBuilders": {
+      "message": "Sahifa quruvchilar"
+   },
+   "Payments": {
+      "message": "To‘lovlar"
+   },
+   "Paywalls": {
+      "message": "To‘lov devorlari"
+   },
+   "Printers": {
+      "message": "Printerlar"
+   },
+   "ProgrammingLanguage": {
+      "message": "Dasturlash tili"
+   },
+   "RemoteAccess": {
+      "message": "Masofaviy kirish"
+   },
+   "RichTextEditors": {
+      "message": "Boy matn muharrirlari"
+   },
+   "SalesandMarketing": {
+      "message": "Savdo va marketing"
+   },
+   "SearchEngine": {
+      "message": "Qidiruv tizimi"
+   },
+   "Security": {
+      "message": "Xavfsizlik"
+   },
+   "StatusPages": {
+      "message": "Holat sahifalari"
+   },
+   "TagManagers": {
+      "message": "Teg menejerlari"
+   },
+   "UIandGraphics": {
+      "message": "UI va Grafikalar"
+   },
+   "Video": {
+      "message": "Video"
+   },
+   "WebFramework": {
+      "message": "Veb-freyvmork"
+   },
+   "WebMail": {
+      "message": "Veb-pochta"
+   },
+   "WebServer": {
+      "message": "Veb-server"
+   },
+   "WebServerExtensions": {
+      "message": "Veb-server kengaytmalari"
+   },
+   "Webcams": {
+      "message": "Veb-kameralar"
+   },
+   "WebsiteBuilder": {
+      "message": "Veb-sayt quruvchi"
+   },
+   "WebsiteOptimization": {
+      "message": "Veb-saytni optimallashtirish"
+   },
+   "Widgets": {
+      "message": "Vidjetlar"
+   },
+   "Wiki": {
+      "message": "Wiki"
+   },
+   "WordPressPlugins": {
+      "message": "WordPress plaginlari"
+   },
+   "agreeTerms": {
+      "message": "Ushbu tugmani bosish orqali siz bizning "
+   },
+   "agreeTermsLink": {
+      "message": "xizmat shartlariga"
+   },
+   "analyzingWebsite": {
+      "message": "Veb-sayt tahlil qilinmoqda..."
+   },
+   "appDesc": {
+      "message": "Veb-saytda qaysi texnologiyalar ishlatilayotganini aniqlang. Frameworklar, Analitika vositalari, Wordpress plaginlari, shriftlar va boshqalar."
+   },
+   "appName": {
+      "message": "WhatRuns"
+   },
+   "cookieContent": {
+      "message": "WhatRuns siz tashrif buyurgan veb-saytlarning manba kodini o‘qib, texnologiyalarni aniqlaydi. Biz sizning ma’lumotlaringizdan reklama, profil yaratish yoki shaxsiy identifikatsiya uchun foydalanmaymiz. Batafsil ma’lumotni bizning "
+   },
+   "eCommerce": {
+      "message": "Elektron tijorat"
+   },
+   "emailPlaceholder": {
+      "message": "Email"
+   },
+   "haveAccount": {
+      "message": "Allaqachon hisobingiz bormi? "
+   },
+   "noAccount": {
+      "message": "Hisobingiz yo‘qmi?"
+   },
+   "passwordPlaceholder": {
+      "message": "Parol"
+   },
+   "privacyPolicy": {
+      "message": "maxfiylik siyosatimizni o‘qing."
+   },
+   "serverError0": {
+      "message": "Voy! Tutib oldingiz 🙈 Biz yashirincha serverni yangilayapmiz. Bir necha daqiqa kutib turing."
+   },
+   "serverError1": {
+      "message": "WhatRuns hozir texnik xizmat ko‘rsatmoqda 💁‍♀️ Bir daqiqadan so‘ng qayta urinib ko‘ring."
+   },
+   "serverError2": {
+      "message": "Siz WhatRuns’ga qaram bo‘lib qolgandeksiz 🤒 Sog‘lig‘ingiz uchun biz sizga biroz tanaffus bermoqchimiz. Iltimos, keyinroq tekshiring. (Aslida server yangilanmoqda)."
+   },
+   "serverError3": {
+      "message": "Biroz dam oling! 😾 Shunchaki hazil. Bizning xatolik. Ushbu ajoyib kengaytmani ishlatish uchun zarur xizmatlarni yangilayapmiz."
+   },
+   "serverError4": {
+      "message": "Voy! Tutib oldingiz 🙈 Biz yashirincha serverni yangilayapmiz. Bir necha daqiqa kutib turing."
+   },
+   "shareWhatruns": {
+      "message": "WhatRuns’ni ulashing "
+   },
+   "signInButton": {
+      "message": "Kirish"
+   },
+   "signInHeading": {
+      "message": "Kuzatish uchun tizimga kiring"
+   },
+   "signUpButton": {
+      "message": "Ro‘yxatdan o‘tish"
+   },
+   "signUpHere": {
+      "message": "Bu yerda ro‘yxatdan o‘ting"
+   }
+}
